@@ -1,1 +1,1271 @@
-[{"diff":[{"op":"replace","path":"/metaData/timeStamp","value":"20191015_213710"},{"op":"replace","path":"/metaData/gameEvents/0","value":"swinging_strike"},{"op":"replace","path":"/metaData/logicalEvents/1","value":"count33"},{"op":"replace","path":"/liveData/plays/allPlays/32/count/strikes","value":3},{"op":"add","path":"/liveData/plays/allPlays/32/pitchIndex/5","value":6},{"op":"replace","path":"/liveData/plays/allPlays/32/playEvents/5/pitchData/coordinates/aY","value":26.61},{"op":"replace","path":"/liveData/plays/allPlays/32/playEvents/5/pitchData/coordinates/aZ","value":-36.52},{"op":"replace","path":"/liveData/plays/allPlays/32/playEvents/5/pitchData/coordinates/vY0","value":-129.03},{"op":"replace","path":"/liveData/plays/allPlays/32/playEvents/5/pitchData/breaks/spinRate","value":2893},{"op":"replace","path":"/liveData/plays/allPlays/32/playEvents/5/pfxId","value":"191015_213646"},{"op":"add","path":"/liveData/plays/allPlays/32/playEvents/5/endTime","value":"2019-10-15T21:37:10.668Z"},{"op":"add","path":"/liveData/plays/allPlays/32/playEvents/6","value":{"pitchData":{"endSpeed":82,"extension":7.15,"breaks":{"spinRate":1896,"breakAngle":25.2,"breakLength":6,"breakY":24,"spinDirection":221},"startSpeed":89.2,"plateTime":0.42,"coordinates":{"pfxX":-6.89,"pX":0.53,"pZ":1.99,"pfxZ":7.13,"vY0":-129.69,"vZ0":-5.27,"vX0":8.65,"z0":5.56,"y0":50,"aX":-11.79,"aY":26.19,"x":96.86,"x0":-1.95,"aZ":-19.99,"y":185.17},"strikeZoneTop":3.38,"strikeZoneBottom":1.54},"pitchNumber":6,"offense":{"batter":{"link":"/api/v1/people/543807","id":543807,"batSide":{"code":"R","description":"Right"}},"second":{"link":"/api/v1/people/455117","id":455117}},"pfxId":"191015_213711","count":{"balls":3,"strikes":3},"index":6,"type":"pitch","playId":"2762c276-4874-49cc-9d4b-2cf3a2440d71","isPitch":true,"defense":{"shortstop":{"link":"/api/v1/people/544369","id":544369},"third":{"link":"/api/v1/people/570482","id":570482},"left":{"link":"/api/v1/people/458731","id":458731},"center":{"link":"/api/v1/people/543305","id":543305},"catcher":{"link":"/api/v1/people/596142","id":596142},"pitcher":{"pitchHand":{"code":"R","description":"Right"},"link":"/api/v1/people/622663","id":622663},"right":{"link":"/api/v1/people/592450","id":592450},"first":{"link":"/api/v1/people/518934","id":518934},"second":{"link":"/api/v1/people/650402","id":650402}},"officials":[{"officialType":"Right Field","official":{"link":"/api/v1/people/484183","id":484183}},{"officialType":"Second Base","official":{"link":"/api/v1/people/427095","id":427095}},{"officialType":"Home Plate","official":{"link":"/api/v1/people/427362","id":427362}},{"officialType":"First Base","official":{"link":"/api/v1/people/483564","id":483564}},{"officialType":"Third Base","official":{"link":"/api/v1/people/427053","id":427053}},{"officialType":"Left Field","official":{"link":"/api/v1/people/427243","id":427243}}],"details":{"call":{"code":"S","description":"Strike - Swinging"},"ballColor":"rgba(170, 21, 11, 1.0)","code":"S","description":"Swinging Strike","isBall":false,"type":{"code":"CH","description":"Changeup"},"trailColor":"rgba(0, 85, 254, 1.0)","hasReview":false,"isInPlay":false,"isStrike":true},"startTime":"2019-10-15T21:37:10.668Z"}},{"op":"replace","path":"/liveData/plays/currentPlay/count/strikes","value":3},{"op":"add","path":"/liveData/plays/currentPlay/pitchIndex/5","value":6},{"op":"replace","path":"/liveData/plays/currentPlay/playEvents/5/pitchData/coordinates/aY","value":26.61},{"op":"replace","path":"/liveData/plays/currentPlay/playEvents/5/pitchData/coordinates/aZ","value":-36.52},{"op":"replace","path":"/liveData/plays/currentPlay/playEvents/5/pitchData/coordinates/vY0","value":-129.03},{"op":"replace","path":"/liveData/plays/currentPlay/playEvents/5/pitchData/breaks/spinRate","value":2893},{"op":"replace","path":"/liveData/plays/currentPlay/playEvents/5/pfxId","value":"191015_213646"},{"op":"add","path":"/liveData/plays/currentPlay/playEvents/5/endTime","value":"2019-10-15T21:37:10.668Z"},{"op":"add","path":"/liveData/plays/currentPlay/playEvents/6","value":{"pitchData":{"endSpeed":82,"extension":7.15,"breaks":{"spinRate":1896,"breakAngle":25.2,"breakLength":6,"breakY":24,"spinDirection":221},"startSpeed":89.2,"plateTime":0.42,"coordinates":{"pfxX":-6.89,"pX":0.53,"pZ":1.99,"pfxZ":7.13,"vY0":-129.69,"vZ0":-5.27,"vX0":8.65,"z0":5.56,"y0":50,"aX":-11.79,"aY":26.19,"x":96.86,"x0":-1.95,"aZ":-19.99,"y":185.17},"strikeZoneTop":3.38,"strikeZoneBottom":1.54},"pitchNumber":6,"offense":{"batter":{"link":"/api/v1/people/543807","id":543807,"batSide":{"code":"R","description":"Right"}},"second":{"link":"/api/v1/people/455117","id":455117}},"pfxId":"191015_213711","count":{"balls":3,"strikes":3},"index":6,"type":"pitch","playId":"2762c276-4874-49cc-9d4b-2cf3a2440d71","isPitch":true,"defense":{"shortstop":{"link":"/api/v1/people/544369","id":544369},"third":{"link":"/api/v1/people/570482","id":570482},"left":{"link":"/api/v1/people/458731","id":458731},"center":{"link":"/api/v1/people/543305","id":543305},"catcher":{"link":"/api/v1/people/596142","id":596142},"pitcher":{"pitchHand":{"code":"R","description":"Right"},"link":"/api/v1/people/622663","id":622663},"right":{"link":"/api/v1/people/592450","id":592450},"first":{"link":"/api/v1/people/518934","id":518934},"second":{"link":"/api/v1/people/650402","id":650402}},"officials":[{"officialType":"Right Field","official":{"link":"/api/v1/people/484183","id":484183}},{"officialType":"Second Base","official":{"link":"/api/v1/people/427095","id":427095}},{"officialType":"Home Plate","official":{"link":"/api/v1/people/427362","id":427362}},{"officialType":"First Base","official":{"link":"/api/v1/people/483564","id":483564}},{"officialType":"Third Base","official":{"link":"/api/v1/people/427053","id":427053}},{"officialType":"Left Field","official":{"link":"/api/v1/people/427243","id":427243}}],"details":{"call":{"code":"S","description":"Strike - Swinging"},"ballColor":"rgba(170, 21, 11, 1.0)","code":"S","description":"Swinging Strike","isBall":false,"type":{"code":"CH","description":"Changeup"},"trailColor":"rgba(0, 85, 254, 1.0)","hasReview":false,"isInPlay":false,"isStrike":true},"startTime":"2019-10-15T21:37:10.668Z"}},{"op":"replace","path":"/liveData/linescore/strikes","value":3},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/numberOfPitches","value":90},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/pitchesThrown","value":90},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/strikes","value":60},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/strikePercentage","value":".670"},{"op":"replace","path":"/liveData/boxscore/info/0/value","value":"Cole, G 51-32; Severino, L 90-60."}]},{"diff":[{"op":"replace","path":"/metaData/timeStamp","value":"20191015_213714"},{"op":"replace","path":"/metaData/gameEvents/0","value":"strikeout"},{"op":"add","path":"/metaData/gameEvents/1","value":"play_by_play"},{"op":"add","path":"/metaData/logicalEvents/2","value":"basesEmpty"},{"op":"add","path":"/liveData/plays/allPlays/32/result/event","value":"Strikeout"},{"op":"add","path":"/liveData/plays/allPlays/32/result/eventType","value":"strikeout"},{"op":"add","path":"/liveData/plays/allPlays/32/result/description","value":"George Springer strikes out swinging.  "},{"op":"replace","path":"/liveData/plays/allPlays/32/about/isComplete","value":true},{"op":"replace","path":"/liveData/plays/allPlays/32/about/hasOut","value":true},{"op":"replace","path":"/liveData/plays/allPlays/32/about/captivatingIndex","value":14},{"op":"add","path":"/liveData/plays/allPlays/32/about/endTime","value":"2019-10-15T21:37:14.407Z"},{"op":"replace","path":"/liveData/plays/allPlays/32/count/outs","value":3},{"op":"replace","path":"/liveData/plays/allPlays/32/matchup/splits/menOnBase","value":"Empty"},{"op":"add","path":"/liveData/plays/allPlays/32/runnerIndex/0","value":0},{"op":"add","path":"/liveData/plays/allPlays/32/runners/0","value":{"credits":[{"position":{"code":"2","name":"Catcher","type":"Catcher","abbreviation":"C"},"credit":"f_putout","player":{"link":"/api/v1/people/596142","id":596142}}],"details":{"playIndex":6,"responsiblePitcher":null,"earned":false,"rbi":false,"teamUnearned":false,"eventType":"strikeout","isScoringEvent":false,"event":"Strikeout","runner":{"link":"/api/v1/people/543807","fullName":"George Springer","id":543807},"movementReason":null},"movement":{"outNumber":3,"outBase":"1B","start":null,"isOut":true,"end":null}}},{"op":"add","path":"/liveData/plays/allPlays/32/playEvents/6/endTime","value":"2019-10-15T21:37:14.407Z"},{"op":"add","path":"/liveData/plays/allPlays/32/credits","value":[{"credit":"b_ab","player":{"link":"/api/v1/people/543807","id":543807}},{"credit":"p_ab","player":{"link":"/api/v1/people/622663","id":622663}}]},{"op":"add","path":"/liveData/plays/allPlays/32/playEndTime","value":"2019-10-15T21:37:14.407Z"},{"op":"add","path":"/liveData/plays/currentPlay/result/event","value":"Strikeout"},{"op":"add","path":"/liveData/plays/currentPlay/result/eventType","value":"strikeout"},{"op":"add","path":"/liveData/plays/currentPlay/result/description","value":"George Springer strikes out swinging.  "},{"op":"replace","path":"/liveData/plays/currentPlay/about/isComplete","value":true},{"op":"replace","path":"/liveData/plays/currentPlay/about/hasOut","value":true},{"op":"replace","path":"/liveData/plays/currentPlay/about/captivatingIndex","value":14},{"op":"add","path":"/liveData/plays/currentPlay/about/endTime","value":"2019-10-15T21:37:14.407Z"},{"op":"replace","path":"/liveData/plays/currentPlay/count/outs","value":3},{"op":"replace","path":"/liveData/plays/currentPlay/matchup/splits/menOnBase","value":"Empty"},{"op":"add","path":"/liveData/plays/currentPlay/runnerIndex/0","value":0},{"op":"add","path":"/liveData/plays/currentPlay/runners/0","value":{"credits":[{"position":{"code":"2","name":"Catcher","type":"Catcher","abbreviation":"C"},"credit":"f_putout","player":{"link":"/api/v1/people/596142","id":596142}}],"details":{"playIndex":6,"responsiblePitcher":null,"earned":false,"rbi":false,"teamUnearned":false,"eventType":"strikeout","isScoringEvent":false,"event":"Strikeout","runner":{"link":"/api/v1/people/543807","fullName":"George Springer","id":543807},"movementReason":null},"movement":{"outNumber":3,"outBase":"1B","start":null,"isOut":true,"end":null}}},{"op":"add","path":"/liveData/plays/currentPlay/playEvents/6/endTime","value":"2019-10-15T21:37:14.407Z"},{"op":"add","path":"/liveData/plays/currentPlay/credits","value":[{"credit":"b_ab","player":{"link":"/api/v1/people/543807","id":543807}},{"credit":"p_ab","player":{"link":"/api/v1/people/622663","id":622663}}]},{"op":"add","path":"/liveData/plays/currentPlay/playEndTime","value":"2019-10-15T21:37:14.407Z"},{"op":"replace","path":"/liveData/linescore/inningState","value":"Middle"},{"op":"replace","path":"/liveData/linescore/innings/3/away/leftOnBase","value":1},{"op":"add","path":"/liveData/linescore/innings/3/away/runs","value":0},{"op":"replace","path":"/liveData/linescore/teams/away/leftOnBase","value":5},{"op":"replace","path":"/liveData/linescore/defense/pitcher/id","value":543037},{"op":"replace","path":"/liveData/linescore/defense/pitcher/fullName","value":"Gerrit Cole"},{"op":"replace","path":"/liveData/linescore/defense/pitcher/link","value":"/api/v1/people/543037"},{"op":"replace","path":"/liveData/linescore/defense/catcher/id","value":455117},{"op":"replace","path":"/liveData/linescore/defense/catcher/fullName","value":"Martin Maldonado"},{"op":"replace","path":"/liveData/linescore/defense/catcher/link","value":"/api/v1/people/455117"},{"op":"replace","path":"/liveData/linescore/defense/first/id","value":493329},{"op":"replace","path":"/liveData/linescore/defense/first/fullName","value":"Yuli Gurriel"},{"op":"replace","path":"/liveData/linescore/defense/first/link","value":"/api/v1/people/493329"},{"op":"replace","path":"/liveData/linescore/defense/second/id","value":514888},{"op":"replace","path":"/liveData/linescore/defense/second/fullName","value":"Jose Altuve"},{"op":"replace","path":"/liveData/linescore/defense/second/link","value":"/api/v1/people/514888"},{"op":"replace","path":"/liveData/linescore/defense/third/id","value":608324},{"op":"replace","path":"/liveData/linescore/defense/third/fullName","value":"Alex Bregman"},{"op":"replace","path":"/liveData/linescore/defense/third/link","value":"/api/v1/people/608324"},{"op":"replace","path":"/liveData/linescore/defense/shortstop/id","value":621043},{"op":"replace","path":"/liveData/linescore/defense/shortstop/fullName","value":"Carlos Correa"},{"op":"replace","path":"/liveData/linescore/defense/shortstop/link","value":"/api/v1/people/621043"},{"op":"replace","path":"/liveData/linescore/defense/left/id","value":488726},{"op":"replace","path":"/liveData/linescore/defense/left/fullName","value":"Michael Brantley"},{"op":"replace","path":"/liveData/linescore/defense/left/link","value":"/api/v1/people/488726"},{"op":"replace","path":"/liveData/linescore/defense/center/id","value":543807},{"op":"replace","path":"/liveData/linescore/defense/center/fullName","value":"George Springer"},{"op":"replace","path":"/liveData/linescore/defense/center/link","value":"/api/v1/people/543807"},{"op":"replace","path":"/liveData/linescore/defense/right/id","value":502210},{"op":"replace","path":"/liveData/linescore/defense/right/fullName","value":"Josh Reddick"},{"op":"replace","path":"/liveData/linescore/defense/right/link","value":"/api/v1/people/502210"},{"op":"replace","path":"/liveData/linescore/defense/team/id","value":117},{"op":"replace","path":"/liveData/linescore/defense/team/name","value":"Houston Astros"},{"op":"replace","path":"/liveData/linescore/defense/team/link","value":"/api/v1/teams/117"},{"op":"replace","path":"/liveData/linescore/offense/batter/id","value":544369},{"op":"replace","path":"/liveData/linescore/offense/batter/fullName","value":"Didi Gregorius"},{"op":"replace","path":"/liveData/linescore/offense/batter/link","value":"/api/v1/people/544369"},{"op":"replace","path":"/liveData/linescore/offense/onDeck/id","value":596142},{"op":"replace","path":"/liveData/linescore/offense/onDeck/fullName","value":"Gary Sanchez"},{"op":"replace","path":"/liveData/linescore/offense/onDeck/link","value":"/api/v1/people/596142"},{"op":"replace","path":"/liveData/linescore/offense/inHole/id","value":570482},{"op":"replace","path":"/liveData/linescore/offense/inHole/fullName","value":"Gio Urshela"},{"op":"replace","path":"/liveData/linescore/offense/inHole/link","value":"/api/v1/people/570482"},{"op":"remove","path":"/liveData/linescore/offense/second"},{"op":"replace","path":"/liveData/linescore/offense/pitcher/id","value":622663},{"op":"replace","path":"/liveData/linescore/offense/pitcher/fullName","value":"Luis Severino"},{"op":"replace","path":"/liveData/linescore/offense/pitcher/link","value":"/api/v1/people/622663"},{"op":"replace","path":"/liveData/linescore/offense/team/id","value":147},{"op":"replace","path":"/liveData/linescore/offense/team/name","value":"New York Yankees"},{"op":"replace","path":"/liveData/linescore/offense/team/link","value":"/api/v1/teams/147"},{"op":"replace","path":"/liveData/linescore/outs","value":3},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/strikeOuts","value":6},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/avg","value":".173"},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/atBats","value":17},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/obp","value":".264"},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/slg","value":".346"},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/ops","value":".610"},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/leftOnBase","value":6},{"op":"replace","path":"/liveData/boxscore/teams/away/teamStats/batting/atBatsPerHomeRun","value":"8.50"},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/stats/batting/strikeOuts","value":2},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/stats/batting/atBats","value":3},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/stats/batting/leftOnBase","value":1},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/strikeOuts","value":5},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/avg","value":".091"},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/atBats","value":11},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/obp","value":".167"},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/slg","value":".364"},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/ops","value":".531"},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/leftOnBase","value":2},{"op":"replace","path":"/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/atBatsPerHomeRun","value":"11.00"},{"op":"replace","path":"/liveData/boxscore/teams/away/info/0/fieldList/4/value","value":"Brantley; Springer; Correa 2."},{"op":"replace","path":"/liveData/boxscore/teams/away/info/0/fieldList/5/value","value":"0-for-3."},{"op":"replace","path":"/liveData/boxscore/teams/away/info/0/fieldList/6/value","value":"5."},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/strikeOuts","value":6},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/atBats","value":17},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/era","value":"1.96"},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/inningsPitched","value":"4.0"},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/whip","value":"1.04"},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/battersFaced","value":19},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/outs","value":12},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/runsScoredPer9","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/pitching/homeRunsPer9","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/fielding/putOuts","value":12},{"op":"replace","path":"/liveData/boxscore/teams/home/teamStats/fielding/chances","value":16},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/strikeOuts","value":6},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/atBats","value":17},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/inningsPitched","value":"4.0"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/battersFaced","value":19},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/outs","value":12},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/runsScoredPer9","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/stats/pitching/homeRunsPer9","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/strikeOuts","value":6},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/era","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/inningsPitched","value":"4.0"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/whip","value":"1.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/outs","value":12},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/strikeoutWalkRatio","value":"3.00"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/strikeoutsPer9Inn","value":"13.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/walksPer9Inn","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/hitsPer9Inn","value":"9.00"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/runsScoredPer9","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/homeRunsPer9","value":"4.50"},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID596142/stats/fielding/putOuts","value":6},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID596142/stats/fielding/chances","value":6},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID596142/seasonStats/fielding/putOuts","value":25},{"op":"replace","path":"/liveData/boxscore/teams/home/players/ID596142/seasonStats/fielding/chances","value":25},{"op":"replace","path":"/liveData/boxscore/info/2/value","value":"Cole, G 14; Severino, L 19."}]}]
+[
+    {
+        "diff": [
+            {
+                "op": "replace",
+                "path": "/metaData/timeStamp",
+                "value": "20191015_213710"
+            },
+            {
+                "op": "replace",
+                "path": "/metaData/gameEvents/0",
+                "value": "swinging_strike"
+            },
+            {
+                "op": "replace",
+                "path": "/metaData/logicalEvents/1",
+                "value": "count33"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/count/strikes",
+                "value": 3
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/pitchIndex/5",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/playEvents/5/pitchData/coordinates/aY",
+                "value": 26.61
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/playEvents/5/pitchData/coordinates/aZ",
+                "value": -36.52
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/playEvents/5/pitchData/coordinates/vY0",
+                "value": -129.03
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/playEvents/5/pitchData/breaks/spinRate",
+                "value": 2893
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/playEvents/5/pfxId",
+                "value": "191015_213646"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/playEvents/5/endTime",
+                "value": "2019-10-15T21:37:10.668Z"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/playEvents/6",
+                "value": {
+                    "pitchData": {
+                        "endSpeed": 82,
+                        "extension": 7.15,
+                        "breaks": {
+                            "spinRate": 1896,
+                            "breakAngle": 25.2,
+                            "breakLength": 6,
+                            "breakY": 24,
+                            "spinDirection": 221
+                        },
+                        "startSpeed": 89.2,
+                        "plateTime": 0.42,
+                        "coordinates": {
+                            "pfxX": -6.89,
+                            "pX": 0.53,
+                            "pZ": 1.99,
+                            "pfxZ": 7.13,
+                            "vY0": -129.69,
+                            "vZ0": -5.27,
+                            "vX0": 8.65,
+                            "z0": 5.56,
+                            "y0": 50,
+                            "aX": -11.79,
+                            "aY": 26.19,
+                            "x": 96.86,
+                            "x0": -1.95,
+                            "aZ": -19.99,
+                            "y": 185.17
+                        },
+                        "strikeZoneTop": 3.38,
+                        "strikeZoneBottom": 1.54
+                    },
+                    "pitchNumber": 6,
+                    "offense": {
+                        "batter": {
+                            "link": "/api/v1/people/543807",
+                            "id": 543807,
+                            "batSide": {
+                                "code": "R",
+                                "description": "Right"
+                            }
+                        },
+                        "second": {
+                            "link": "/api/v1/people/455117",
+                            "id": 455117
+                        }
+                    },
+                    "pfxId": "191015_213711",
+                    "count": {
+                        "balls": 3,
+                        "strikes": 3
+                    },
+                    "index": 6,
+                    "type": "pitch",
+                    "playId": "2762c276-4874-49cc-9d4b-2cf3a2440d71",
+                    "isPitch": true,
+                    "defense": {
+                        "shortstop": {
+                            "link": "/api/v1/people/544369",
+                            "id": 544369
+                        },
+                        "third": {
+                            "link": "/api/v1/people/570482",
+                            "id": 570482
+                        },
+                        "left": {
+                            "link": "/api/v1/people/458731",
+                            "id": 458731
+                        },
+                        "center": {
+                            "link": "/api/v1/people/543305",
+                            "id": 543305
+                        },
+                        "catcher": {
+                            "link": "/api/v1/people/596142",
+                            "id": 596142
+                        },
+                        "pitcher": {
+                            "pitchHand": {
+                                "code": "R",
+                                "description": "Right"
+                            },
+                            "link": "/api/v1/people/622663",
+                            "id": 622663
+                        },
+                        "right": {
+                            "link": "/api/v1/people/592450",
+                            "id": 592450
+                        },
+                        "first": {
+                            "link": "/api/v1/people/518934",
+                            "id": 518934
+                        },
+                        "second": {
+                            "link": "/api/v1/people/650402",
+                            "id": 650402
+                        }
+                    },
+                    "officials": [
+                        {
+                            "officialType": "Right Field",
+                            "official": {
+                                "link": "/api/v1/people/484183",
+                                "id": 484183
+                            }
+                        },
+                        {
+                            "officialType": "Second Base",
+                            "official": {
+                                "link": "/api/v1/people/427095",
+                                "id": 427095
+                            }
+                        },
+                        {
+                            "officialType": "Home Plate",
+                            "official": {
+                                "link": "/api/v1/people/427362",
+                                "id": 427362
+                            }
+                        },
+                        {
+                            "officialType": "First Base",
+                            "official": {
+                                "link": "/api/v1/people/483564",
+                                "id": 483564
+                            }
+                        },
+                        {
+                            "officialType": "Third Base",
+                            "official": {
+                                "link": "/api/v1/people/427053",
+                                "id": 427053
+                            }
+                        },
+                        {
+                            "officialType": "Left Field",
+                            "official": {
+                                "link": "/api/v1/people/427243",
+                                "id": 427243
+                            }
+                        }
+                    ],
+                    "details": {
+                        "call": {
+                            "code": "S",
+                            "description": "Strike - Swinging"
+                        },
+                        "ballColor": "rgba(170, 21, 11, 1.0)",
+                        "code": "S",
+                        "description": "Swinging Strike",
+                        "isBall": false,
+                        "type": {
+                            "code": "CH",
+                            "description": "Changeup"
+                        },
+                        "trailColor": "rgba(0, 85, 254, 1.0)",
+                        "hasReview": false,
+                        "isInPlay": false,
+                        "isStrike": true
+                    },
+                    "startTime": "2019-10-15T21:37:10.668Z"
+                }
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/count/strikes",
+                "value": 3
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/pitchIndex/5",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/playEvents/5/pitchData/coordinates/aY",
+                "value": 26.61
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/playEvents/5/pitchData/coordinates/aZ",
+                "value": -36.52
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/playEvents/5/pitchData/coordinates/vY0",
+                "value": -129.03
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/playEvents/5/pitchData/breaks/spinRate",
+                "value": 2893
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/playEvents/5/pfxId",
+                "value": "191015_213646"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/playEvents/5/endTime",
+                "value": "2019-10-15T21:37:10.668Z"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/playEvents/6",
+                "value": {
+                    "pitchData": {
+                        "endSpeed": 82,
+                        "extension": 7.15,
+                        "breaks": {
+                            "spinRate": 1896,
+                            "breakAngle": 25.2,
+                            "breakLength": 6,
+                            "breakY": 24,
+                            "spinDirection": 221
+                        },
+                        "startSpeed": 89.2,
+                        "plateTime": 0.42,
+                        "coordinates": {
+                            "pfxX": -6.89,
+                            "pX": 0.53,
+                            "pZ": 1.99,
+                            "pfxZ": 7.13,
+                            "vY0": -129.69,
+                            "vZ0": -5.27,
+                            "vX0": 8.65,
+                            "z0": 5.56,
+                            "y0": 50,
+                            "aX": -11.79,
+                            "aY": 26.19,
+                            "x": 96.86,
+                            "x0": -1.95,
+                            "aZ": -19.99,
+                            "y": 185.17
+                        },
+                        "strikeZoneTop": 3.38,
+                        "strikeZoneBottom": 1.54
+                    },
+                    "pitchNumber": 6,
+                    "offense": {
+                        "batter": {
+                            "link": "/api/v1/people/543807",
+                            "id": 543807,
+                            "batSide": {
+                                "code": "R",
+                                "description": "Right"
+                            }
+                        },
+                        "second": {
+                            "link": "/api/v1/people/455117",
+                            "id": 455117
+                        }
+                    },
+                    "pfxId": "191015_213711",
+                    "count": {
+                        "balls": 3,
+                        "strikes": 3
+                    },
+                    "index": 6,
+                    "type": "pitch",
+                    "playId": "2762c276-4874-49cc-9d4b-2cf3a2440d71",
+                    "isPitch": true,
+                    "defense": {
+                        "shortstop": {
+                            "link": "/api/v1/people/544369",
+                            "id": 544369
+                        },
+                        "third": {
+                            "link": "/api/v1/people/570482",
+                            "id": 570482
+                        },
+                        "left": {
+                            "link": "/api/v1/people/458731",
+                            "id": 458731
+                        },
+                        "center": {
+                            "link": "/api/v1/people/543305",
+                            "id": 543305
+                        },
+                        "catcher": {
+                            "link": "/api/v1/people/596142",
+                            "id": 596142
+                        },
+                        "pitcher": {
+                            "pitchHand": {
+                                "code": "R",
+                                "description": "Right"
+                            },
+                            "link": "/api/v1/people/622663",
+                            "id": 622663
+                        },
+                        "right": {
+                            "link": "/api/v1/people/592450",
+                            "id": 592450
+                        },
+                        "first": {
+                            "link": "/api/v1/people/518934",
+                            "id": 518934
+                        },
+                        "second": {
+                            "link": "/api/v1/people/650402",
+                            "id": 650402
+                        }
+                    },
+                    "officials": [
+                        {
+                            "officialType": "Right Field",
+                            "official": {
+                                "link": "/api/v1/people/484183",
+                                "id": 484183
+                            }
+                        },
+                        {
+                            "officialType": "Second Base",
+                            "official": {
+                                "link": "/api/v1/people/427095",
+                                "id": 427095
+                            }
+                        },
+                        {
+                            "officialType": "Home Plate",
+                            "official": {
+                                "link": "/api/v1/people/427362",
+                                "id": 427362
+                            }
+                        },
+                        {
+                            "officialType": "First Base",
+                            "official": {
+                                "link": "/api/v1/people/483564",
+                                "id": 483564
+                            }
+                        },
+                        {
+                            "officialType": "Third Base",
+                            "official": {
+                                "link": "/api/v1/people/427053",
+                                "id": 427053
+                            }
+                        },
+                        {
+                            "officialType": "Left Field",
+                            "official": {
+                                "link": "/api/v1/people/427243",
+                                "id": 427243
+                            }
+                        }
+                    ],
+                    "details": {
+                        "call": {
+                            "code": "S",
+                            "description": "Strike - Swinging"
+                        },
+                        "ballColor": "rgba(170, 21, 11, 1.0)",
+                        "code": "S",
+                        "description": "Swinging Strike",
+                        "isBall": false,
+                        "type": {
+                            "code": "CH",
+                            "description": "Changeup"
+                        },
+                        "trailColor": "rgba(0, 85, 254, 1.0)",
+                        "hasReview": false,
+                        "isInPlay": false,
+                        "isStrike": true
+                    },
+                    "startTime": "2019-10-15T21:37:10.668Z"
+                }
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/strikes",
+                "value": 3
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/numberOfPitches",
+                "value": 90
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/pitchesThrown",
+                "value": 90
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/strikes",
+                "value": 60
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/strikePercentage",
+                "value": ".670"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/info/0/value",
+                "value": "Cole, G 51-32; Severino, L 90-60."
+            }
+        ]
+    },
+    {
+        "diff": [
+            {
+                "op": "replace",
+                "path": "/metaData/timeStamp",
+                "value": "20191015_213714"
+            },
+            {
+                "op": "replace",
+                "path": "/metaData/gameEvents/0",
+                "value": "strikeout"
+            },
+            {
+                "op": "add",
+                "path": "/metaData/gameEvents/1",
+                "value": "play_by_play"
+            },
+            {
+                "op": "add",
+                "path": "/metaData/logicalEvents/2",
+                "value": "basesEmpty"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/result/event",
+                "value": "Strikeout"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/result/eventType",
+                "value": "strikeout"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/result/description",
+                "value": "George Springer strikes out swinging.  "
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/about/isComplete",
+                "value": true
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/about/hasOut",
+                "value": true
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/about/captivatingIndex",
+                "value": 14
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/about/endTime",
+                "value": "2019-10-15T21:37:14.407Z"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/count/outs",
+                "value": 3
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/allPlays/32/matchup/splits/menOnBase",
+                "value": "Empty"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/runnerIndex/0",
+                "value": 0
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/runners/0",
+                "value": {
+                    "credits": [
+                        {
+                            "position": {
+                                "code": "2",
+                                "name": "Catcher",
+                                "type": "Catcher",
+                                "abbreviation": "C"
+                            },
+                            "credit": "f_putout",
+                            "player": {
+                                "link": "/api/v1/people/596142",
+                                "id": 596142
+                            }
+                        }
+                    ],
+                    "details": {
+                        "playIndex": 6,
+                        "responsiblePitcher": null,
+                        "earned": false,
+                        "rbi": false,
+                        "teamUnearned": false,
+                        "eventType": "strikeout",
+                        "isScoringEvent": false,
+                        "event": "Strikeout",
+                        "runner": {
+                            "link": "/api/v1/people/543807",
+                            "fullName": "George Springer",
+                            "id": 543807
+                        },
+                        "movementReason": null
+                    },
+                    "movement": {
+                        "outNumber": 3,
+                        "outBase": "1B",
+                        "start": null,
+                        "isOut": true,
+                        "end": null
+                    }
+                }
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/playEvents/6/endTime",
+                "value": "2019-10-15T21:37:14.407Z"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/credits",
+                "value": [
+                    {
+                        "credit": "b_ab",
+                        "player": {
+                            "link": "/api/v1/people/543807",
+                            "id": 543807
+                        }
+                    },
+                    {
+                        "credit": "p_ab",
+                        "player": {
+                            "link": "/api/v1/people/622663",
+                            "id": 622663
+                        }
+                    }
+                ]
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/allPlays/32/playEndTime",
+                "value": "2019-10-15T21:37:14.407Z"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/result/event",
+                "value": "Strikeout"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/result/eventType",
+                "value": "strikeout"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/result/description",
+                "value": "George Springer strikes out swinging.  "
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/about/isComplete",
+                "value": true
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/about/hasOut",
+                "value": true
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/about/captivatingIndex",
+                "value": 14
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/about/endTime",
+                "value": "2019-10-15T21:37:14.407Z"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/count/outs",
+                "value": 3
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/plays/currentPlay/matchup/splits/menOnBase",
+                "value": "Empty"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/runnerIndex/0",
+                "value": 0
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/runners/0",
+                "value": {
+                    "credits": [
+                        {
+                            "position": {
+                                "code": "2",
+                                "name": "Catcher",
+                                "type": "Catcher",
+                                "abbreviation": "C"
+                            },
+                            "credit": "f_putout",
+                            "player": {
+                                "link": "/api/v1/people/596142",
+                                "id": 596142
+                            }
+                        }
+                    ],
+                    "details": {
+                        "playIndex": 6,
+                        "responsiblePitcher": null,
+                        "earned": false,
+                        "rbi": false,
+                        "teamUnearned": false,
+                        "eventType": "strikeout",
+                        "isScoringEvent": false,
+                        "event": "Strikeout",
+                        "runner": {
+                            "link": "/api/v1/people/543807",
+                            "fullName": "George Springer",
+                            "id": 543807
+                        },
+                        "movementReason": null
+                    },
+                    "movement": {
+                        "outNumber": 3,
+                        "outBase": "1B",
+                        "start": null,
+                        "isOut": true,
+                        "end": null
+                    }
+                }
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/playEvents/6/endTime",
+                "value": "2019-10-15T21:37:14.407Z"
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/credits",
+                "value": [
+                    {
+                        "credit": "b_ab",
+                        "player": {
+                            "link": "/api/v1/people/543807",
+                            "id": 543807
+                        }
+                    },
+                    {
+                        "credit": "p_ab",
+                        "player": {
+                            "link": "/api/v1/people/622663",
+                            "id": 622663
+                        }
+                    }
+                ]
+            },
+            {
+                "op": "add",
+                "path": "/liveData/plays/currentPlay/playEndTime",
+                "value": "2019-10-15T21:37:14.407Z"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/inningState",
+                "value": "Middle"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/innings/3/away/leftOnBase",
+                "value": 1
+            },
+            {
+                "op": "add",
+                "path": "/liveData/linescore/innings/3/away/runs",
+                "value": 0
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/teams/away/leftOnBase",
+                "value": 5
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/pitcher/id",
+                "value": 543037
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/pitcher/fullName",
+                "value": "Gerrit Cole"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/pitcher/link",
+                "value": "/api/v1/people/543037"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/catcher/id",
+                "value": 455117
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/catcher/fullName",
+                "value": "Martin Maldonado"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/catcher/link",
+                "value": "/api/v1/people/455117"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/first/id",
+                "value": 493329
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/first/fullName",
+                "value": "Yuli Gurriel"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/first/link",
+                "value": "/api/v1/people/493329"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/second/id",
+                "value": 514888
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/second/fullName",
+                "value": "Jose Altuve"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/second/link",
+                "value": "/api/v1/people/514888"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/third/id",
+                "value": 608324
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/third/fullName",
+                "value": "Alex Bregman"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/third/link",
+                "value": "/api/v1/people/608324"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/shortstop/id",
+                "value": 621043
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/shortstop/fullName",
+                "value": "Carlos Correa"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/shortstop/link",
+                "value": "/api/v1/people/621043"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/left/id",
+                "value": 488726
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/left/fullName",
+                "value": "Michael Brantley"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/left/link",
+                "value": "/api/v1/people/488726"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/center/id",
+                "value": 543807
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/center/fullName",
+                "value": "George Springer"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/center/link",
+                "value": "/api/v1/people/543807"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/right/id",
+                "value": 502210
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/right/fullName",
+                "value": "Josh Reddick"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/right/link",
+                "value": "/api/v1/people/502210"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/team/id",
+                "value": 117
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/team/name",
+                "value": "Houston Astros"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/defense/team/link",
+                "value": "/api/v1/teams/117"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/batter/id",
+                "value": 544369
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/batter/fullName",
+                "value": "Didi Gregorius"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/batter/link",
+                "value": "/api/v1/people/544369"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/onDeck/id",
+                "value": 596142
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/onDeck/fullName",
+                "value": "Gary Sanchez"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/onDeck/link",
+                "value": "/api/v1/people/596142"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/inHole/id",
+                "value": 570482
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/inHole/fullName",
+                "value": "Gio Urshela"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/inHole/link",
+                "value": "/api/v1/people/570482"
+            },
+            {
+                "op": "remove",
+                "path": "/liveData/linescore/offense/second"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/pitcher/id",
+                "value": 622663
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/pitcher/fullName",
+                "value": "Luis Severino"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/pitcher/link",
+                "value": "/api/v1/people/622663"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/team/id",
+                "value": 147
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/team/name",
+                "value": "New York Yankees"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/offense/team/link",
+                "value": "/api/v1/teams/147"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/linescore/outs",
+                "value": 3
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/strikeOuts",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/avg",
+                "value": ".173"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/atBats",
+                "value": 17
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/obp",
+                "value": ".264"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/slg",
+                "value": ".346"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/ops",
+                "value": ".610"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/leftOnBase",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/teamStats/batting/atBatsPerHomeRun",
+                "value": "8.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/stats/batting/strikeOuts",
+                "value": 2
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/stats/batting/atBats",
+                "value": 3
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/stats/batting/leftOnBase",
+                "value": 1
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/strikeOuts",
+                "value": 5
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/avg",
+                "value": ".091"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/atBats",
+                "value": 11
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/obp",
+                "value": ".167"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/slg",
+                "value": ".364"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/ops",
+                "value": ".531"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/leftOnBase",
+                "value": 2
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/players/ID543807/seasonStats/batting/atBatsPerHomeRun",
+                "value": "11.00"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/info/0/fieldList/4/value",
+                "value": "Brantley; Springer; Correa 2."
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/info/0/fieldList/5/value",
+                "value": "0-for-3."
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/away/info/0/fieldList/6/value",
+                "value": "5."
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/strikeOuts",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/atBats",
+                "value": 17
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/era",
+                "value": "1.96"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/inningsPitched",
+                "value": "4.0"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/whip",
+                "value": "1.04"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/battersFaced",
+                "value": 19
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/outs",
+                "value": 12
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/runsScoredPer9",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/pitching/homeRunsPer9",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/fielding/putOuts",
+                "value": 12
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/teamStats/fielding/chances",
+                "value": 16
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/strikeOuts",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/atBats",
+                "value": 17
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/inningsPitched",
+                "value": "4.0"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/battersFaced",
+                "value": 19
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/outs",
+                "value": 12
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/runsScoredPer9",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/stats/pitching/homeRunsPer9",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/strikeOuts",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/era",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/inningsPitched",
+                "value": "4.0"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/whip",
+                "value": "1.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/outs",
+                "value": 12
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/strikeoutWalkRatio",
+                "value": "3.00"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/strikeoutsPer9Inn",
+                "value": "13.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/walksPer9Inn",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/hitsPer9Inn",
+                "value": "9.00"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/runsScoredPer9",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID622663/seasonStats/pitching/homeRunsPer9",
+                "value": "4.50"
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID596142/stats/fielding/putOuts",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID596142/stats/fielding/chances",
+                "value": 6
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID596142/seasonStats/fielding/putOuts",
+                "value": 25
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/teams/home/players/ID596142/seasonStats/fielding/chances",
+                "value": 25
+            },
+            {
+                "op": "replace",
+                "path": "/liveData/boxscore/info/2/value",
+                "value": "Cole, G 14; Severino, L 19."
+            }
+        ]
+    }
+]
