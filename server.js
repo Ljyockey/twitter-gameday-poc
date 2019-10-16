@@ -28,13 +28,27 @@ async function getDiff () {
         console.log('data', data)
         const diffs = data.map(diffs => diffs.diff)
         console.log('diffs', diffs)
-        if (data.length) console.log('timestamp', data[0].diff[0].value)
-        const events = data.filter(event => event.path.endsWith('/descrption'));
-        events.forEach(event => {
-            fs.appendFile('./mock-data/results.txt', event.value + '\n')
-        })
+        if (data.length) {
+            console.log('timestamp', data[0].diff[0].value)
+            timestamp = data[data.length-1].diff[0].value;
+            const result = [];
+            data.forEach(group => {
+                group.diff.filter(doesEventHaveDescription).forEach(d => {
+                    result.push(d);
+                });
+            });
+            console.log('result', result)
+            result.forEach(event => {
+                fs.appendFile('./mock-data/results.txt', event.value + '\n')
+            })
+        }
     })
 }
 
-// getData();
-getDiff();
+function doesEventHaveDescription (event) {
+    return event.path.endsWith('/description');
+};
+
+getData();
+
+setInterval(getDiff, 30000);
