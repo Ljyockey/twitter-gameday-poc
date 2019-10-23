@@ -2659,7 +2659,8 @@
   },
   "liveData" : {
     "plays" : {
-      "allPlays" : [ {
+      "allPlays" : [ 
+        {
         "result" : {
           "type" : "atBat",
           "event" : "Groundout",

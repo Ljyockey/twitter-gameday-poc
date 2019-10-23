@@ -1,27 +1,42 @@
 const request = require('request-promise-native');
-const MLBStatsAPI = require('mlb-stats-api');
-const mlbStats = new MLBStatsAPI();
+const moment = require('moment');
 const fs = require('fs');
 
-const gamePk = '599359';
-let timestamp = '20191015_221641';
+let gamePk = null;
+let timestamp;
+let diffInterval;
 
-const apiUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
-const diffUrl = `https://statsapi.mlb.com/api/v1.1/game/599359/feed/live/diffPatch?language=en&startTimecode=${timestamp}`
+const nationalsTeamId = 120;
 
-async function getData () {
-    return request(apiUrl)
+
+
+
+async function getTodaysGame () {
+    const todaysGameUrl = `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&date=${moment().format('MM/DD/YYYY')}&teamId=${nationalsTeamId}`;
+    return request(todaysGameUrl)
     .then(response => {
         const data = JSON.parse(response);
-        timestamp = data.metaData.timeStamp
-        console.log('timeStamp', timestamp)
-        data.liveData.plays.allPlays.forEach(play => {
-            fs.appendFile('./mock-data/results.txt', play.result.description + '\n')
-        })
+        console.log('response', response)
+        gamePk = data.dates.length ? data.dates[0].games[0].gamePk : null;
     })
 }
 
+async function getData () {
+    if (gamePk) {
+        const liveFeedUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/feed/live`;
+        return request(liveFeedUrl)
+        .then(response => {
+            const data = JSON.parse(response);
+            timestamp = data.metaData.timeStamp;
+            data.liveData.plays.allPlays.forEach(play => {
+                fs.appendFile('./mock-data/results_10-23-2019.txt', play.result.description + '\n');
+            })
+        })
+    }
+}
+
 async function getDiff () {
+    const diffUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live/diffPatch?language=en&startTimecode=${timestamp}`;
     return request(diffUrl)
     .then(response => {
         const data = JSON.parse(response);
@@ -37,18 +52,38 @@ async function getDiff () {
                     result.push(d);
                 });
             });
+            const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`
+            const lineScore = await request(lineScoreUrl)
+            const inningStatsText = getInningStatsText(lineScore)
             console.log('result', result)
             result.forEach(event => {
-                fs.appendFile('./mock-data/results.txt', event.value + '\n')
+                fs.appendFile('./mock-data/results_10-23-2019.txt', event.value + inningStatsText + '\n')
             })
         }
     })
+}
+
+function getInningStatsText(lineScore) {
+    const {currentInning, currentInningOrdinal, inningState, outs} = lineScore;
+    if (!currentInning) return '';
+    const outsString = outs === 1 ? 'out' : 'outs';
+    return ` ${inningState} of the ${currentInningOrdinal}. ${outs || 0} ${outsString}`;
 }
 
 function doesEventHaveDescription (event) {
     return event.path.endsWith('/description');
 };
 
-getData();
+function setupTodaysGameFeed () {
+    return getTodaysGame()
+    .then(_ => {
+        if (gamePk) {
+            console.log('gamePk', gamePk)
+            console.log('timestamp', timestamp)
+            getData();
+            diffInterval = setInterval(getDiff, 30000);
+        }
+    })
+}
 
-setInterval(getDiff, 30000);
+setupTodaysGameFeed();
