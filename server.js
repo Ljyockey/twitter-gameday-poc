@@ -16,20 +16,21 @@ async function getTodaysGame () {
     return request(todaysGameUrl)
     .then(response => {
         const data = JSON.parse(response);
-        console.log('response', response)
         gamePk = data.dates.length ? data.dates[0].games[0].gamePk : null;
     })
 }
 
 async function getData () {
     if (gamePk) {
-        const liveFeedUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/feed/live`;
+        const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
         return request(liveFeedUrl)
         .then(response => {
             const data = JSON.parse(response);
             timestamp = data.metaData.timeStamp;
+            console.log('timestamp', timestamp)
             data.liveData.plays.allPlays.forEach(play => {
-                fs.appendFile('./mock-data/results_10-23-2019.txt', play.result.description + '\n');
+                const description = play.result.description
+                if (description) fs.appendFileSync('./mock-data/results_10-23-2019.txt', description + '\n');
             })
         })
     }
@@ -37,41 +38,47 @@ async function getData () {
 
 async function getDiff () {
     const diffUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live/diffPatch?language=en&startTimecode=${timestamp}`;
+    console.log('diffUrl', diffUrl)
     return request(diffUrl)
-    .then(response => {
+    .then(async response => {
         const data = JSON.parse(response);
         console.log('data', data)
+        // sometimes data is an array but sometimes the data is identical to the live score
+        // the callback in getData should be its own function so it can be used here
+        // in the cases that data is not an array.
+        // to make this work, we will need to be able to determine which plays have already been tweeted.
+        // ....ignore this, timestamp just isn't updating, natbe/.
         const diffs = data.map(diffs => diffs.diff)
         console.log('diffs', diffs)
-        if (data.length) {
+        if (diffs.length) {
             console.log('timestamp', data[0].diff[0].value)
             timestamp = data[data.length-1].diff[0].value;
-            const result = [];
-            data.forEach(group => {
-                group.diff.filter(doesEventHaveDescription).forEach(d => {
-                    result.push(d);
-                });
-            });
+            console.log('timestamp ', timestamp)
+            const result = diffs[0].filter(doesEventHaveDescription);
             const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`
             const lineScore = await request(lineScoreUrl)
             const inningStatsText = getInningStatsText(lineScore)
+            console.log('inningStatsText', inningStatsText)
             console.log('result', result)
             result.forEach(event => {
-                fs.appendFile('./mock-data/results_10-23-2019.txt', event.value + inningStatsText + '\n')
+                fs.appendFileSync('./mock-data/results_10-23-2019.txt', event.value + inningStatsText + '\n')
             })
         }
     })
 }
 
 function getInningStatsText(lineScore) {
-    const {currentInning, currentInningOrdinal, inningState, outs} = lineScore;
+    const lsp = JSON.parse(lineScore)
+    const {currentInning, currentInningOrdinal, inningState, outs} = lsp;
     if (!currentInning) return '';
     const outsString = outs === 1 ? 'out' : 'outs';
     return ` ${inningState} of the ${currentInningOrdinal}. ${outs || 0} ${outsString}`;
 }
 
 function doesEventHaveDescription (event) {
-    return event.path.endsWith('/description');
+    console.log('event.path: ', event.path)
+    console.log('event.value: ', event.value)
+    return event.value && event.path.endsWith('/result/description');
 };
 
 function setupTodaysGameFeed () {
@@ -79,7 +86,6 @@ function setupTodaysGameFeed () {
     .then(_ => {
         if (gamePk) {
             console.log('gamePk', gamePk)
-            console.log('timestamp', timestamp)
             getData();
             diffInterval = setInterval(getDiff, 30000);
         }
