@@ -1,6 +1,7 @@
-const request = require('request-promise-native');
-const moment = require('moment');
 const fs = require('fs');
+const moment = require('moment');
+const request = require('request-promise-native');
+const Twitter = require('twitter');
 
 let gamePk = null;
 let timestamp;
@@ -8,8 +9,13 @@ let diffInterval;
 
 const nationalsTeamId = 120;
 
-
-
+ 
+const client = new Twitter({
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
+});
 
 async function getTodaysGame () {
     const todaysGameUrl = `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&date=${moment().format('MM/DD/YYYY')}&teamId=${nationalsTeamId}`;
@@ -30,10 +36,19 @@ async function getData () {
             console.log('timestamp', timestamp)
             data.liveData.plays.allPlays.forEach(play => {
                 const description = play.result.description
-                if (description) fs.appendFileSync('./mock-data/results_10-23-2019.txt', description + '\n');
+                if (description) postTweet(description);
             })
         })
     }
+};
+
+function postTweet (status) {
+    client.post('status/update', {status}, (error, tweet, response) => {
+        if (error) console.error('Error posting tweet. ', error.message);
+        fs.appendFileSync(`./mock-data/results/tweet-${timestamp}.txt`, JSON.stringify(tweet), + '\n' + JSON.stringify(response) + '\n');
+    });
+
+    fs.appendFileSync('./mock-data/results/results_10-23-2019.txt', status + '\n');
 }
 
 async function getDiff () {
@@ -61,7 +76,8 @@ async function getDiff () {
             console.log('inningStatsText', inningStatsText)
             console.log('result', result)
             result.forEach(event => {
-                fs.appendFileSync('./mock-data/results_10-23-2019.txt', event.value + inningStatsText + '\n')
+                const eventText = event.value + inningStatsText;
+                postTweet(eventText);
             })
         }
     })
