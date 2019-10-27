@@ -43,8 +43,8 @@ async function getData () {
 };
 
 function postTweet (status) {
-    client.post('status/update', {status}, (error, tweet, response) => {
-        if (error) console.error('Error posting tweet. ', error.message);
+    client.post('statuses/update', {status}, (error, tweet, response) => {
+        if (error) console.error('Error posting tweet. ', error);
         fs.appendFileSync(`./mock-data/results/tweet-${timestamp}.txt`, JSON.stringify(tweet), + '\n' + JSON.stringify(response) + '\n');
     });
 
