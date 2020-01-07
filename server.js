@@ -1,7 +1,11 @@
+const express = require('express');
 const fs = require('fs');
 const moment = require('moment');
 const request = require('request-promise-native');
 const Twitter = require('twitter');
+
+const app = express();
+const port = process.env.PORT || 8080;
 
 let gamePk = null;
 let timestamp;
@@ -116,3 +120,5 @@ function setupTodaysGameFeed () {
 }
 
 setupTodaysGameFeed();
+
+app.listen(port, () => console.log(`App listening on port ${port}!`));
