@@ -1,6 +1,6 @@
 const express = require('express');
 const fs = require('fs');
-const moment = require('moment');
+const moment = require('moment-timezone');
 const request = require('request-promise-native');
 const Twitter = require('twitter');
 
@@ -24,7 +24,7 @@ const client = new Twitter({
   });
 
 async function getTodaysGame () {
-    const todaysGameUrl = `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=${sport}&date=${moment().format('MM/DD/YYYY')}&teamId=${testTeamId}`;
+    const todaysGameUrl = `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=${sport}&date=${moment().tz('America/Los_Angeles').format('MM/DD/YYYY')}&teamId=${testTeamId}`;
     return request(todaysGameUrl)
     .then(response => {
         const data = JSON.parse(response);
@@ -109,14 +109,15 @@ function doesEventHaveDescription (event) {
 };
 
 function setupTodaysGameFeed () {
-    return getTodaysGame()
-    .then(_ => {
-        if (gamePk) {
-            console.log('gamePk', gamePk)
-            getData();
-            diffInterval = setInterval(getDiff, 30000);
-        }
-    })
+    if (!gamePk || !timestamp) {
+        return getTodaysGame()
+        .then(_ => {
+            if (gamePk) {
+                console.log('gamePk', gamePk)
+                getData();
+            }
+        })
+    } else getDiff();
 }
 
 setupTodaysGameFeed();
