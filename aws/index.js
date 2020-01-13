@@ -8,7 +8,8 @@ const postedTweets = [];
 exports.handler = async event => await twitterFunction();
 
 async function twitterFunction() {
-  if (!gamePk || !timestamp) {
+  // TODO: see if I want to use diffs at all
+  if (true) {
     return getTodaysGame().then(_ => {
       if (gamePk) {
         console.log("gamePk", gamePk);
@@ -33,6 +34,7 @@ async function getTodaysGame() {
 }
 
 async function getData() {
+  console.log('=========in getData==========')
   if (gamePk) {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
     return request(liveFeedUrl).then(convertInitialDataToTweets);
@@ -43,12 +45,15 @@ async function convertInitialDataToTweets(response) {
   const data = JSON.parse(response);
   timestamp = data.metaData.timeStamp;
   console.log("timestamp", timestamp);
-  const ap = data.liveData.plays.allPlays
-  for (let i = 0; i < ap.length; i++) {
-    const play = ap[i];
-    const description = play.result.description;
-    if (description) await postTweet(description);
-  }
+  const ap = data.liveData.plays.allPlays.filter(a => !!a.result.description)
+  const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`;
+  const lineScore = await request(lineScoreUrl);
+  const inningStatsText = getInningStatsText(lineScore);
+  console.log("inningStatsText", inningStatsText);
+  const play = ap[ap.length-1];
+  const description = play.result.description;
+  const tweetStatus = description + inningStatsText;
+  if (description) await postTweet(tweetStatus);
 }
 
 async function postTweet(status) {
@@ -78,6 +83,7 @@ async function postTweet(status) {
 }
 
 async function getDiff() {
+  console.log('===============in getDiff============')
   const diffUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live/diffPatch?language=en&startTimecode=${timestamp}`;
   console.log("diffUrl", diffUrl);
   return request(diffUrl).then(async response => {
