@@ -58,7 +58,7 @@ async function convertInitialDataToTweets(response) {
   const description = getDescription(play, lineScore, awayTeamName, homeTeamName)
   const tweetStatus = description + inningStatsText;
   if (description) await postTweet(tweetStatus);
-  if (lineScore.outs === 3) postTweet(`Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}`)
+  if (lineScore.outs === 3) await postTweet(`Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}`)
 }
 
 function getDescription(play, lineScore, away, home) {
