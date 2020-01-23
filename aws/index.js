@@ -52,7 +52,7 @@ async function convertInitialDataToTweets(response) {
   const inningStatsText = getInningStatsText(lineScore);
   console.log("inningStatsText", inningStatsText);
   const play = ap[ap.length-1];
-  if (play.about.hasOut && !lineScore.outs) return;
+  if (!play || (play.about.hasOut && !lineScore.outs)) return;
   const awayTeamName = data.gameData.teams.away.teamName.toUpperCase();
   const homeTeamName = data.gameData.teams.home.teamName.toUpperCase();
   const description = getDescription(play, lineScore, awayTeamName, homeTeamName)
