@@ -47,13 +47,25 @@ async function convertInitialDataToTweets(response) {
   console.log("timestamp", timestamp);
   const ap = data.liveData.plays.allPlays.filter(a => !!a.result.description)
   const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`;
-  const lineScore = await request(lineScoreUrl);
+  const ls = await request(lineScoreUrl);
+  const lineScore = JSON.parse(ls)
   const inningStatsText = getInningStatsText(lineScore);
   console.log("inningStatsText", inningStatsText);
   const play = ap[ap.length-1];
-  const description = play.result.description;
+  if (play.about.hasOut && !lineScore.outs) return;
+  const awayTeamName = data.gameData.teams.away.teamName.toUpperCase();
+  const homeTeamName = data.gameData.teams.home.teamName.toUpperCase();
+  const description = getDescription(play, lineScore, awayTeamName, homeTeamName)
   const tweetStatus = description + inningStatsText;
   if (description) await postTweet(tweetStatus);
+  if (lineScore.outs === 3) postTweet(`Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}`)
+}
+
+function getDescription(play, lineScore, away, home) {
+  const { result: {description}, about: {halfInning, isScoringPlay} } = play;
+  if (!isScoringPlay) return description;
+  const scoringTeam = halfInning === 'top' ? away : home
+  return `${scoringTeam} SCORE!\n\n${away}: ${lineScore.teams.away.runs}\n${home}: ${lineScore.teams.home.runs}`
 }
 
 async function postTweet(status) {
@@ -115,11 +127,10 @@ async function getDiff() {
 }
 
 function getInningStatsText(lineScore) {
-  const lsp = JSON.parse(lineScore);
-  const { currentInning, currentInningOrdinal, inningState, outs } = lsp;
+  const { currentInning, currentInningOrdinal, inningState, outs } = lineScore;
   if (!currentInning) return "";
   const outsString = outs === 1 ? "out" : "outs";
-  return ` ${inningState} of the ${currentInningOrdinal}. ${outs ||
+  return `\n${inningState} of the ${currentInningOrdinal}. ${outs ||
     0} ${outsString}`;
 }
 
