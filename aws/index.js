@@ -1,156 +1,109 @@
-const moment = require("moment-timezone");
-const request = require("request-promise-native");
-const {parseString} = require('xml2js');
+const moment = require('moment-timezone');
+const request = require('request-promise-native');
+const {Parser} = require('xml2js');
 
-let gamePk, latestArticleTimeStamp, timestamp;
+let gamePk=null, latestArticleTimeStamp;
 const postedTweets = [];
-
-exports.handler = async event => await twitterFunction();
-
-async function twitterFunction() {
-  // TODO: see if I want to use diffs at all
-  if (true) {
-    return getTodaysGame().then(getData);
-  } else return getDiff();
-}
-
 const testTeamId = process.env.TEAM_ID || 671; // Leones del Escogido
 const sport = process.env.SPORT || 17; // winter leagues. MLB = 1
 
-async function getTodaysGame() {
-  const todaysGameUrl = `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=${sport}&date=${moment().tz('America/Los_Angeles').format(
-    "MM/DD/YYYY"
-  )}&teamId=${testTeamId}`;
+const oauth = {
+  consumer_key: process.env.TWITTER_CONSUMER_KEY || '',
+  consumer_secret: process.env.TWITTER_CONSUMER_SECRET || '',
+  token: process.env.TWITTER_ACCESS_TOKEN_KEY || '',
+  token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET || ''
+}
+
+const parser = new Parser();
+
+const req = url => await request(url, {json: true});
+
+exports.handler = async () => await twitterFunction();
+
+const twitterFunction = async () => getTodaysGame().then(getData);
+
+const getTodaysGame = async () => {
+  const todayLA = moment().tz('America/Los_Angeles').format('MM/DD/YYYY');
+  const todaysGameUrl = `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=${sport}&date=${todayLA}&teamId=${testTeamId}`;
   console.log('todaysGameUrl', todaysGameUrl)
-  return request(todaysGameUrl).then(response => {
-    const data = JSON.parse(response);
-    gamePk = data.dates.length ? data.dates[0].games[0].gamePk : null;
+
+  return req(todaysGameUrl).then(({dates}) => {
+    gamePk = dates.length ? dates[0].games[0].gamePk : null;
   });
 }
 
-async function getData() {
-  await postArticles();
-  console.log("gamePk", gamePk);
+const getData = async () => {
+  await getRSSJson('https://lorem-rss.herokuapp.com/feed?unit=minute&interval=60', postArticles);
+  console.log('gamePk', gamePk);
   if (gamePk) {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
-    return request(liveFeedUrl).then(convertInitialDataToTweets);
+    return req(liveFeedUrl).then(convertPlayDataToTweets);
   }
 }
 
-async function convertInitialDataToTweets(response) {
-  const data = JSON.parse(response);
-  timestamp = data.metaData.timeStamp;
-  console.log("timestamp", timestamp);
-  const ap = data.liveData.plays.allPlays.filter(a => !!a.result.description)
+const convertPlayDataToTweets = async data => {
+  const play = data.liveData.plays.allPlays.reverse().find(a => !!a.result.description);
   const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`;
-  const ls = await request(lineScoreUrl);
-  const lineScore = JSON.parse(ls)
-  const inningStatsText = getInningStatsText(lineScore);
-  console.log("inningStatsText", inningStatsText);
-  const play = ap[ap.length-1];
+  const lineScore = await req(lineScoreUrl);
+  
   if (!play || (play.about.hasOut && !lineScore.outs)) return;
-  const awayTeamName = data.gameData.teams.away.teamName.toUpperCase();
-  const homeTeamName = data.gameData.teams.home.teamName.toUpperCase();
-  const description = getDescription(play, lineScore, awayTeamName, homeTeamName)
-  const tweetStatus = description + inningStatsText;
-  if (description) await postTweet(tweetStatus);
-  if (lineScore.outs === 3) await postTweet(`Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}\n${inningStatsText}`)
+
+  const getTeamName = homeOrAway => data.gameData.teams[homeOrAway].teamName.toUpperCase();
+  const awayTeamName = getTeamName('away');
+  const homeTeamName = getTeamName('home');
+  const description = getDescription(play, lineScore, awayTeamName, homeTeamName);
+  
+  if (description) {
+    const inningStatsText = getInningStatsText();
+    const tweetStatus = description + inningStatsText;
+    await postTweet(tweetStatus);
+  }
+
+  if (lineScore.outs === 3) {
+    const tweetStatus = `Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}\n${inningStatsText}`;
+    await postTweet(tweetStatus);
+  }
 }
 
-async function postArticles() {
-  const feed = await request('https://lorem-rss.herokuapp.com/feed?unit=minute&interval=60');
-  parseString(feed, async (err, result) => {
-    if (err) {
-      console.error('error parsing: ', err)
-      return;
-    }
-    console.log('latestArticleTimeStamp', latestArticleTimeStamp)
-    const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(result.rss.channel[0].pubDate[0]);
-    console.log('===========================postArticles conditional', newArticle);
-    if (!latestArticleTimeStamp || newArticle) {
-      latestArticleTimeStamp = result.rss.channel[0].pubDate[0];
-      await postTweet('Lorem Ipsum RSS Test - ' + moment(result.rss.channel[0].pubDate[0]).format('MM-DD-YYYY') + '\n' + result.rss.channel[0].item[0].description[0]);
-    }
-  })
+const getRSSJson = async (url, callback) => request(url).then(feed => parser.parseStringPromise(feed).then(callback).catch(e => console.error('error parsing XML', e)));
+
+const postArticles = async ({rss: {channel: [c]}}) => {
+  const {pubDate: [pubDate], item: [item]} = c;
+  const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(pubDate);
+  if (!newArticle) return;
+
+  latestArticleTimeStamp = pubDate;
+  await postTweet('Lorem Ipsum RSS Test - ' + moment(pubDate).format('MM-DD-YYYY') + '\n' + item.description[0]);
 }
 
-function getDescription(play, lineScore, away, home) {
+const getDescription = (play, lineScore, away, home) => {
   const { result: {description}, about: {halfInning, isScoringPlay} } = play;
   if (!isScoringPlay) return description;
-  const scoringTeam = halfInning === 'top' ? away : home
-  return `${scoringTeam} SCORE!\n\n${away}: ${lineScore.teams.away.runs}\n${home}: ${lineScore.teams.home.runs}`
+
+  const scoringTeam = halfInning === 'top' ? away : home;
+  return `${scoringTeam} SCORE!\n\n${away}: ${lineScore.teams.away.runs}\n${home}: ${lineScore.teams.home.runs}`;
 }
 
-async function postTweet(status) {
-  if (!postedTweets.includes(status)) {
-    console.log('=====================status=====================', status)
-    console.log('=====================ENCODED status=====================', encodeURIComponent(status).replace(/!/g, '%21'))
-    const twitterUrl = `https://api.twitter.com/1.1/statuses/update.json?status=${encodeURIComponent(status).replace(/!/g, '%21')}`;
-    return await request({
-      url: twitterUrl,
-      method: 'POST',
-      json: true,
-      oauth: {
-        consumer_key: process.env.TWITTER_CONSUMER_KEY || '',
-        consumer_secret: process.env.TWITTER_CONSUMER_SECRET || '',
-        token: process.env.TWITTER_ACCESS_TOKEN_KEY || '',
-        token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET || ''
-      }
-    }).then(res => {
-      console.log("\n res:" + res + "\n");
+const postTweet = async status => {
+  if (postedTweets.includes(status)) return;
 
-      console.log('static: ' + status + "\n");
-      postedTweets.push(status);
-    }).catch(e => {
-      console.log('error with tweet', e.message)
-    })
+  console.log('=====================status=====================', status);
+  console.log('=====================ENCODED status=====================', encodeURIComponent(status).replace(/!/g, '%21'));
+  const url = 'https://api.twitter.com/1.1/statuses/update.json?status=' + encodeURIComponent(status).replace(/!/g, '%21');
 
-  }
+  return request({
+    url,
+    method: 'POST',
+    json: true,
+    oauth
+  }).then(() => postedTweets.push(status)).catch(e => console.log('error with tweet', e.message));
 }
 
-async function getDiff() {
-  console.log('===============in getDiff============')
-  const diffUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live/diffPatch?language=en&startTimecode=${timestamp}`;
-  console.log("diffUrl", diffUrl);
-  return request(diffUrl).then(async response => {
-    const data = JSON.parse(response);
-    console.log(response + "\n");
-    console.log("data", data);
-    // sometimes the data comes back as an array, other times, it duplicates the initial data
-    // Current theory: it happens when the inning changes
-    if (!data.map) return convertInitialDataToTweets(response);
-    const diffs = data.map(diffs => diffs.diff);
-    console.log("diffs", diffs);
-    if (diffs.length) {
-      console.log("first timestamp", data[0].diff[0].value);
-      timestamp = data[data.length - 1].diff[0].value;
-      console.log("last timestamp ", timestamp);
-      // diffs sometimes doesn't duplicate. Will have to loop through diffs
-      const result = diffs[0].filter(doesEventHaveDescription);
-      const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`;
-      const lineScore = await request(lineScoreUrl);
-      const inningStatsText = getInningStatsText(lineScore);
-      console.log("inningStatsText", inningStatsText);
-      console.log("result", result);
-      result.forEach(event => {
-        const eventText = event.value + inningStatsText;
-        postTweet(eventText);
-      });
-    }
-  });
+const getInningStatsText = lineScore => {
+  const { currentInning, currentInningOrdinal, inningState, outs=0 } = lineScore;
+  if (!currentInning) return '';
+
+  const outsString = outs === 1 ? 'out' : 'outs';
+  return `\n${inningState} of the ${currentInningOrdinal}. ${outs} ${outsString}`;
 }
 
-function getInningStatsText(lineScore) {
-  const { currentInning, currentInningOrdinal, inningState, outs } = lineScore;
-  if (!currentInning) return "";
-  const outsString = outs === 1 ? "out" : "outs";
-  return `\n${inningState} of the ${currentInningOrdinal}. ${outs ||
-    0} ${outsString}`;
-}
-
-function doesEventHaveDescription(event) {
-  console.log("event: ", event);
-  return event.value && event.path.endsWith("/result/description");
-}
-
-// twitterFunction();
