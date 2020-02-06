@@ -1,8 +1,8 @@
 const moment = require("moment-timezone");
 const request = require("request-promise-native");
+const {parseString} = require('xml2js');
 
-let gamePk = null;
-let timestamp;
+let gamePk, latestArticleTimeStamp, timestamp;
 const postedTweets = [];
 
 exports.handler = async event => await twitterFunction();
@@ -10,12 +10,7 @@ exports.handler = async event => await twitterFunction();
 async function twitterFunction() {
   // TODO: see if I want to use diffs at all
   if (true) {
-    return getTodaysGame().then(_ => {
-      if (gamePk) {
-        console.log("gamePk", gamePk);
-        return getData();
-      }
-    });
+    return getTodaysGame().then(getData);
   } else return getDiff();
 }
 
@@ -34,7 +29,8 @@ async function getTodaysGame() {
 }
 
 async function getData() {
-  console.log('=========in getData==========')
+  await postArticles();
+  console.log("gamePk", gamePk);
   if (gamePk) {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
     return request(liveFeedUrl).then(convertInitialDataToTweets);
@@ -58,7 +54,24 @@ async function convertInitialDataToTweets(response) {
   const description = getDescription(play, lineScore, awayTeamName, homeTeamName)
   const tweetStatus = description + inningStatsText;
   if (description) await postTweet(tweetStatus);
-  if (lineScore.outs === 3) await postTweet(`Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}`)
+  if (lineScore.outs === 3) await postTweet(`Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}\n${inningStatsText}`)
+}
+
+async function postArticles() {
+  const feed = await request('https://lorem-rss.herokuapp.com/feed?unit=minute&interval=60');
+  parseString(feed, async (err, result) => {
+    if (err) {
+      console.error('error parsing: ', err)
+      return;
+    }
+    console.log('latestArticleTimeStamp', latestArticleTimeStamp)
+    const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(result.rss.channel[0].pubDate[0]);
+    console.log('===========================postArticles conditional', newArticle);
+    if (!latestArticleTimeStamp || newArticle) {
+      latestArticleTimeStamp = result.rss.channel[0].pubDate[0];
+      await postTweet('Lorem Ipsum RSS Test - ' + moment(result.rss.channel[0].pubDate[0]).format('MM-DD-YYYY') + '\n' + result.rss.channel[0].item[0].description[0]);
+    }
+  })
 }
 
 function getDescription(play, lineScore, away, home) {
@@ -71,7 +84,8 @@ function getDescription(play, lineScore, away, home) {
 async function postTweet(status) {
   if (!postedTweets.includes(status)) {
     console.log('=====================status=====================', status)
-    const twitterUrl = `https://api.twitter.com/1.1/statuses/update.json?status=${encodeURI(status)}`;
+    console.log('=====================ENCODED status=====================', encodeURIComponent(status))
+    const twitterUrl = `https://api.twitter.com/1.1/statuses/update.json?status=${encodeURIComponent(status)}`;
     return await request({
       url: twitterUrl,
       method: 'POST',

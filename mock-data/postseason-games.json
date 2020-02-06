@@ -1,4 +1,5 @@
 {
+    "url": "http://statsapi.mlb.com/api/v1/schedule/games/?sportId=17&date=2/7/2020",
     "copyright": "Copyright 2019 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
     "totalItems": 41,
     "totalEvents": 0,
