@@ -84,8 +84,8 @@ function getDescription(play, lineScore, away, home) {
 async function postTweet(status) {
   if (!postedTweets.includes(status)) {
     console.log('=====================status=====================', status)
-    console.log('=====================ENCODED status=====================', encodeURIComponent(status))
-    const twitterUrl = `https://api.twitter.com/1.1/statuses/update.json?status=${encodeURIComponent(status)}`;
+    console.log('=====================ENCODED status=====================', encodeURIComponent(status).replace(/!/g, '%21'))
+    const twitterUrl = `https://api.twitter.com/1.1/statuses/update.json?status=${encodeURIComponent(status).replace(/!/g, '%21')}`;
     return await request({
       url: twitterUrl,
       method: 'POST',
