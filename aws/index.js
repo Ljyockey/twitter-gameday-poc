@@ -16,7 +16,7 @@ const oauth = {
 
 const parser = new Parser();
 
-const req = url => await request(url, {json: true});
+const req = async url => await request(url, {json: true});
 
 exports.handler = async () => await twitterFunction();
 
@@ -48,19 +48,17 @@ const convertPlayDataToTweets = async data => {
   
   if (!play || (play.about.hasOut && !lineScore.outs)) return;
 
-  const getTeamName = homeOrAway => data.gameData.teams[homeOrAway].teamName.toUpperCase();
-  const awayTeamName = getTeamName('away');
-  const homeTeamName = getTeamName('home');
-  const description = getDescription(play, lineScore, awayTeamName, homeTeamName);
+  const description = getDescription(play, lineScore, data.gameData.teams);
+  const inningStatsText = getInningStatsText(lineScore);
   
   if (description) {
-    const inningStatsText = getInningStatsText();
     const tweetStatus = description + inningStatsText;
     await postTweet(tweetStatus);
   }
 
   if (lineScore.outs === 3) {
-    const tweetStatus = `Score Update:\n\n${awayTeamName}: ${lineScore.teams.away.runs}\n${homeTeamName}: ${lineScore.teams.home.runs}\n${inningStatsText}`;
+    const {away, home} = data.gameData.teams;
+    const tweetStatus = `Score Update:\n\n${away.teamName}: ${lineScore.teams.away.runs}\n${home.teamName}: ${lineScore.teams.home.runs}\n${inningStatsText}`;
     await postTweet(tweetStatus);
   }
 }
@@ -68,20 +66,25 @@ const convertPlayDataToTweets = async data => {
 const getRSSJson = async (url, callback) => request(url).then(feed => parser.parseStringPromise(feed).then(callback).catch(e => console.error('error parsing XML', e)));
 
 const postArticles = async ({rss: {channel: [c]}}) => {
-  const {pubDate: [pubDate], item: [item]} = c;
+  const {item: [{description: [description], pubDate: [pubDate], title: [title]}]} = c;
   const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(pubDate);
   if (!newArticle) return;
 
   latestArticleTimeStamp = pubDate;
-  await postTweet('Lorem Ipsum RSS Test - ' + moment(pubDate).format('MM-DD-YYYY') + '\n' + item.description[0]);
+  await postTweet('Lorem Ipsum RSS Test - \n' + title + '\n' + description);
 }
 
-const getDescription = (play, lineScore, away, home) => {
+const getDescription = (play, lineScore, teams) => {
   const { result: {description}, about: {halfInning, isScoringPlay} } = play;
   if (!isScoringPlay) return description;
 
-  const scoringTeam = halfInning === 'top' ? away : home;
-  return `${scoringTeam} SCORE!\n\n${away}: ${lineScore.teams.away.runs}\n${home}: ${lineScore.teams.home.runs}`;
+  const scoringTeam = halfInning === 'top' ? teams.away : teams.home;
+  const myTeamScored = scoringTeam.id.toString() === testTeamId.toString();
+  const scoreText = myTeamScored 
+    ? `${scoringTeam.teamName.toUpperCase()} SCORE!`
+    : `${scoringTeam.teamName} score.`;
+
+  return `${scoreText}\n\n${away}: ${lineScore.teams.away.runs}\n${home}: ${lineScore.teams.home.runs}\n`;
 }
 
 const postTweet = async status => {
