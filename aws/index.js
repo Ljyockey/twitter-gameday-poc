@@ -2,7 +2,7 @@ const moment = require('moment-timezone');
 const request = require('request-promise-native');
 const {Parser} = require('xml2js');
 
-let gamePk=null, latestArticleTimeStamp;
+let gamePk=null, hasPostedFinal=false, latestArticleTimeStamp;
 const postedTweets = [];
 const testTeamId = process.env.TEAM_ID || 671; // Leones del Escogido
 const sport = process.env.SPORT || 17; // winter leagues. MLB = 1
@@ -33,7 +33,7 @@ const getTodaysGame = async () => {
 }
 
 const getData = async () => {
-  await getRSSJson('https://lorem-rss.herokuapp.com/feed?unit=minute&interval=60', postArticles);
+  await getRSSJson('https://www.dodgersnation.com/feed', postArticles);
   console.log('gamePk', gamePk);
   if (gamePk) {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
@@ -50,28 +50,41 @@ const convertPlayDataToTweets = async data => {
 
   const description = getDescription(play, lineScore, data.gameData.teams);
   const inningStatsText = getInningStatsText(lineScore);
+  const isLive = data.gameData.status.statusCode === 'I';
+  const isComplete = data.gameData.status.statusCode === 'F';
+
+  if (!isComplete) hasPostedFinal = false;
   
-  if (description) {
+  if (description && isLive) {
     const tweetStatus = description + inningStatsText;
     await postTweet(tweetStatus);
   }
 
-  if (lineScore.outs === 3) {
+  if (lineScore.outs === 3 && isLive) {
     const {away, home} = data.gameData.teams;
-    const tweetStatus = `Score Update:\n\n${away.teamName}: ${lineScore.teams.away.runs}\n${home.teamName}: ${lineScore.teams.home.runs}\n${inningStatsText}`;
+    const inning = inningStatsText.split('.')[0];
+    const tweetStatus = `Score Update:\n\n${away.teamName}: ${lineScore.teams.away.runs}\n${home.teamName}: ${lineScore.teams.home.runs}\n${inning}`;
     await postTweet(tweetStatus);
+  }
+
+  if (isComplete && !hasPostedFinal && postedTweets.length > 1) {
+    const {away, home} = data.gameData.teams;
+    const tweetStatus = `FINAL SCORE:\n\n${away.teamName}: ${lineScore.teams.away.runs}\n${home.teamName}: ${lineScore.teams.home.runs}`;
+    await postTweet(tweetStatus);
+    hasPostedFinal = true;
+    postedTweets.length = 0;
   }
 }
 
 const getRSSJson = async (url, callback) => request(url).then(feed => parser.parseStringPromise(feed).then(callback).catch(e => console.error('error parsing XML', e)));
 
 const postArticles = async ({rss: {channel: [c]}}) => {
-  const {item: [{description: [description], pubDate: [pubDate], title: [title]}]} = c;
+  const {item: [{link: [link], pubDate: [pubDate], title: [title]}]} = c;
   const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(pubDate);
   if (!newArticle) return;
 
   latestArticleTimeStamp = pubDate;
-  await postTweet('Lorem Ipsum RSS Test - \n' + title + '\n' + description);
+  await postTweet(title + '\n' + link);
 }
 
 const getDescription = (play, lineScore, teams) => {
@@ -84,15 +97,24 @@ const getDescription = (play, lineScore, teams) => {
     ? `${scoringTeam.teamName.toUpperCase()} SCORE!`
     : `${scoringTeam.teamName} score.`;
 
-  return `${scoreText}\n\n${away}: ${lineScore.teams.away.runs}\n${home}: ${lineScore.teams.home.runs}\n`;
+  return `${scoreText}\n\n${teams.away.teamName}: ${lineScore.teams.away.runs}\n${teams.home.teamName}: ${lineScore.teams.home.runs}\n`;
 }
+
+// encodes all characters encoded with encodeURIComponent, plus: ! ~ * ' ( )
+const fullyEncodeURI = value => encodeURIComponent(value)
+  .replace(/!/g, '%21')
+  .replace(/'/g, '%27')
+  .replace(/\(/g, '%28')
+  .replace(/\)/g, '%29')
+  .replace(/\*/g, '%2a')
+  .replace(/~/g, '%7e');
 
 const postTweet = async status => {
   if (postedTweets.includes(status)) return;
 
   console.log('=====================status=====================', status);
-  console.log('=====================ENCODED status=====================', encodeURIComponent(status).replace(/!/g, '%21'));
-  const url = 'https://api.twitter.com/1.1/statuses/update.json?status=' + encodeURIComponent(status).replace(/!/g, '%21');
+  console.log('=====================ENCODED status=====================', fullyEncodeURI(status));
+  const url = 'https://api.twitter.com/1.1/statuses/update.json?status=' + fullyEncodeURI(status);
 
   return request({
     url,

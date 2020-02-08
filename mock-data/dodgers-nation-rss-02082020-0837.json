@@ -1,0 +1,1214 @@
+{
+  "rss": {
+    "$": {
+      "version": "2.0",
+      "xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+      "xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+      "xmlns:dc": "http://purl.org/dc/elements/1.1/",
+      "xmlns:atom": "http://www.w3.org/2005/Atom",
+      "xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+      "xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+      "xmlns:media": "http://search.yahoo.com/mrss/",
+      "xmlns:georss": "http://www.georss.org/georss",
+      "xmlns:geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+    },
+    "channel": [
+      {
+        "title": ["Dodgers Nation"],
+        "atom:link": [
+          {
+            "$": {
+              "href": "https://www.dodgersnation.com/feed/",
+              "rel": "self",
+              "type": "application/rss+xml"
+            }
+          }
+        ],
+        "link": ["https://www.dodgersnation.com"],
+        "description": ["Dodgers News, Rumors, Scores & Schedule"],
+        "lastBuildDate": ["Sat, 08 Feb 2020 10:35:13 +0000"],
+        "language": ["en-US"],
+        "sy:updatePeriod": ["\n\thourly\t"],
+        "sy:updateFrequency": ["\n\t1\t"],
+        "image": [
+          {
+            "url": [
+              "https://www.dodgersnation.com/wp-content/uploads/2018/04/PH4tQERz_400x400-125x125.png"
+            ],
+            "title": ["Dodgers Nation"],
+            "link": ["https://www.dodgersnation.com"],
+            "width": ["32"],
+            "height": ["32"]
+          }
+        ],
+        "item": [
+          {
+            "title": [
+              "Dodgers: Rich Hill Discusses Kenta Maeda Potentially Coming to Twins, and More!"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-rich-hill-discusses-kenta-maeda-potentially-coming-to-twins-and-more/2020/02/08/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-rich-hill-discusses-kenta-maeda-potentially-coming-to-twins-and-more/2020/02/08/#respond"
+            ],
+            "pubDate": ["Sat, 08 Feb 2020 14:00:27 +0000"],
+            "dc:creator": ["AJ Gonzalez"],
+            "category": [
+              "News",
+              "Alex Verdugo",
+              "Kenta Maeda",
+              "mookie betts",
+              "Rich Hill"
+            ],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119532",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Just before the new year, Dodger fans hearts were broken when fan favorite Rich Hill signed with the Minnesota Twins. It&#8217;s February, and many still are not over the shock and sadness of Rich leaving. Rich has moved on with his new team but is still quite the ambassador. Rich was upbeat and still complimentary [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-rich-hill-discusses-kenta-maeda-potentially-coming-to-twins-and-more/2020/02/08/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>Just before the new year, Dodger fans hearts were broken when fan favorite <a href=\"https://www.dodgersnation.com/dodgers-free-agency-news-rich-hill-signs-contract-with-al-team/2019/12/31/\">Rich Hill signed with the Minnesota Twins.</a> It&#8217;s February, and many still are not over the shock and sadness of Rich leaving. Rich has moved on with his new team but is still quite the ambassador. Rich was upbeat and still complimentary of former teammates and his former team in an interview with MLB Network Radio, linked here.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Rich Hill joined the <a href=\"https://twitter.com/Twins?ref_src=twsrc%5Etfw\">@Twins</a> <br />Now Kenta Maeda is joining the <a href=\"https://twitter.com/Twins?ref_src=twsrc%5Etfw\">@Twins</a> <br />And life looks good in Minnesota<a href=\"https://twitter.com/hashtag/Twins?src=hash&amp;ref_src=twsrc%5Etfw\">#Twins</a> | <a href=\"https://twitter.com/hashtag/BombaSquad?src=hash&amp;ref_src=twsrc%5Etfw\">#BombaSquad</a> | <a href=\"https://twitter.com/hashtag/MaybeAHaiku?src=hash&amp;ref_src=twsrc%5Etfw\">#MaybeAHaiku</a> <a href=\"https://t.co/HFkv37zxbJ\">pic.twitter.com/HFkv37zxbJ</a></p>\n<p>&mdash; MLB Network Radio on SiriusXM (@MLBNetworkRadio) <a href=\"https://twitter.com/MLBNetworkRadio/status/1225599110155317249?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<h2>Richie Talks Three Teams Improving</h2>\n<p>Rich Hill has always had a talent for diplomacy and saying the right things. He is a true professional who was candid on the idea that the <a href=\"https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/\">big moves that will (hopefully) soon be finalized</a>, were beneficial to all the teams involved.</p>\n<blockquote><p>&#8220;It&#8217;s great for all teams, I believe. From the business side of Boston opening up their threshold, to the Dodgers gaining Mookie Betts and David Price, also to Minnesota getting Kenta Maeda. Also in Boston, they&#8217;re getting a young and fresh talent in Alex Verdugo. To me, it&#8217;s a win win win.&#8221;</p></blockquote>\n<p>The funny thing is that Rich Hill has played for all three teams he is referencing. It is a true tip of the cap to his teammate Kenta Maeda and former teammate Alex Verdugo. He also notes that the Dodgers are obviously improving.</p>\n<h3>Enter to Win a Cody Bellinger Jersey!</h3>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf440db\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<h2>Angels In The Outfield (and the mound)</h2>\n<p>Two other former teammates of Rich (and former Dodgers) are ostensibly on the move in Joc Pederson and Ross Stripling. Rich Hill was quick to tip his cap to those former teammates as well.</p>\n<blockquote><p>&#8220;The other side of this coin too is look at what the Angels have acquired in Joc Pederson and Ross Stripling. These are two guys that are All-Stars; incredible players. That just made the Angels contenders in the American League.&#8221;</p></blockquote>\n<p>Look I know this is the type of thing he is supposed to say. With Rich Hill however, there is never a doubt in his sincerity. He was a tremendous teammate on the Dodgers and a supportive one, at that.</p>\n<h2>Rich Hill Builds Up His New Team</h2>\n<p>This is the part where I personally felt a little sad, but only selfishly. Rich Hill went on to build up his new team and talk World Series aspirations.</p>\n<blockquote><p>&#8220;So I&#8217;m excited from a baseball fan&#8217;s standpoint to see how everything is going to develop over the 2020 season, but also as a member of the Twins for our opportunity to win the World Series. We just increased our chances greatly by gaining Kenta Maeda. Some of these guys may get overlooked but the body of work they&#8217;ve been able to compile over the last four years that I&#8217;ve been around them is incredible.&#8221;</p></blockquote>\n<p>Wow. Talk about talking up Kenta Maeda. This is not as far-fetched as one might think. Kenta Maeda as a starter can be lights out in the right situation. In the AL, anything can happen.</p>\n<h2>Cap Tip To Our Old Friend Rich Hill</h2>\n<p>Listen to the rest of the interview. Any time you can listen to Rich Hill talk, your day is better. He goes on to discuss his excitement for the 2020 season and looking forward to giving everything he can. For Dodger fans, this is an obvious notion. Rich Hill gave us 101% of himself, and we&#8217;ll always root him to do well.</p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-rich-hill-discusses-kenta-maeda-potentially-coming-to-twins-and-more/2020/02/08/feed/"
+            ],
+            "slash:comments": ["0"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-07-at-3.24.27-PM.png",
+                  "type": "image/png",
+                  "medium": "image",
+                  "width": "640",
+                  "height": "496"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tScreen Shot 2019-10-07 at 3.24.27 PM\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-07-at-3.24.27-PM-150x150.png",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Evans"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: Justin Turner Breaks Down His Swing on Instagram"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-justin-turner-breaks-down-his-swing-on-instagram/2020/02/08/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-justin-turner-breaks-down-his-swing-on-instagram/2020/02/08/#respond"
+            ],
+            "pubDate": ["Sat, 08 Feb 2020 14:00:26 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["Editorials", "justin turner"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119486",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Just-in time for spring training, Dodgers third baseman Justin Turner had a little fun breaking down his swing on Instagram earlier this week. In short, he understands that its &#8220;all about the angles&#8221; for a quality hack. View this post on Instagram Hitting is all about lines and angles so I had @lattadoug and @hyatt_craig [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-justin-turner-breaks-down-his-swing-on-instagram/2020/02/08/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p><em>Just-in </em>time for spring training, Dodgers third baseman Justin Turner had a little fun breaking down his swing on Instagram earlier this week.</p>\n<p>In short, he understands that its &#8220;all about the angles&#8221; for a quality hack.</p>\n<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B8Oy7HnjBKM/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\">\n<div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/p/B8Oy7HnjBKM/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> </p>\n<div style=\" display: flex; flex-direction: row; align-items: center;\">\n<div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div>\n<div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\">\n<div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div>\n<div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div>\n</div>\n</div>\n<div style=\"padding: 19% 0;\"></div>\n<div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div>\n<div style=\"padding-top: 8px;\">\n<div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> View this post on Instagram</div>\n</div>\n<div style=\"padding: 12.5% 0;\"></div>\n<div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div>\n<div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div>\n<div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div>\n<div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div>\n</div>\n<div style=\"margin-left: 8px;\">\n<div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div>\n<div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div>\n</div>\n<div style=\"margin-left: auto;\">\n<div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div>\n<div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div>\n<div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div>\n</div>\n</div>\n<p></a> </p>\n<p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a href=\"https://www.instagram.com/p/B8Oy7HnjBKM/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">Hitting is all about lines and angles so I had @lattadoug and @hyatt_craig do a deep break down of my swing to show my followers. This is what he came up with #LA @dodgers #2020</a></p>\n<p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">A post shared by <a href=\"https://www.instagram.com/redturn2/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\" target=\"_blank\"> Justin Turner</a> (@redturn2) on <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2020-02-06T15:54:14+00:00\">Feb 6, 2020 at 7:54am PST</time></p>\n</div>\n</blockquote>\n<p><script async src=\"//www.instagram.com/embed.js\"></script></p>\n<p>Surely LA hitting coaches Robert Van Scoyoc and Brant Brown can agree with JT&#8217;s swing analysis from outside sources like Doug Latta and Craig Hyatt, as Turner notes. For what it&#8217;s worth, Latta is widely considered <a href=\"https://www.mlb.com/news/secret-behind-justin-turners-big-breakout/c-132701636\">one of the architects</a> behind Turner going from non-tendered former Met to National League All-Star with a multi-million dollar contract.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-coach-brant-brown-talks-bellinger-off-season-work-and-more-blue-heaven-podcast/2020/01/31/\">Related: A 2020 Chat with Hitting Coach Brant Brown</a></p>\n<p>Speaking of non-tendered, the day JT shared this gem on Instagram just so happened to be the 6-year anniversary of when he inked a minor league contract with Dodgers.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Happy 6 year sign-iversary, <a href=\"https://twitter.com/redturn2?ref_src=twsrc%5Etfw\">@redturn2</a>. So far, so good ? <a href=\"https://t.co/tl1b8cziT4\">https://t.co/tl1b8cziT4</a></p>\n<p>&mdash; Kourtney Turner (@court_with_a_K) <a href=\"https://twitter.com/court_with_a_K/status/1225208988108611584?ref_src=twsrc%5Etfw\">February 6, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Turner is a guy that is undoubtedly ready for the new season to get underway. In fact, he said as much as Dodgers FanFest last month, while <a href=\"https://www.dodgersnation.com/dodgers-justin-turner-doesnt-want-any-fake-accolades-awarded-to-los-angeles/2020/01/25/\">navigating through questions about the Houston Astros cheating scandal</a> that may have (did) cost Los Angeles a World Series in 2017.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf48de6\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>While his swing is always ready for the season, one thing the red-head did note that <a href=\"https://www.dodgersnation.com/dodgers-justin-turner-talks-about-one-frustrating-part-of-last-season/2020/01/24/\">he&#8217;d like to improve on this season is his defens</a>e. Thankfully fans will be able to see Justin&#8217;s swing, glove, and his teammates &#8212; <a href=\"https://www.dodgersnation.com/dodgers-acquire-mookie-betts-david-price-from-boston-red-sox/2020/02/04/\">including (potentially) new teammate Mookie Betts</a> &#8212; in just over one week as position players report to spring training at Camelback Ranch in Glendale, Arizona by February 17.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-sportsnet-la-will-broadcast-30-spring-training-games/2020/02/06/\">NEXT: SportsNet LA Will Broadcast 30 Spring Training Games</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-justin-turner-breaks-down-his-swing-on-instagram/2020/02/08/feed/"
+            ],
+            "slash:comments": ["0"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/02/GettyImages-1030132902.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "3000",
+                  "height": "2114"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tJustin Turner - Arizona Diamondbacks v Los Angeles Dodgers\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/02/GettyImages-1030132902-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": ["Dodgers Spring Training Truck Day is Here!"],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-spring-training-truck-day-is-here/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-spring-training-truck-day-is-here/2020/02/07/#respond"
+            ],
+            "pubDate": ["Sat, 08 Feb 2020 02:11:40 +0000"],
+            "dc:creator": ["AJ Gonzalez"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119529",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "In a day full of murky or infuriating baseball news, here is a sight that brings a smile to any Dodger fan&#8217;s face. Hear that? Sounds like #DodgersST is near. pic.twitter.com/NBIl5g1GdY &#8212; Los Angeles Dodgers (@Dodgers) February 8, 2020 Bags Are Packed, Ready To Go Spring training is just around the corner! And importantly, the [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-spring-training-truck-day-is-here/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>In a day full of murky or infuriating baseball news, here is a sight that brings a smile to any Dodger fan&#8217;s face.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Hear that? Sounds like <a href=\"https://twitter.com/hashtag/DodgersST?src=hash&amp;ref_src=twsrc%5Etfw\">#DodgersST</a> is near. <a href=\"https://t.co/NBIl5g1GdY\">pic.twitter.com/NBIl5g1GdY</a></p>\n<p>&mdash; Los Angeles Dodgers (@Dodgers) <a href=\"https://twitter.com/Dodgers/status/1225942915358195712?ref_src=twsrc%5Etfw\">February 8, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<h2>Bags Are Packed, Ready To Go</h2>\n<p>Spring training is just around the corner! And importantly, the Dodgers social media could not have released this fun video at a better time. Per the official schedule, here are the important dates.</p>\n<ul>\n<li>Pitchers and Catchers Report: February 13th</li>\n<li>First Workout: February 14th</li>\n<li>Position Players Report: February 17th</li>\n<li>First Full Squad Workout: February 18th</li>\n<li>First Spring Training Game (vs the Giants): February 22nd</li>\n</ul>\n<p>As noted earlier in the week, SportsNet LA will be <a href=\"https://www.dodgersnation.com/dodgers-sportsnet-la-will-broadcast-30-spring-training-games/2020/02/06/\">broadcasting 30 of these spring training games</a>. This means a good portion of Dodger fans will be able to see the boys in blue gear up for the 2020 season. There is nothing like early baseball in Arizona.</p>\n<p>If you&#8217;re looking to get yourself even more ready for spring baseball, the <a href=\"https://www.dodgersnation.com/dodgers-release-new-spring-training-2020-hat-designs/2020/02/04/\">new cap designs were released</a> earlier this week as well.</p>\n<h2>Spring Light On A Dark Winter Day</h2>\n<p>As noted, this reminder comes at a great time. Between new information <a href=\"https://www.getmoresports.com/mlb-news-j-hinch-speaks-astros-sign-stealing-controversy-first-time/\">regarding the Astros cheating scandal</a>, and the ongoing confusion and <a href=\"https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/\">uncertainty in the Mookie Betts deal</a>, this reminds us all that baseball is around the corner!</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-announce-non-roster-invitees-for-spring-training-2020/2020/01/23/\">NEXT: Dodgers Announce Non-Roster Invitees</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-spring-training-truck-day-is-here/2020/02/07/feed/"
+            ],
+            "slash:comments": ["0"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/03/Camelback-Ranch.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "640",
+                  "height": "427"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tCamelback Ranch\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/03/Camelback-Ranch-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Daniel Preciado"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: Matt Beaty’s Wife Jesica Shares Behind the Scenes of Trade Rumors"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-matt-beatys-wife-jesica-shares-behind-the-scenes-of-trade-rumors/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-matt-beatys-wife-jesica-shares-behind-the-scenes-of-trade-rumors/2020/02/07/#comments"
+            ],
+            "pubDate": ["Sat, 08 Feb 2020 00:00:19 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["Editorials"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119498",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "One of our favorite people to interact with here at Dodgers Nation is Jesica Beaty. Of course, Jes is the wife of second-year player Matt Beaty. One great quality Jesica shares with folks from time to time is her storytelling. Obviously, being the wife of a big leaguer not only comes with countless insider information, [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-matt-beatys-wife-jesica-shares-behind-the-scenes-of-trade-rumors/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>One of our favorite people to interact with here at Dodgers Nation is Jesica Beaty. Of course, <a href=\"https://www.dodgersnation.com/getting-to-know-clutch-dodger-rookie-matt-beaty-and-his-wife-jesica-the-beaty-bunch-episode-68-blue-heaven-podcast/2019/07/25/\">Jes is the wife of second-year player Matt Beaty</a>. One great quality Jesica shares with folks from time to time is her storytelling.</p>\n<p>Obviously, being the wife of a big leaguer not only comes with countless insider information, but it also comes with another perspective of the baseball lifestyle&#8230; the real-life perspective.</p>\n<p>Over on her blog <a href=\"https://www.dreamsnseams.com/\">dreamsnseams.com</a>, Beaty shares behind the scenes stories and recollections of the other side of trade rumors.&nbsp;</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">what. is. happening. <a href=\"https://twitter.com/hashtag/sources?src=hash&amp;ref_src=twsrc%5Etfw\">#sources</a> <a href=\"https://t.co/gKkn2eXWcw\">pic.twitter.com/gKkn2eXWcw</a></p>\n<p>&mdash; Jesica Beaty (@Jesica_Beaty) <a href=\"https://twitter.com/Jesica_Beaty/status/1224886474090242048?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>While MLB insiders, experts, and pundits all work their #sources for details of unconfirmed rumors and share them to the internet, players and those close to them also catch wind of the news &#8212; information that the organization might not have even contacted them about yet.</p>\n<p>This came to a head on Friday afternoon as Tony Clark, Executive Director of the MLB Players Union <a href=\"https://www.dodgersnation.com/dodgers-mlb-players-union-demands-resolution-on-betts-trade/2020/02/07/\">issued a statement</a> saying that leaving the players involved in limbo is &#8220;unfair.&#8221;</p>\n<p>And he&#8217;s right.</p>\n<p>While baseball is a business, the human element of &#8220;what is happening?&#8221; as Jesica tweeted is often ignored. <em>The Beaty lady</em> <a href=\"https://www.dreamsnseams.com/blog/behind-the-scenes-of-trades-even-when-youre-not-traded\">explored that human element over on her blog</a>.</p>\n<blockquote><p>We have known guys who have found out they are being traded through Twitter and then get the phone call a few minutes or hours later… could you imagine… what other job does that happen in?!</p></blockquote>\n<p>While understandably Jesica focuses on Matt and their shared experiences along with how any moves may affect his spot on the active roster in 2020, she also shares some interesting stories from friends in the game of baseball.</p>\n<blockquote><p>Some of our friends told us they were in the car and they got a call and got a little nervous because could have been about the trade but it just ended up being a family member asking about the trade.</p></blockquote>\n<p>In an even more &#8220;human element&#8221; of the post, the simple logistics of living is a fascinating read indeed.</p>\n<blockquote><p>All I could think about was we’re going to get nice and settled in AZ and we’re going to get the call that Matt’s been traded to the Red Sox. Then we would have to figure out Florida housing, make that move, and just on and on and on of these things going through my mind of what I would have to do within days because ya know report dates are next week.</p></blockquote>\n<p>The full read is absolutely interesting and worth your time. But we thank Jesica for giving fans a small glimpse into the life of a baseball family.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-jesica-and-matt-beaty-the-truly-wed-game/2019/08/12/\">NEXT: &#8220;The Truly Wed Game&#8221; with Matt and Jesica Beaty</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-matt-beatys-wife-jesica-shares-behind-the-scenes-of-trade-rumors/2020/02/07/feed/"
+            ],
+            "slash:comments": ["1"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/Beaty-Still.png",
+                  "type": "image/png",
+                  "medium": "image",
+                  "width": "1280",
+                  "height": "720"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tMatt and Jesica Beaty\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/Beaty-Still-150x150.png",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: MLB Player’s Union Demands Resolution on Betts Trade"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-mlb-players-union-demands-resolution-on-betts-trade/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-mlb-players-union-demands-resolution-on-betts-trade/2020/02/07/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 22:37:06 +0000"],
+            "dc:creator": ["Brook Smith"],
+            "category": ["News", "Brusdar Gaterol", "Dodgers", "mookie betts"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119523",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "The Mookie Betts trade story gets more interesting by the minute. On Friday, Major League Baseball&#8217;s Players Union issued a statement expressing their dissatisfaction with the player swap between the Dodgers, Red Sox, and Twins in particular. Major League Baseball Players Association Executive Director Tony Clark today released the following statement: pic.twitter.com/bxzIj9GQmb &#8212; MLBPA Communications [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-mlb-players-union-demands-resolution-on-betts-trade/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>The Mookie Betts trade story gets more interesting by the minute. On Friday, Major League Baseball&#8217;s Players Union issued a statement expressing their dissatisfaction with the player swap between the Dodgers, Red Sox, and Twins in particular.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Major League Baseball Players Association Executive Director Tony Clark today released the following statement: <a href=\"https://t.co/bxzIj9GQmb\">pic.twitter.com/bxzIj9GQmb</a></p>\n<p>&mdash; MLBPA Communications (@MLBPA_News) <a href=\"https://twitter.com/MLBPA_News/status/1225903486006710275?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Executive Director Tony Clark made it clear that the trade between the Dodgers, Red Sox, Twins, and Angels was not fair to the players involved. And to his point, it does make for a very awkward situation indeed. Players are packing their bags as we speak getting ready to head out to the Spring Training facilities, but these few are stuck in limbo.</p>\n<p>The players union urged the sides to come to a decision quickly for the sake of the players. The Dodgers alone have at least four of their major league players involved in the two reported trades.</p>\n<blockquote><p>The events of this last week have unfairly put several players&#8217; lives in a state of limbo. The unethical leaking of medical information as well as the perversion of the salary arbitration process serve as continued reminders that too often players are treated as commodoties by those running the game.</p></blockquote>\n<h3>Enter to Win a Cody Bellinger Jersey!</h3>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf5295a\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>With the collective bargaining agreement set to expire soon, this isn&#8217;t exactly an encouraging step in improving relations between players and the league. The medical review of Twins&#8217; prospect Brusdar Gaterol resulted in the Red Sox halting the trade after it was initially reported.</p>\n<p>While most reporters seem to think the trade will still go through, it does not seem to be happening quickly enough.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/\">NEXT: Mookie Betts Trade Currently Waiting on Twins; May Be Reconfigured</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-mlb-players-union-demands-resolution-on-betts-trade/2020/02/07/feed/"
+            ],
+            "slash:comments": ["4"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-1014199972.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1024",
+                  "height": "707"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tBoston Red Sox v Toronto Blue Jays\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-1014199972-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Brook Smith"]
+              }
+            ]
+          },
+          {
+            "title": ["Dodgers and Chris Taylor Agree to Two-Year Contract"],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-and-chris-taylor-agree-to-two-year-contract/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-and-chris-taylor-agree-to-two-year-contract/2020/02/07/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 21:12:58 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News", "Chris Taylor"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119520",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "After reaching a salary arbitration hearing with Joc Pederson on Thursday &#8212; he lost his case &#8212; today the Dodgers announced that the club and utility player Chris Taylor have agreed to a two-year contract extension, avoiding arbitration. Per source, Taylor gets $13.4 million over two years from Dodgers, which buys out his final two [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-and-chris-taylor-agree-to-two-year-contract/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>After reaching a salary arbitration hearing with Joc Pederson on Thursday &#8212; <a href=\"https://www.dodgersnation.com/dodgers-joc-pederson-loses-his-arbitration-case/2020/02/07/\">he lost his case</a> &#8212; today the Dodgers announced that the club and utility player Chris Taylor have agreed to a two-year contract extension, avoiding arbitration.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Per source, Taylor gets $13.4 million over two years from Dodgers, which buys out his final two years of arbitration. He had been seeking $5.8 million in arbitration. Taylor will get $5.6 million in 2020 and $7.8 million in 2021.</p>\n<p>&mdash; Mark Feinsand (@Feinsand) <a href=\"https://twitter.com/Feinsand/status/1225887091797745666?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>As MLB scribe notes in the above tweet, CT3 will earn $13.4M over the next two seasons. This comes on the heels of the Dodgers and Max Muncy agreeing to a three-year deal on Thursday.</p>\n<p>Next up for Los Angeles is one more case that seems likely to avoid arbitration is with pitcher Pedro Baez.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">With Max Muncy and Chris Taylor signing multi-year deals and Joc Pederson&#39;s arbitration case completed, the Dodgers have only Pedro Baez&#39;s arbitration case remaining.</p>\n<p>&mdash; Mark Feinsand (@Feinsand) <a href=\"https://twitter.com/Feinsand/status/1225888114536779777?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Baez submitted a salary of $4M for the 2020 season while the Dodgers offered $3.5M. The 31-year-old is entering his final season of team control and slots in as a middle reliever in a re-stocked bullpen.</p>\n<p>2020 will mark Taylor&#8217;s fifth season Los Angeles since being acquired in a trade with the Seattle Mariners for former top pitching prospect Zach Lee.</p>\n<h3>Enter to Win a Cody Bellinger Jersey!</h3>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf57750\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<h3>Official Press Release</h3>\n<p style=\"font-weight: 400;\"><em>The Los Angeles Dodgers have agreed to a two-year contract extension with infielder/outfielder Chris Taylor, avoiding arbitration.</em></p>\n<p style=\"font-weight: 400;\"><em>Taylor, 29, played in 124 games last season with the Dodgers, hitting .262 (96-for-366) with 12 homers and 52 RBI. He has spent parts of four seasons with Los Angeles, slashing .266/.337/.463 while amassing 51 homers and 194 RBI over 453 games.</em></p>\n<p style=\"font-weight: 400;\"><em>In 2017, he was named NLCS co-MVP after hitting .316 (6-for-19) with five runs, four extra-base hits and three RBI. The Virginia Beach native was originally acquired by the Dodgers on June 19, 2016 from the Seattle Mariners in exchange for right-handed pitcher Zach Lee.</em></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-and-chris-taylor-agree-to-two-year-contract/2020/02/07/feed/"
+            ],
+            "slash:comments": ["1"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/07/GettyImages-1152783541.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "3000",
+                  "height": "2000"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tChris Taylor - New York Mets v Los Angeles Dodgers\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/07/GettyImages-1152783541-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: Mookie Betts Trade Currently Waiting on Twins; May Be Reconfigured"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 19:44:17 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119507",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "[Editor’s note: This story has been updated] Are you tired of this yet? Are you one of the folks that&#8217;s worried that&#160;the big trade&#160;might fall through? If you&#8217;ve been living under a rock, I&#8217;m of course referring to the current three-team trade between the Dodgers, Twins, and Red Sox that would bring Mookie Betts and [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p><em>[<strong>Editor’s note:</strong> This story has been updated]</em></p>\n<p>Are you tired of this yet? Are you one of the folks that&#8217;s worried that&nbsp;<em>the big trade&nbsp;</em>might fall through?</p>\n<p>If you&#8217;ve been living under a rock, I&#8217;m of course referring to the current three-team trade between the Dodgers, Twins, and Red Sox that would <a href=\"https://www.dodgersnation.com/dodgers-acquire-mookie-betts-david-price-from-boston-red-sox/2020/02/04/\">bring Mookie Betts and David Price to Los Angeles</a>. The trade that&#8217;s <a href=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/\">been on hold</a> for close to three days now.</p>\n<p>It seems that the majority of voters on our Dodgers Nation Twitter feel it will go through&#8230;</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Is this Mookie trade still getting done?</p>\n<p>&mdash; Dodgers Nation (@DodgersNation) <a href=\"https://twitter.com/DodgersNation/status/1225855447246098432?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>&#8230; but there&#8217;s still that concern in the back of the minds of some. Now, MLB insiders are providing us all with the latest updates, and it seems mostly positive.</p>\n<p>First, Jon Heyman of MLB Network tells us that the hope is that the three teams currently involved can still work out a deal, even if it means Minnesota adding another prospect to the equation.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Talks will continue today between at least the Red Sox and Twins. But while there’s obvious urgency here and all 3 teams are motivated to complete the Mookie mega deal, movement has been slow. Boston is niw believed looking for a 2nd top prospect in addition to Graterol.</p>\n<p>&mdash; Jon Heyman (@JonHeyman) <a href=\"https://twitter.com/JonHeyman/status/1225779375423066114?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>However, it seems that Twins brass doesn&#8217;t want to budge.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Red Sox are still seeking a top-10 <a href=\"https://twitter.com/hashtag/MNTwins?src=hash&amp;ref_src=twsrc%5Etfw\">#MNTwins</a> prospect in addition to Graterol. Thus far, Twins are saying no. <a href=\"https://twitter.com/hashtag/Mookie?src=hash&amp;ref_src=twsrc%5Etfw\">#Mookie</a></p>\n<p>&mdash; Jon Heyman (@JonHeyman) <a href=\"https://twitter.com/JonHeyman/status/1225842092141883394?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>The hold up in the deal has been concerns Boston had after reviewing the medical records of Twins prospect Brusdar Graterol. His agent Scott Boras defended the hard-throwing right-hander.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Agent Scott Boras: Brusdar Graterol threw “without limitation” and 100 mph in majors for weeks to end 2019 and he has no great medical concern. “They’re relying on a cursory medical record review yet noted orthopedic doctors who saw him say there’s no issue going forward” <a href=\"https://twitter.com/hashtag/Mookie?src=hash&amp;ref_src=twsrc%5Etfw\">#Mookie</a></p>\n<p>&mdash; Jon Heyman (@JonHeyman) <a href=\"https://twitter.com/JonHeyman/status/1225916743891202049?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Heyman continued on to say that if Minnesota can&#8217;t agree on a middle ground with Boston, the Sox and Dodgers are ready to continue on without them &#8212; either as a traditional two-team trade or with a new third team involved.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">There’s been a lot of back and forth between Red Sox and Twins to try to wrap up the Mookie mega deal. And just in case, the Red Sox and Dodgers are also looking at ways to do deal without the Twins, either directly or by using a different 3rd team.</p>\n<p>&mdash; Jon Heyman (@JonHeyman) <a href=\"https://twitter.com/JonHeyman/status/1225836610933186561?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Of course, Los Angeles already has another trade waiting in the wings with the Anaheim Angels. There is a small chance that those three clubs could put their collective heads together to make something work, but that seems less likely. It should be noted in that <a href=\"https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/\">Dodgers/Angels trade</a> &#8212; which includes Joc Pederson and Ross Stripling going to Anaheim &#8212; one potential hang up was absolved this morning as <a href=\"https://www.dodgersnation.com/dodgers-joc-pederson-loses-his-arbitration-case/2020/02/07/\">Pederson&#8217;s 2020 contract status became settled by an arbiter</a>.</p>\n<h3>Enter to Win a Cody Bellinger Jersey</h3>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf60c41\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>Back to the Betts blockbuster, former MLB GM Jim Bowden joined MLB Network radio to add his two cents on the hold up in the deal.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">The holdup in the Mookie Betts deal, explained by <a href=\"https://twitter.com/JimBowdenGM?ref_src=twsrc%5Etfw\">@JimBowdenGM</a>:<a href=\"https://twitter.com/hashtag/RedSox?src=hash&amp;ref_src=twsrc%5Etfw\">#RedSox</a> | <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> | <a href=\"https://twitter.com/hashtag/Twins?src=hash&amp;ref_src=twsrc%5Etfw\">#Twins</a> <a href=\"https://t.co/wdwHtI3rKI\">pic.twitter.com/wdwHtI3rKI</a></p>\n<p>&mdash; MLB Network Radio on SiriusXM (@MLBNetworkRadio) <a href=\"https://twitter.com/MLBNetworkRadio/status/1225854472267730945?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>In short, it&#8217;s complicated.</p>\n<p>While some in the industry feel this deal (and the Angels deal) gets done by end of day Friday, that&#8217;s not a guarantee.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">The Mookie Betts/David Price <a href=\"https://twitter.com/hashtag/RedSox?src=hash&amp;ref_src=twsrc%5Etfw\">#RedSox</a>&#8211;<a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> trade is expected to finally become official today, the teams say, which means the Joc Pederson/Ross Stripling trade from the Dodgers LA to the <a href=\"https://twitter.com/hashtag/Angels?src=hash&amp;ref_src=twsrc%5Etfw\">#Angels</a> becomes official as well.</p>\n<p>&mdash; Bob Nightengale (@BNightengale) <a href=\"https://twitter.com/BNightengale/status/1225818989491736576?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>The long and winding road of this story may soon be reaching its end &#8212; and we&#8217;re all hopeful that it does.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-potential-lineup-construction-after-mookie-betts-trade/2020/02/06/\">NEXT: Potential Lineup After Mookie Betts Trade</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-mookie-betts-trade-currently-waiting-on-twins-may-be-reconfigured/2020/02/07/feed/"
+            ],
+            "slash:comments": ["7"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/01/Mookie-Betts-CPP.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1200",
+                  "height": "800"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tMookie Betts CPP\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/01/Mookie-Betts-CPP-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": ["Dodgers: Joc Pederson Loses His Arbitration Case"],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-joc-pederson-loses-his-arbitration-case/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-joc-pederson-loses-his-arbitration-case/2020/02/07/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 18:58:47 +0000"],
+            "dc:creator": ["Brook Smith"],
+            "category": [
+              "News",
+              "Dodgers",
+              "joc pederson",
+              "Luis Rengifo",
+              "mookie betts"
+            ],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119503",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "As two different trades sit in limbo, the Dodgers got an update on some of their potential payroll. Joc Pederson, who was asking $9.5MM for the 2020 season, lost his arbitration case against the team. Joc Pederson has lost his arbitration case, sources tell ESPN. He&#39;ll receive $7.75 million this season, regardless of which team [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-joc-pederson-loses-his-arbitration-case/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>As two different trades sit in limbo, the Dodgers got an update on some of their potential payroll. Joc Pederson, who was asking $9.5MM for the 2020 season, lost his arbitration case against the team.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Joc Pederson has lost his arbitration case, sources tell ESPN. He&#39;ll receive $7.75 million this season, regardless of which team he&#39;s on.</p>\n<p>&mdash; Jeff Passan (@JeffPassan) <a href=\"https://twitter.com/JeffPassan/status/1225849565221466114?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Joc is already in a sort of uncomfortable situation as it is. As of this week, his future in Los Angeles is up in the air with few signs of him staying. After the Mookie Betts trade was reported earlier this week, another trade surfaced involving Pederson being traded to Anaheim. Neither of those trades has been announced as completed since the <a href=\"https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/\">Betts trade hit a snag</a>.</p>\n<p>Joc had a <a href=\"https://www.baseball-reference.com/players/p/pederjo01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\">career-best in wins above replacement</a>, home runs, runs batted in, batting average, and a few other offensive categories in 2019. The left-handed slugger has hit 87 home runs for the Dodgers in five seasons since he was called up.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf63cf1\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>If the trade were to go through, Joc would assumingly make his $7.75 million salary playing for the Angels in 2020. That <a href=\"https://www.dodgersnation.com/dodgers-potential-lineup-construction-after-mookie-betts-trade/2020/02/06/\">trade involves Luis Rengifo</a>, and could possibly involve added prospects.</p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-joc-pederson-loses-his-arbitration-case/2020/02/07/feed/"
+            ],
+            "slash:comments": ["1"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/07/GettyImages-1165026006.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "3000",
+                  "height": "2000"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tJoc Pederson - COLORADO ROCKIES vs LOS ANGELES DODGERS, MLB\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/07/GettyImages-1165026006-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: Orel Hershiser Sees Career Parallels with Mookie Betts   "
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-orel-hershiser-sees-career-parallels-with-mookie-betts/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-orel-hershiser-sees-career-parallels-with-mookie-betts/2020/02/07/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 14:00:28 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119473",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "While Dodgers analyst Orel Hershiser already gave a fine review of David Price coming over in the deal with Boston, he also took a look at Mookie Betts&#8217; career and drew from his own experiences. &#34;You&#39;d have to go back a decade to find a losing season for David Price. You move him to the [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-orel-hershiser-sees-career-parallels-with-mookie-betts/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>While Dodgers analyst Orel Hershiser already gave a <a href=\"https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/\">fine review of David Price</a> coming over in the deal with Boston, he also took a look at Mookie Betts&#8217; career and drew from his own experiences.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">&quot;You&#39;d have to go back a decade to find a losing season for David Price. You move him to the NL West ballparks, it&#39;s going to be an upgrade.&quot; <a href=\"https://twitter.com/OrelHershiser?ref_src=twsrc%5Etfw\">@OrelHershiser</a> weighs in on the impact David Price could have with the <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> should a trade come to fruition. <a href=\"https://t.co/Yb3eNBDLtQ\">pic.twitter.com/Yb3eNBDLtQ</a></p>\n<p>&mdash; SportsNet LA (@SportsNetLA) <a href=\"https://twitter.com/SportsNetLA/status/1225186541191843840?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Of course, Betts is a born and raised Red Sox star. However, the writing was on the wall as his time ticked down in Boston. As much as he wanted to stay in Bean Town &#8212; <a href=\"https://www.thescore.com/mlb/news/1940944\">a place he considers his home</a> &#8212; he was also eager to test the free agent market after not getting a contract extension offer he felt was worthy of his talents.</p>\n<p>Hershiser spoke on the feelings that come with leaving a team you want to be with but knowing it was coming.</p>\n<blockquote><p>I think he&#8217;s already been playing through this for a while because he turned down Boston in a long term deal. So mentally, he&#8217;s already thought about putting on another uniform, getting to know another travelling secretary, having a new trainer, having new teammates. So he&#8217;s mentally gone through that.</p>\n<p>When I went from the Dodgers to the Cleveland Indians, I still wanted to be a Dodger but there was no job available for me so I had to seek other employment. I think this is not going to be as big a shock to him. It took half a season to look down at my chest and see &#8216;Indians&#8217; and not see &#8216;Dodgers&#8217; and think &#8216;oh my gosh, this is my team.</p></blockquote>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf66f53\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>One of the million-dollar (<a href=\"https://www.dodgersnation.com/dodgers-mookie-betts-rejects-red-sox-extension-offer-padres-in-mix-for-trade/2020/01/30/\">or $420M over 12 years</a>) questions has been whether or not Los Angeles can make a run as re-signing or extending Betts to a long-term deal.</p>\n<p>Earlier this week on Dodgers Nation&#8217;s <a href=\"https://www.dodgersnation.com/mookie-betts-and-david-price-to-la-pederson-maeda-out-blue-heaven-podcast/2020/02/05/\"><em>Blue Heaven Podcast</em></a>, I opined that Betts being with the Dodgers at the start of spring training instead of coming over at a later time would be key in him building chemistry with his new teammates, and with that, a love for the organization.</p>\n<p><em>Bulldog</em> agreed with that idea.</p>\n<blockquote><p>The difference between getting ready for a game in July, and getting ready for spring training games on a daily basis is huge. To have that 20-minute meeting before you workout every day &#8212; to get to know your teammates, your manager, the whole organization, the introductions &#8212; everything that you learn about an organization really comes in spring training.</p>\n<p>So to be able to acquire a player and go into a Dave Roberts spring training and Andrew Friedman meetings, the prep that they go through, the chemistry things they do during spring training together &#8230; it is a huge transition boost.</p></blockquote>\n<p>Mookie Betts is an MLB superstar for a reason. He&#8217;s a big personality guy and he&#8217;s bringing it, along with his talents to LA for that #HollywoodLifestyle. Thankfully he&#8217;ll have time to introduce that personality in the more relaxed setting that comes at Camelback Ranch.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/\">NEXT: Dave Vassegh Thinks Betts is Coming To LA at the Perfect Time</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-orel-hershiser-sees-career-parallels-with-mookie-betts/2020/02/07/feed/"
+            ],
+            "slash:comments": ["1"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-958360776.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1503",
+                  "height": "974"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tBBO-WORLD SERIES-HIRSHISER\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-958360776-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers News: Catching Up on the Mookie Betts Trade, Joe Kelly Concerned With New MLB Rule, and More!"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-news-catching-up-on-the-mookie-betts-trade-joe-kelly-concerned-with-new-mlb-rule-and-more/2020/02/07/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-news-catching-up-on-the-mookie-betts-trade-joe-kelly-concerned-with-new-mlb-rule-and-more/2020/02/07/#respond"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 14:00:02 +0000"],
+            "dc:creator": ["Staff Writer"],
+            "category": ["Editorials"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119490",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Thursday proved to be an interesting day on the trade front for the Dodgers&#8230; or lack thereof. After agreeing in principle to a three-team deal that would bring Mookie Betts and David Price to Los Angeles on Tuesday, reports surfaced that there was a hang up along the way. Dodgers Blockbuster Three-Team Trade Continues to [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-news-catching-up-on-the-mookie-betts-trade-joe-kelly-concerned-with-new-mlb-rule-and-more/2020/02/07/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>Thursday proved to be an interesting day on the trade front for the Dodgers&#8230; or lack thereof. After agreeing in principle to a three-team deal that would bring Mookie Betts and David Price to Los Angeles on Tuesday, reports surfaced that there was a hang up along the way.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"ElcpEtiCSB\"><p><a href=\"https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/\">Dodgers Blockbuster Three-Team Trade Continues to be On Hold</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers Blockbuster Three-Team Trade Continues to be On Hold&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/embed/#?secret=ElcpEtiCSB\" data-secret=\"ElcpEtiCSB\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>As the big trade came to a stop, so too did the other trade with the Angels.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"4J7YsJ9Ks8\"><p><a href=\"https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/\">Dodgers: With Joc Pederson Salary Arbitration Looming, Angels Trade Also on Hold</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: With Joc Pederson Salary Arbitration Looming, Angels Trade Also on Hold&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/embed/#?secret=4J7YsJ9Ks8\" data-secret=\"4J7YsJ9Ks8\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>While the deals are still expected to happen in some capacity, reactions still came in praising the Dodgers acquisitions of Price and Betts.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"3lj3chUSUM\"><p><a href=\"https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/\">Dodgers: Orel Hershiser Excited to have David Price in Los Angeles</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: Orel Hershiser Excited to have David Price in Los Angeles&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/embed/#?secret=3lj3chUSUM\" data-secret=\"3lj3chUSUM\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"e3nSGK8Q5P\"><p><a href=\"https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/\">Dodgers Play by Play Man Joe Davis Excited for the Mookie Betts Experience</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers Play by Play Man Joe Davis Excited for the Mookie Betts Experience&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/embed/#?secret=e3nSGK8Q5P\" data-secret=\"e3nSGK8Q5P\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"u3q2Tdk5OS\"><p><a href=\"https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/\">Dodgers Radio Host Says Mookie Betts Trade is the Good News Los Angeles Needed</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers Radio Host Says Mookie Betts Trade is the Good News Los Angeles Needed&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/embed/#?secret=u3q2Tdk5OS\" data-secret=\"u3q2Tdk5OS\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>One source of good news came in the form of a well-deserved extension going to <em>America&#8217;s Slugger </em>Max Muncy.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"Ufy3LHuqJW\"><p><a href=\"https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/\">Dodgers Sign Max Muncy To Three-Year Extension</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers Sign Max Muncy To Three-Year Extension&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/embed/#?secret=Ufy3LHuqJW\" data-secret=\"Ufy3LHuqJW\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>Aside from players, trades, and contracts, one current Dodger took an opportunity to call out MLB&#8217;s upcoming three batter minimum rule for pitchers and how it may affect careers.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"kpL9NLGeQl\"><p><a href=\"https://www.dodgersnation.com/dodgers-joe-kelly-talks-health-concerns-with-new-3-batter-rule-in-mlb/2020/02/04/\">Dodgers: Joe Kelly Talks Health &#038; Concerns with New 3 Batter Rule in MLB</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: Joe Kelly Talks Health &#038; Concerns with New 3 Batter Rule in MLB&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-joe-kelly-talks-health-concerns-with-new-3-batter-rule-in-mlb/2020/02/04/embed/#?secret=kpL9NLGeQl\" data-secret=\"kpL9NLGeQl\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<h4>Don&#8217;t Forget to Enter Our Cody Bellinger Jersey Giveaway Contest!</h4>\n<blockquote class=\"wp-embedded-content\" data-secret=\"0LDf9JhOJL\"><p><a href=\"https://www.dodgersnation.com/cody-bellinger-dodgers-jersey-giveaway/2020/02/05/\">Cody Bellinger Dodgers Jersey Giveaway!</a></p></blockquote>\n<p><iframe title=\"&#8220;Cody Bellinger Dodgers Jersey Giveaway!&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/cody-bellinger-dodgers-jersey-giveaway/2020/02/05/embed/#?secret=0LDf9JhOJL\" data-secret=\"0LDf9JhOJL\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-news-catching-up-on-the-mookie-betts-trade-joe-kelly-concerned-with-new-mlb-rule-and-more/2020/02/07/feed/"
+            ],
+            "slash:comments": ["0"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-855660132.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "2634",
+                  "height": "2186"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tv2 David Price, Mookie Betts Boston Red Sox\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-855660132-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers Blockbuster Three-Team Trade Continues to be On Hold"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 03:02:36 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119482",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "It&#8217;s been about 48 hours since reports broke that the Dodgers had brokered a three-team deal with Boston and Minnesota to send a lot of moving parts to new homes. However, a problem remains here&#8230; None of the teams have announced the deal. Understandably, with so many moving parts it&#8217;s in each team&#8217;s best interest [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>It&#8217;s been about 48 hours since reports broke that the <a href=\"https://www.dodgersnation.com/dodgers-acquire-mookie-betts-david-price-from-boston-red-sox/2020/02/04/\">Dodgers had brokered a three-team deal with Boston and Minnesota</a> to send a lot of moving parts to new homes. However, a problem remains here&#8230;</p>\n<p>None of the teams have announced the deal.</p>\n<p>Understandably, with so many moving parts it&#8217;s in each team&#8217;s best interest to double-check every bit of the deal up and down. And by the way, there are a lot of moving parts indeed. Kenta Maeda and Alex Verdugo would head from the Dodgers to Minnesota and Boston respectively. David Price and Mookie Betts would go to LA from Boston. And hard-throwing prospect Brusdar Graterol would head from Minnesota to Boston.</p>\n<p>But <a href=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/\">issues over Graterol&#8217;s medical records</a> &#8212; namely his pitching shoulder &#8212; caused the Red Sox to pump the brakes and rethink this blockbuster deal.</p>\n<p>Now Jon Heyman tells us that is indeed the case.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Red Sox are said to be trying to reconfigure the part of the Betts 3-team deal with the Twins (meaning more than Graterol). While there’s still hope the mega deal gets done in some form, some involved are now suggesting it’s not a certainty.</p>\n<p>&mdash; Jon Heyman (@JonHeyman) <a href=\"https://twitter.com/JonHeyman/status/1225603051689512961?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Over the last 20 hours, this dead has gone from <em>done</em> <strong>to</strong> <em>slim chance this trade will completely fall apart</em>&nbsp;<strong>to</strong> <em>not a certainty</em>. And with that, baseball continues to hold its collective breath.&nbsp;</p>\n<p>Importantly, however, progress on some version of a deal is reportedly being made, per MLB.com writer Mark Feinsand.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Source familiar with the three-way Boston/Los Angeles/Minnesota trade said the sides are “making progress,” and while a deal isn’t likely to be finalized any earlier than Friday, it’s still “more likely to happen than not.”</p>\n<p>&mdash; Mark Feinsand (@Feinsand) <a href=\"https://twitter.com/Feinsand/status/1225609596653461505?ref_src=twsrc%5Etfw\">February 7, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>The Twins may pony up more along with Graterol in a deal to Boston. They made switch prospects. Or they could be removed from the equation altogether. However, reports are that Minnesota is very interested in acquiring Kenta Maeda from Los Angeles.</p>\n<p>Even if Minnesota is out, another key element to consider in a Boston/Los Angeles swap is the relationship between Dodgers President of Baseball Operations Andrew Friedman and Red Sox Chief Baseball Officer Chaim Bloom. Bloom worked with Friedman back in their Tampa Bay Rays days, adding an element of familiarity that could play up in assuring that a deal gets done.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf74dc9\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>Of course, this three-team deal isn&#8217;t the only trade that&#8217;s on hold. The <a href=\"https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/\">Dodgers are also holding on transaction</a> that would send Joc Pederson, Ross Stripling, and a prospect to the Angels for infielder Luis Rengifo and a reported two prospects.</p>\n<p>It seems like nothing will come easy for Dodgers fans this off-season. Still, it appears that fans should feel confident that Mookie Betts will be suiting up for Los Angeles before the start of spring training.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/\">NEXT: Dodgers Play by Play Man Joe Davis Excited for the Mookie Betts</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-blockbuster-three-team-trade-continues-to-be-on-hold/2020/02/06/feed/"
+            ],
+            "slash:comments": ["16"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/12/Mookie-Betts-CPP.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1000",
+                  "height": "700"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tMookie Betts\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/12/Mookie-Betts-CPP-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers Potential Lineup Construction After Mookie Betts Trade"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-potential-lineup-construction-after-mookie-betts-trade/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-potential-lineup-construction-after-mookie-betts-trade/2020/02/06/#comments"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 02:30:38 +0000"],
+            "dc:creator": ["Tim Rogers"],
+            "category": [
+              "Editorials",
+              "A.J. Pollock",
+              "Austin Barnes",
+              "Chris Taylor",
+              "Cody Bellinger",
+              "corey seager",
+              "Edwin Rios",
+              "Gavin Lux",
+              "justin turner",
+              "Kike Hernandez",
+              "Luis Rengifo",
+              "Matt Beaty",
+              "Max Muncy",
+              "mookie betts",
+              "Will Smith"
+            ],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119431",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Yes, there is a snag currently in the Mookie Betts/David Price deal from Boston. However, the deal is expected to get done. The Dodgers had a very good offense during the 2019 season, postseason excluded. For the basic slash statistics (Batting Average/On-Base Percentage/Slugging Percentage) against National League teams, they were fifth in BA, second in [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-potential-lineup-construction-after-mookie-betts-trade/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p><em>Yes, there is a <a href=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/\">snag currently in the Mookie Betts/David Price deal</a> from Boston. However, the deal is expected to get done.</em></p>\n<p>The Dodgers had a very good offense during the 2019 season, postseason excluded. For the basic slash statistics (Batting Average/On-Base Percentage/Slugging Percentage) against National League teams, they were fifth in BA, second in OBP and first in SLG.</p>\n<p>Now the Dodgers have traded for <a href=\"https://www.baseball-reference.com/players/b/bettsmo01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Mookie Betts</a> while sending out <a href=\"https://www.baseball-reference.com/players/v/verdual01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Alex Verdugo</a> and <a href=\"https://www.baseball-reference.com/players/p/pederjo01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Joc Pederson</a>. They will also have <a href=\"https://www.baseball-reference.com/players/l/luxga01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Gavin Lux</a> and <a href=\"https://www.baseball-reference.com/search/search.fcgi?pid=smithwi04,smithwi05,smith-084wil,smith-082wil,smith-080wil&amp;search=Will+Smith&amp;utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Will Smith</a> for full seasons. One of the weak parts of the offense last year was that it was too left-handed heavy. Betts is a right-handed hitter while Verdugo and Pederson are both lefties.</p>\n<p>Let&#8217;s take a look at some lineup possibilities. One of the big questions will be where Betts will bat in the lineup?</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Where are you batting Mookie Betts in your version of the Dodgers lineup?</p>\n<p>&mdash; Dodgers Nation (@DodgersNation) <a href=\"https://twitter.com/DodgersNation/status/1225304461368651776?ref_src=twsrc%5Etfw\">February 6, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<h2>Player Offensive Strengths</h2>\n<ul>\n<li><a href=\"https://www.baseball-reference.com/players/b/bellico01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Cody Bellinger</a> &#8211; power, speed, improving walk rate and contact</li>\n<li>Mookie Betts &#8211; speed, power, on base, walks, contact</li>\n<li><a href=\"https://www.baseball-reference.com/players/m/muncyma01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Max Muncy</a> &#8211; power, walk rate, decent speed</li>\n<li><a href=\"https://www.baseball-reference.com/players/s/seageco01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Corey Seager</a> &#8211; decent power (lot&#8217;s of doubles), pure hitting skills</li>\n<li><a href=\"https://www.baseball-reference.com/players/t/turneju01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Justin Turner</a> &#8211; works at bats, good on base, professional hitter</li>\n<li><a href=\"https://www.baseball-reference.com/players/p/polloaj01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">A.J. Pollock</a> &#8211; strong against lefties, some power, good second half of 2019</li>\n<li>Gavin Lux &#8211; speed, decent power, could hit for high average</li>\n<li>Will Smith &#8211; power, improving bat, fast for a catcher</li>\n<li><a href=\"https://www.baseball-reference.com/players/b/beatyma01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Matt Beaty</a> &#8211; works pitch counts, decent power, good contact</li>\n<li>Kiké Hernandez &#8211; power, hits lefties well</li>\n<li><a href=\"https://www.baseball-reference.com/search/search.fcgi?pid=tayloch03,taylor006chr&amp;search=Chris+Taylor&amp;utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Chris Taylor</a> &#8211; speed and some power</li>\n<li><a href=\"https://www.baseball-reference.com/players/r/rengilu01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Luis Rengifo</a>&nbsp;&#8211; switch hitter, speed, decent walk rate, some pop</li>\n<li><a href=\"https://www.baseball-reference.com/players/b/barneau01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Austin Barnes</a> &#8211; good eye, fast for a catcher</li>\n<li><a href=\"https://www.baseball-reference.com/players/r/riosed01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Edwin Rios</a> &#8211; serious power</li>\n</ul>\n<h2>The Basic Starting Eight</h2>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">I mean, look at this. How is this real? <a href=\"https://t.co/EzASDjfYtc\">pic.twitter.com/EzASDjfYtc</a></p>\n<p>&mdash; Mike Petriello (@mike_petriello) <a href=\"https://twitter.com/mike_petriello/status/1224896881395994625?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>This is my favorite lineup right now. My favorite part is that it alternates lefty and righty hitters throughout the lineup. With the big contract that A.J. Pollock was signed to last season, I fully expect him to be the regular left fielder. Gavin Lux is one of the top prospects in baseball, was untouchable this off-season and made the playoff roster after being called up in September. He should be the starting second baseman and should NOT be platooned to start the season. They will also have Will Smith at the Major League level for the whole season.</p>\n<p>For the first part of the season I do see Pollock and Seager flip-flopping based on the pitcher. If Seager improves his approach then I would hope to see him batting 2nd but Muncy is so much better at working a count and getting a walk.</p>\n<h2>If They Platoon &#8211; Against Right Handers</h2>\n<p>My hope is that the Dodgers don&#8217;t platoon much but it could be used in some cases. The Dodgers seem to love messing with the lineup even if the players are basically the same. Here&#8217;s an option against a right-handed starter.</p>\n<ol>\n<li>Gavin Lux &#8211; 2B</li>\n<li>Max Muncy &#8211; 1B</li>\n<li>Mookie Betts &#8211; RF</li>\n<li>Cody Bellinger &#8211; CF</li>\n<li>Corey Seager &#8211; SS</li>\n<li>Justin Turner &#8211; 3B</li>\n<li>Matt Beaty &#8211; LF</li>\n<li>Will Smith &#8211; C</li>\n</ol>\n<p>This includes the back-to-back MVPs. Turner hasn&#8217;t batted this low in years so it shows how deep the lineup can be.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Since Mookie Betts won’t be facing the Yankees I can defend him from the Boston media who will soon be running a <a href=\"https://twitter.com/hashtag/mookiesmearcampaign?src=hash&amp;ref_src=twsrc%5Etfw\">#mookiesmearcampaign</a>.</p>\n<p>At 27 with six years in the league he has a career:</p>\n<p>.893 OPS<br />135 wRC+<br />113 Defensive Runs Saved.</p>\n<p>He’s above elite</p>\n<p> <a href=\"https://t.co/gUOLwODdWs\">pic.twitter.com/gUOLwODdWs</a></p>\n<p>&mdash; Joe Randazzo (Bronx Pinstripes crew) (@deflategator) <a href=\"https://twitter.com/deflategator/status/1225094053408186368?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<h2>Speed Kills Against Righties</h2>\n<ol>\n<li>Lux &#8211; 2B</li>\n<li>Betts &#8211; RF</li>\n<li>Bellinger &#8211; CF</li>\n<li>Muncy &#8211; 1B</li>\n<li>Seager &#8211; SS</li>\n<li>Turner &#8211; 3B</li>\n<li>Beaty &#8211; LF</li>\n<li>Smith &#8211; C</li>\n</ol>\n<p>This lineup puts 3 fast guys at the top of the lineup with a right-hander on the mound. I specified against a righty because I don&#8217;t see the Dodgers ever letting Lux bat high in the lineup until he proves he can hit lefties. Personally, I believe he will prove that he belongs in the top two of the lineup.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Cody Bellinger home run highlight reel ??? <a href=\"https://t.co/e7q6s1rFRY\">pic.twitter.com/e7q6s1rFRY</a></p>\n<p>&mdash; KOTD BASEBALL (@KOTDBaseball) <a href=\"https://twitter.com/KOTDBaseball/status/918637937117425665?ref_src=twsrc%5Etfw\">October 13, 2017</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<h2>Platoon Against Lefties</h2>\n<ol>\n<li>Betts &#8211; RF</li>\n<li>Muncy &#8211; 1B</li>\n<li>Turner &#8211; 3B</li>\n<li>Bellinger &#8211; 1B</li>\n<li>Pollock &#8211; LF</li>\n<li>Smith &#8211; C</li>\n<li>Seager &#8211; SS</li>\n<li>Kiké or CT3 &#8211; 2B</li>\n</ol>\n<p>I do hope they don&#8217;t platoon much but there are many times that they will want to get Hernandez into the lineup against a lefty. If <a href=\"https://www.baseball-reference.com/players/b/bumgama01.shtml?utm_campaign=Linker&amp;utm_source=direct&amp;utm_medium=linker-\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Madison Bumgarner</a> is pitching, then Kiké plays. Other potential moves include putting Bellinger at first base with Taylor in center field with Kiké at second base. Luis Rengifo can play all over and is a switch hitter.</p>\n<h2>Summary &#8211; Lots of Options</h2>\n<p>Not to pick on Joc Pederson, but I am glad he is not the leadoff hitter for the Dodgers anymore. I wanted him fifth or sixth in the order. With Mookie Betts, the Dodgers have a legitimate leadoff option and I believe Gavin Lux could also find himself at the top of the order later in the season. The lineup has more options to be more balanced. This starts to matter in the later innings as opponents can no longer use the lefty type specialists (<a href=\"https://www.dodgersnation.com/dodgers-joe-kelly-talks-health-concerns-with-new-3-batter-rule-in-mlb/2020/02/04/\">3 batter minimum</a>) to get just one batter unless it is the last batter of the inning. When the Dodgers would have 2-3 lefties in a row a team could bring in their lefty specialist to get them out. With a good mixture in the lineup the specialist is less likely to appear.</p>\n<p>The Dodgers, with Betts and full years from Lux and Smith, should have the best offense in the National League. The bigger hope is that they can improve in the playoffs. How many bad at-bats happened in the 2019 post-season for the Dodgers? Adding one elite hitter like Betts will give the rest of the lineup more opportunities and should make them better. If Lux can slash .280/.380/.500 then that will take the team way above and beyond.</p>\n<p>There is a lot to be excited about with the 2020 Dodgers&#8217; offense. This should be fun.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-world-series-odds-improve-drastically-after-mookie-betts-trade/2020/02/05/\">NEXT: Dodgers World Series Odds Improve Drastically After Mookie Betts Trade</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-potential-lineup-construction-after-mookie-betts-trade/2020/02/06/feed/"
+            ],
+            "slash:comments": ["8"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/10/GettyImages-1178880277.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1024",
+                  "height": "705"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tDivisional Series - Washington Nationals v Los Angeles Dodgers - Game One\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/10/GettyImages-1178880277-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Evans"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: SportsNet LA Will Broadcast 30 Spring Training Games"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-sportsnet-la-will-broadcast-30-spring-training-games/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-sportsnet-la-will-broadcast-30-spring-training-games/2020/02/06/#respond"
+            ],
+            "pubDate": ["Fri, 07 Feb 2020 00:02:10 +0000"],
+            "dc:creator": ["Brook Smith"],
+            "category": [
+              "News",
+              "camelback ranch",
+              "Dodgers",
+              "Spring Training"
+            ],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119477",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "A pain point for Dodgers fans everywhere has always been watching games. The exclusive deal the Dodgers signed with Spectrum makes watching games a bit difficult in the past, but it looks to be improving, at least ever so slightly. SportsNet LA will be broadcasting games every day of Spring Training in 2020-30 in total. [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-sportsnet-la-will-broadcast-30-spring-training-games/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>A pain point for Dodgers fans everywhere has always been watching games. The exclusive deal the Dodgers signed with Spectrum makes watching games a bit difficult in the past, but it looks to be improving, at least ever so slightly. SportsNet LA will be broadcasting games every day of Spring Training in 2020-30 in total.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\"><a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> say SportsNet LA will broadcast live exhibition games every day of spring training&#8211;30 in all.</p>\n<p>&mdash; Bill Shaikin (@BillShaikin) <a href=\"https://twitter.com/BillShaikin/status/1225561783454195712?ref_src=twsrc%5Etfw\">February 6, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>So if you do not have the opportunity to make it out to <a href=\"https://www.dodgersnation.com/dodgers-spring-training-tickets-at-camelback-ranch-go-on-sale-monday/2020/01/05/\">Camelback Ranch</a> this year, SportsNet LA has you covered. Fans will get the opportunity to see Dodgers prospects play for the first time and get a glimpse into the team&#8217;s future.</p>\n<p>Fans will also get a chance to check out the <a href=\"https://www.dodgersnation.com/dodgers-release-new-spring-training-2020-hat-designs/2020/02/04/\">team&#8217;s new spring hats</a>. After the debacle of the infamous &#8220;D&#8221; hats that the team has worn in the past, these obviously present a breath of fresh air.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf7fdeb\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>And if all goes according to plan, <a href=\"https://www.mlb.com/player/mookie-betts-605141\">Mookie Betts</a> will also be making his Dodgers&#8217; debut on one of these broadcasts. That is, of course, assuming the deal made on <a href=\"https://www.dodgersnation.com/dodgers-news-mookie-betts-trade-hits-a-snag-player-reactions-to-new-teammates-and-more/2020/02/06/\">Tuesday finally goes through</a>.</p>\n<h3><strong>Official Press Release</strong></h3>\n<p><em>The Los Angeles Dodgers today announced their Spring Training broadcast schedule with 30 games on SportsNet LA, 18 games on AM 570 and an additional eight games on Spanish radio.</em></p>\n<p><em>SportsNet LA will broadcast 27 of 30 Cactus League games in Arizona, excluding only the three split-squad road games. SportsNet LA also&nbsp;will televise all three of the “Freeway Series” exhibition games against the Angels from March 22 – 24, including two games at Dodger Stadium.</em></p>\n<p><em>SportsNet LA’s live Dodgers Spring Training studio programming will begin on Thursday, February 13 at 7:00 p.m. with the network’s flagship program, Access SportsNet: Dodgers, showcasing all the latest Dodgers news, highlights and exclusive interviews with Dodgers players, coaches and staff throughout spring training. Access SportsNet: Dodgers will again be hosted by John Hartung and Alanna Rizzo, with feature analysis from Orel Hershiser, Nomar Garciaparra, Jerry Hairston Jr. and Ned Colletti. Rizzo will be onsite in Arizona to provide daily analysis, special reports and exclusive interviews from Camelback Ranch.</em><em><strong>&nbsp;</strong></em></p>\n<p><em>AM 570 LA Sports’ Spring Training Dodgers programming once again will&nbsp;include&nbsp;Dodger Talk,&nbsp;hosted by David Vassegh each weeknight and will showcase all the latest Dodgers news, key highlights and exclusive interviews with Dodger players and coaches. Vassegh will be onsite in Glendale, Arizona providing daily analysis, special reports and exclusive interviews throughout Spring Training to other AM 570 LA Sports shows including Dodgers pre-game with Tim Cates,&nbsp;The Dan Patrick Show&nbsp;(6 a.m.-9 a.m.),&nbsp;The Herd with Colin Cowherd&nbsp;(9 a.m. – noon),&nbsp;Lunchtime with Roggin &amp; Rodney&nbsp;(noon-3 p.m.) and the&nbsp;Petros &amp; Money Show&nbsp;(3 p.m.-7 p.m.).</em></p>\n<p>So tune in to SportsNet LA all Spring long to catch your team in action!</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-announce-non-roster-invitees-for-spring-training-2020/2020/01/23/\">NEXT: Dodgers Announce Non-Roster Invitees for Spring Training 2020</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-sportsnet-la-will-broadcast-30-spring-training-games/2020/02/06/feed/"
+            ],
+            "slash:comments": ["0"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/02/GettyImages-926050126-e1581033633215.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1000",
+                  "height": "668"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tCleveland Indians v Los Angeles Dodgers\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/02/GettyImages-926050126-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: With Joc Pederson Salary Arbitration Looming, Angels Trade Also on Hold"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 21:08:36 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119475",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "[Editor’s note: This story has been updated] While the baseball world is on hold waiting for the announcement of the Boston/Los Angeles blockbuster swap bringing Mookie Betts and David Price to the Dodgers, another trade has seen its own holding pattern. Now it seems that there&#8217;s a snag in the other transaction Andrew Friedman is [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p><em>[<strong>Editor’s note</strong>: This story has been updated]</em></p>\n<p>While the baseball world is on hold waiting for the announcement of the Boston/Los Angeles blockbuster swap bringing Mookie Betts and David Price to the Dodgers, another trade has seen its own holding pattern.</p>\n<p>Now it seems that there&#8217;s a snag in the other transaction Andrew Friedman is working on with the Angels. In case you missed it, a trade between the Dodgers and Angels is in the works that would <a href=\"https://www.dodgersnation.com/dodgers-news-ross-stripling-reportedly-included-in-pederson-deal-to-angels/2020/02/05/\">include Ross Stripling</a> and <a href=\"https://www.dodgersnation.com/dodgers-joc-pederson-reportedly-traded-to-angels-in-separate-deal/2020/02/04/\">Joc Pederson heading to Orange County for prospects</a>.</p>\n<p>Now an added twist to the hold up could be Pederson&#8217;s pending arbitration hearing, at least in terms of the Dodgers/Angels deal. Ken Rosenthal added fuel to that fire.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Another factor in holdup of trade announcements, per sources: Joc Pederson’s arbitration hearing is today. Pederson is part of separate deal from <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> to <a href=\"https://twitter.com/hashtag/Angels?src=hash&amp;ref_src=twsrc%5Etfw\">#Angels</a>. He wanted $9.5M, LAD offered $7.75M. Decision likely would come within 24 hours of hearing’s conclusion (cont.).</p>\n<p>&mdash; Ken Rosenthal (@Ken_Rosenthal) <a href=\"https://twitter.com/Ken_Rosenthal/status/1225454969014423557?ref_src=twsrc%5Etfw\">February 6, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Rosenthal <a href=\"https://theathletic.com/1587470/2020/02/06/rosenthal-three-team-mookie-betts-trade-held-up-may-be-adjusted-over-medical-review/\">expanded on that thought</a>.</p>\n<blockquote><p>It’s unclear why Pederson’s hearing would cause a delay. Perhaps the Dodgers simply needed to get through it before trading him. Another possibility is that the Angels want to know his salary before finalizing terms with the Dodgers.</p></blockquote>\n<p>After the <a href=\"https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/\">Dodgers agreed to an extension with Max Muncy</a> earlier on Thursday, the stage is set for an awkward hearing between Pederson and LA representatives. Rumors of a third party unbiased lawyer to help smooth out the process between the two parties.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf8629b\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>Once a 2020 contract can be agreed upon, then perhaps the deal with the Angels can continue, even before the Betts/Price trade moves forward. Earlier reports had the <a href=\"https://twitter.com/Ken_Rosenthal/status/1224882016925241344\">Pederson deal contingent on the completion of the Betts trade</a>. On Thursday evening, USA Today scribe Bob Nightengale confirmed as much.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">The only hold-up in the Joc Pederson/Ross Stripling trade to the <a href=\"https://twitter.com/hashtag/Angels?src=hash&amp;ref_src=twsrc%5Etfw\">#Angels</a> for 3 prospects is the Mookie Betts/David Price trade. The <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> can&#39;t trade Pederson until they know they have Betts; which is held up by the <a href=\"https://twitter.com/hashtag/RedSox?src=hash&amp;ref_src=twsrc%5Etfw\">#RedSox</a>&#39;s concerns over pitcher Brusdar Graterol&#39;s medicals.</p>\n<p>&mdash; Bob Nightengale (@BNightengale) <a href=\"https://twitter.com/BNightengale/status/1225564341279260678?ref_src=twsrc%5Etfw\">February 6, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>The results of the Pederson case is expected to be resolved by Friday. The hold up, however, in the Betts deal seems to be getting a little weirder by the hour.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-walker-buehler-is-beyond-hyped-to-be-teammates-with-price-betts/2020/02/05/\">NEXT: Walker Buehler is Beyond Hyped to be Teammates With Price, Betts</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/feed/"
+            ],
+            "slash:comments": ["4"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2019/06/GettyImages-1152562638.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "3000",
+                  "height": "2000"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tJoc Pederson - MLB: JUN 20 Giants at Dodgers\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2019/06/GettyImages-1152562638-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers Play by Play Man Joe Davis Excited for the Mookie Betts Experience"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 20:00:51 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119453",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "While everyone was out celebrating the Dodgers reported acquisition of Mookie Betts in a trade with Boston, LA play by play man Joe Davis was excited to put in a small amount of off-season work in preparation for the new player. View this post on Instagram It’s really real. A post shared by Joe Davis [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>While everyone was out celebrating the Dodgers reported acquisition of Mookie Betts in a trade with Boston, LA play by play man Joe Davis was excited to put in a small amount of off-season work in preparation for the new player.</p>\n<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B8K76QLpGVu/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\">\n<div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/p/B8K76QLpGVu/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> </p>\n<div style=\" display: flex; flex-direction: row; align-items: center;\">\n<div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div>\n<div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\">\n<div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div>\n<div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div>\n</div>\n</div>\n<div style=\"padding: 19% 0;\"></div>\n<div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div>\n<div style=\"padding-top: 8px;\">\n<div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> View this post on Instagram</div>\n</div>\n<div style=\"padding: 12.5% 0;\"></div>\n<div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div>\n<div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div>\n<div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div>\n<div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div>\n</div>\n<div style=\"margin-left: 8px;\">\n<div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div>\n<div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div>\n</div>\n<div style=\"margin-left: auto;\">\n<div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div>\n<div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div>\n<div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div>\n</div>\n</div>\n<p></a> </p>\n<p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a href=\"https://www.instagram.com/p/B8K76QLpGVu/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">It’s really real.</a></p>\n<p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">A post shared by <a href=\"https://www.instagram.com/joedavispxp/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\" target=\"_blank\"> Joe Davis</a> (@joedavispxp) on <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2020-02-05T03:56:40+00:00\">Feb 4, 2020 at 7:56pm PST</time></p>\n</div>\n</blockquote>\n<p><script async src=\"//www.instagram.com/embed.js\"></script></p>\n<p>Yes, Joe Davis took the time to move his personal Mookie Betts player profile from the Boston tab in his Microsoft OneNote notebook to the Dodgers tab. Importantly, &#8220;B for Betts&#8221; slots right next to &#8220;B for Bellinger&#8221; as the former league MVPs get set to form one of the most formidable duos in baseball.</p>\n<p>Pleasing organizational skills aside, simple things like seeing the <a href=\"https://www.dodgersnation.com/dodgers-players-and-fans-react-to-mookie-betts-trade-on-social-media/2020/02/05/\">excitement of Betts&#8217; future teammates</a> as the news was breaking, or even menial admin work from Davis adds to the hype of an exciting time in Los Angeles.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf8ad01\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>It should be noted that the entirety of &#8220;The Booth Boys&#8221; has shared their enthusiasm for the new outfielder coming to Chavez Ravine in 2020. Dodgers stats man Rick Krajewski had this much to say:</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Mookie Betts and Cody Bellinger in the same outfield. Never been more excited for a baseball season <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> <a href=\"https://t.co/4SrSCATAgA\">https://t.co/4SrSCATAgA</a></p>\n<p>&mdash; Rick Krajewski (@Rick_K21) <a href=\"https://twitter.com/Rick_K21/status/1224879381367152640?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Moreover, <a href=\"https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/\"><em>the Bulldog</em> Orel Hershiser was complimentary of and eager to see David Price</a> &#8212; the other part of the trade with Boston &#8212; making many of his starts on the west coast in NL West ballparks.</p>\n<p>Exciting times are coming to Dodger Stadium this season! Get hyped!</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-walker-buehler-is-beyond-hyped-to-be-teammates-with-price-betts/2020/02/05/\">NEXT: Walker Buehler is Beyond Hyped to be Teammates With Price, Betts</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-play-by-play-man-joe-davis-excited-for-the-mookie-betts-experience/2020/02/06/feed/"
+            ],
+            "slash:comments": ["2"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/Joe-Davis-Orel-Hershiser-Rick-Krajewski.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "2048",
+                  "height": "1536"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tJoe Davis, Orel Hershiser, Rick Krajewski\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/Joe-Davis-Orel-Hershiser-Rick-Krajewski-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers: Orel Hershiser Excited to have David Price in Los Angeles"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 19:10:16 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119469",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "When The Bulldog speaks, you tend to want to listen. On Wednesday, Dodgers legend Orel Hershiser joined the SportsNet LA crew to share some thoughts on the reported blockbuster deal that&#8217;s importing Mookie Betts and David Price to Los Angeles from Boston. &#34;You&#39;d have to go back a decade to find a losing season for [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>When <em>The Bulldog</em> speaks, you tend to want to listen. On Wednesday, Dodgers legend Orel Hershiser joined the SportsNet LA crew to share some thoughts on the reported <a href=\"https://www.dodgersnation.com/dodgers-acquire-mookie-betts-david-price-from-boston-red-sox/2020/02/04/\">blockbuster deal that&#8217;s importing Mookie Betts and David Price</a> to Los Angeles from Boston.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">&quot;You&#39;d have to go back a decade to find a losing season for David Price. You move him to the NL West ballparks, it&#39;s going to be an upgrade.&quot; <a href=\"https://twitter.com/OrelHershiser?ref_src=twsrc%5Etfw\">@OrelHershiser</a> weighs in on the impact David Price could have with the <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> should a trade come to fruition. <a href=\"https://t.co/Yb3eNBDLtQ\">pic.twitter.com/Yb3eNBDLtQ</a></p>\n<p>&mdash; SportsNet LA (@SportsNetLA) <a href=\"https://twitter.com/SportsNetLA/status/1225186541191843840?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>In short, Bulldog thinks the Dodgers are adding a couple of good ones to the mix. He first focused in on Price.</p>\n<blockquote><p>You can&#8217;t just throw away David Price &#8230; to bring some depth back to the rotation after you lose [Hyun-Jin] Ryu and [Kenta] Maeda and Rich Hill. The youngsters coming up, it kind of protects them &#8212; and you know, the fact that David Price even only had 21-25 starts at a time over the last few years, that&#8217;s OK when you&#8217;re a Dodger because of the depth and the talent and the way they really protect people.</p></blockquote>\n<p>Of course, we&#8217;ve already had one <a href=\"https://www.dodgersnation.com/dodgers-mlb-analyst-likes-david-price-in-sunny-los-angeles/2020/02/05/\">MLB analyst loving the idea of Price pitching on the west coast</a> against the NL West, and Hershiser shared the same sentiment</p>\n<blockquote><p>You&#8217;d have to go back a decade to find a losing season for David Price. Yes his ERA has escalated, but his strikeouts to innings is still at a high. His ability to throw strikes is at a high, so he will be able to live in the strike zone more &#8230; so if you&#8217;re talking about a guy that strikes out more than a batter an inning already with people that know him in a tougher division, in a tougher ballpark, and you move him to the National League West with the big ballparks, it&#8217;s gonna be an upgrade.</p></blockquote>\n<p>The narrative of the NL West has always been that teams have struggled to score runs, especially with the large fields like Chase Field, Dodger Stadium, and whatever they&#8217;re calling that place in San Fransisco these days.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Small sample size…</p>\n<p>…but David Price lifetime at <a href=\"https://twitter.com/hashtag/Dodger?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodger</a> Stadium 19.2IP, 1.83ERA including the World Series clincher in 2018.</p>\n<p>&mdash; Steve Mason (@VeniceMase) <a href=\"https://twitter.com/VeniceMase/status/1225203279392473090?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>In his career against National League opponents, Price has a 15-12 record with a fine 3.42 ERA over 244.2 innings. Lifetime at NL West ballparks, his ERA sits at 3.86 in 46.2 innings pitched. Still, a full season could improve his overall numbers &#8212; even at 34-years-old &#8212; and that&#8217;s exactly what Bulldog expects to see.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-walker-buehler-is-beyond-hyped-to-be-teammates-with-price-betts/2020/02/05/\">NEXT: Walker Buehler is Beyond Hyped to be Teammates With Price, Betts</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-orel-hershiser-excited-to-have-david-price-in-los-angeles/2020/02/06/feed/"
+            ],
+            "slash:comments": ["3"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-855660132.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "2634",
+                  "height": "2186"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tv2 David Price, Mookie Betts Boston Red Sox\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-855660132-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers Radio Host Says Mookie Betts Trade is the Good News Los Angeles Needed"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 18:30:24 +0000"],
+            "dc:creator": ["Clint Evans"],
+            "category": ["News", "David Vassegh", "mookie betts"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119428",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Undeniably, the excitement in Los Angeles for Dodger baseball right now is at a fever pitch. In the wake of the Mookie Betts trade that also brought pitcher David Price aboard, the city can&#8217;t wait for baseball season to get underway. For a long time, David Vassegh has covered the Dodgers in the greatest city [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>Undeniably, <a href=\"https://www.dodgersnation.com/dodgers-players-and-fans-react-to-mookie-betts-trade-on-social-media/2020/02/05/\">the excitement in Los Angeles for Dodger baseball right now is at a fever pitch</a>. In the wake of the Mookie Betts trade that also brought pitcher David Price aboard, the city can&#8217;t wait for baseball season to get underway.</p>\n<p>For a long time, David Vassegh has covered the Dodgers in the greatest city in the world. Therefore, he can provide a pretty good gauge of the mood and temperature immediately following the trade.</p>\n<p>He joined MLB Network to talk about what the mood is like.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">&quot;This is the good news that Los Angeles has sorely needed.&quot; &#8211; <a href=\"https://twitter.com/THEREAL_DV?ref_src=twsrc%5Etfw\">@THEREAL_DV</a> on the reported trade for Mookie Betts and David Price. <a href=\"https://twitter.com/hashtag/MLBTonight?src=hash&amp;ref_src=twsrc%5Etfw\">#MLBTonight</a> <a href=\"https://t.co/zeuWDweCap\">pic.twitter.com/zeuWDweCap</a></p>\n<p>&mdash; MLB Network (@MLBNetwork) <a href=\"https://twitter.com/MLBNetwork/status/1224916213383532544?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Notably, Vassegh mentions that this was the big sports distraction of happiness the city can use. It&#8217;s when you read stuff like this that you realize, sports can provide an outlet during tough times.</p>\n<blockquote><p>&#8220;This is good news that Los Angeles has sorely needed since a week ago Sunday with the tragic helicopter accident that had Kobe Bryant and his daughter in it. But that is real life, this is sports. It&#8217;s a great distraction and Los Angeles is really excited that this really has come to fruition. Where Mookie Betts is coming to Los Angeles, and David Price. They&#8217;re so excited, I just got off the air doing &#8216;Dodger Talk&#8217; and Andre Ethier called into the show. That&#8217;s how excited everyone is.&#8221;</p></blockquote>\n<p>While no one is suggesting that the Dodgers made the move due to the tragic events of the Bryant crash, it really couldn&#8217;t have come at a better time. The city of Los Angeles loves the Dodgers, and baseball season is about to begin. To bring a superstar and exciting starting pitcher to an already star-studded roster definitely will have people waking up in the morning excited. It gives them something positive to think about when they start their day.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf91af6\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>Equally important, it brings an entirely new feel to baseball season beginning; which is just days away if you count pitchers and catchers reporting as that threshold.</p>\n<p>Props to the Dodgers, and everyone involved who made this possible. We are grateful!</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-mlb-analyst-likes-david-price-in-sunny-los-angeles/2020/02/05/\">NEXT: MLB Analyst Likes David Price in Sunny Los Angeles</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-radio-host-says-mookie-betts-trade-is-the-good-news-los-angeles-needed/2020/02/06/feed/"
+            ],
+            "slash:comments": ["3"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/Mookie-Betts-Swing-CPP.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1440",
+                  "height": "1016"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tMookie Betts Swing CPP\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/Mookie-Betts-Swing-CPP-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": ["Dodgers Sign Max Muncy To Three-Year Extension"],
+            "link": [
+              "https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 16:51:54 +0000"],
+            "dc:creator": ["Brook Smith"],
+            "category": ["News", "andrew friedman", "Dodgers", "Max Muncy"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119463",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Just a few days after the Dodgers&#8217; incredible Mooke Betts deal was reported, Los Angeles gets more good news. It is being reported this morning that the Dodgers have locked up Max Muncy for three more years. Infielder Max Muncy in agreement with #Dodgers on three-year, $26M extension, sources tell The Athletic. Deal also includes [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>Just a few days after the Dodgers&#8217; incredible Mooke Betts deal was reported, Los Angeles gets more good news. It is being reported this morning that the Dodgers have locked up Max Muncy for three more years.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Infielder Max Muncy in agreement with <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> on three-year, $26M extension, sources tell The Athletic. Deal also includes a $13.5M option for a fourth year or $1.5M buyout.</p>\n<p>&mdash; Ken Rosenthal (@Ken_Rosenthal) <a href=\"https://twitter.com/Ken_Rosenthal/status/1225459075686846464?ref_src=twsrc%5Etfw\">February 6, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>For a team that seemingly &#8220;doesn&#8217;t spend money&#8221;, the Dodgers and Andrew Friedman sure have gone wild this offseason. After a few under the radar signings of relievers and minor league talent, we have back-to-back big news.</p>\n<p><a href=\"https://www.baseball-reference.com/players/m/muncyma01.shtml\">Muncy&#8217;s extensio</a>n is worth $26 million after earning just&nbsp; $575,000 in 2019. If you remember, Muncy and the Dodgers were set to go to arbitration when the two sides could not agree on a number for the 2020 season. This contract settles that and then some.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cf9542d\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>Muncy was picked up as a low-risk option before the 2018 season and has exploded onto the scene since then. In two seasons with Los Angeles, he has slashed .256/.381/.545 and hit 70 home runs. He has also become quite the fan-favorite at Chavez Ravine, coming up in huge moments for the Dodgers and <a href=\"https://www.dodgersnation.com/dodgers-max-muncys-home-run-off-mad-bum-named-top-20-mlb-moment-of-2019/2019/12/29/\">embarrassing Madison Bumgarner</a> in the process.</p>\n<h3>Official Press Release</h3>\n<p style=\"font-weight: 400;\"><em>The Los Angeles Dodgers have agreed to terms with infielder Max Muncy on a three-year contract extension with a club option for 2023, avoiding arbitration.</em></p>\n<p style=\"font-weight: 400;\"><em>Muncy, 29, finished his second season with the Dodgers, hitting .251 (122-for-487) with 35 homers and 98 RBI in 142 games and earning his first All-Star Game appearance. Last season, the Texas native set career-highs in runs (101), doubles (22), homers, RBI and walks (90).</em></p>\n<p style=\"font-weight: 400;\"><em>In two seasons with the Dodgers, he has slashed .256/.381/.545 with 70 homers, 176 runs and 177 RBI. Since joining the Dodgers, he ranks among the National League leaders in runs (16<sup>th</sup>), RBI (T-15<sup>th</sup>), homers (6<sup>th</sup>), slugging percentage (7<sup>th</sup>) and OPS (5<sup>th</sup>, .927). He was originally signed with the Dodgers as a minor league free agent on April 27, 2017.</em></p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/\">NEXT: Betts, Price Trade Reportedly Held Up Over Medicals</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/breaking-news-dodgers-sign-max-muncy-to-three-year-extension/2020/02/06/feed/"
+            ],
+            "slash:comments": ["8"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-1169491674.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1024",
+                  "height": "802"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tToronto Blue Jays v Los Angeles Dodgers\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/02/GettyImages-1169491674-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Brook Smith"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers News: Mookie Betts Trade Hits a Snag, Player Reactions to new Teammates, and More!"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-news-mookie-betts-trade-hits-a-snag-player-reactions-to-new-teammates-and-more/2020/02/06/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-news-mookie-betts-trade-hits-a-snag-player-reactions-to-new-teammates-and-more/2020/02/06/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 14:00:54 +0000"],
+            "dc:creator": ["Staff Writer"],
+            "category": ["Editorials"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119439",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "Since late Tuesday, the baseball world has been frenzied with news of a blockbuster trade between the Dodgers, Red Sox, and Twins that would ultimately send Mookie Betts and David Price to Los Angeles. Dodgers Acquire Mookie Betts, David Price from Boston Red Sox However, more than 24 hours after the trade was reported, the [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-news-mookie-betts-trade-hits-a-snag-player-reactions-to-new-teammates-and-more/2020/02/06/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p>Since late Tuesday, the baseball world has been frenzied with news of a blockbuster trade between the Dodgers, Red Sox, and Twins that would ultimately send Mookie Betts and David Price to Los Angeles.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"jwNEJP6AVo\"><p><a href=\"https://www.dodgersnation.com/dodgers-acquire-mookie-betts-david-price-from-boston-red-sox/2020/02/04/\">Dodgers Acquire Mookie Betts, David Price from Boston Red Sox</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers Acquire Mookie Betts, David Price from Boston Red Sox&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-acquire-mookie-betts-david-price-from-boston-red-sox/2020/02/04/embed/#?secret=jwNEJP6AVo\" data-secret=\"jwNEJP6AVo\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>However, more than 24 hours after the trade was reported, the official news hadn&#8217;t come from MLB. Later it was learned that there was a hold up in the transaction after Boston reviewed the medicals of one player headed their way.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"xVAphJxW8y\"><p><a href=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/\">Dodgers News: Betts, Price Trade Reportedly Held Up Over Medicals</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers News: Betts, Price Trade Reportedly Held Up Over Medicals&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/embed/#?secret=xVAphJxW8y\" data-secret=\"xVAphJxW8y\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>Thankfully the deal is expected to get done in some iteration, and the reactions from players, fans, and analysts won&#8217;t be for naught.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"d6DY8wcIiF\"><p><a href=\"https://www.dodgersnation.com/dodgers-players-and-fans-react-to-mookie-betts-trade-on-social-media/2020/02/05/\">Dodgers: Players and Fans React to Mookie Betts Trade on Social Media</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: Players and Fans React to Mookie Betts Trade on Social Media&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-players-and-fans-react-to-mookie-betts-trade-on-social-media/2020/02/05/embed/#?secret=d6DY8wcIiF\" data-secret=\"d6DY8wcIiF\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"wXbS1MxrsB\"><p><a href=\"https://www.dodgersnation.com/dodgers-walker-buehler-is-beyond-hyped-to-be-teammates-with-price-betts/2020/02/05/\">Dodgers: Walker Buehler is Beyond Hyped to be Teammates With Price, Betts</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: Walker Buehler is Beyond Hyped to be Teammates With Price, Betts&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-walker-buehler-is-beyond-hyped-to-be-teammates-with-price-betts/2020/02/05/embed/#?secret=wXbS1MxrsB\" data-secret=\"wXbS1MxrsB\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"yNEkQpU4gj\"><p><a href=\"https://www.dodgersnation.com/dodgers-mlb-analyst-likes-david-price-in-sunny-los-angeles/2020/02/05/\">Dodgers: MLB Analyst Likes David Price in Sunny Los Angeles</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: MLB Analyst Likes David Price in Sunny Los Angeles&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-mlb-analyst-likes-david-price-in-sunny-los-angeles/2020/02/05/embed/#?secret=yNEkQpU4gj\" data-secret=\"yNEkQpU4gj\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"AXk1zRjSRQ\"><p><a href=\"https://www.dodgersnation.com/mookie-betts-and-david-price-to-la-pederson-maeda-out-blue-heaven-podcast/2020/02/05/\">Mookie Betts and David Price to LA; Pederson, Maeda Out | Blue Heaven Podcast</a></p></blockquote>\n<p><iframe title=\"&#8220;Mookie Betts and David Price to LA; Pederson, Maeda Out | Blue Heaven Podcast&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/mookie-betts-and-david-price-to-la-pederson-maeda-out-blue-heaven-podcast/2020/02/05/embed/#?secret=AXk1zRjSRQ\" data-secret=\"AXk1zRjSRQ\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>Neither will the updated World Series odds for the Dodgers.</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"DjqUMefiR0\"><p><a href=\"https://www.dodgersnation.com/dodgers-world-series-odds-improve-drastically-after-mookie-betts-trade/2020/02/05/\">Dodgers World Series Odds Improve Drastically After Mookie Betts Trade</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers World Series Odds Improve Drastically After Mookie Betts Trade&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-world-series-odds-improve-drastically-after-mookie-betts-trade/2020/02/05/embed/#?secret=DjqUMefiR0\" data-secret=\"DjqUMefiR0\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>Don&#8217;t forget to enter out giveaway for a Cody Bellinger jersey!</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"tJ0GBghIZm\"><p><a href=\"https://www.dodgersnation.com/cody-bellinger-dodgers-jersey-giveaway/2020/02/05/\">Cody Bellinger Dodgers Jersey Giveaway!</a></p></blockquote>\n<p><iframe title=\"&#8220;Cody Bellinger Dodgers Jersey Giveaway!&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/cody-bellinger-dodgers-jersey-giveaway/2020/02/05/embed/#?secret=tJ0GBghIZm\" data-secret=\"tJ0GBghIZm\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p>In other trade news&#8230;</p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"p06YCoqFLM\"><p><a href=\"https://www.dodgersnation.com/dodgers-kenta-maeda-traded-to-minnesota-to-help-acquire-mookie-betts/2020/02/04/\">Dodgers: Kenta Maeda Traded To Minnesota To Help Acquire Mookie Betts</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: Kenta Maeda Traded To Minnesota To Help Acquire Mookie Betts&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-kenta-maeda-traded-to-minnesota-to-help-acquire-mookie-betts/2020/02/04/embed/#?secret=p06YCoqFLM\" data-secret=\"p06YCoqFLM\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"zDZupSC1Xy\"><p><a href=\"https://www.dodgersnation.com/dodgers-joc-pederson-reportedly-traded-to-angels-in-separate-deal/2020/02/04/\">Dodgers: Joc Pederson Reportedly Traded To Angels in Separate Deal</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers: Joc Pederson Reportedly Traded To Angels in Separate Deal&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-joc-pederson-reportedly-traded-to-angels-in-separate-deal/2020/02/04/embed/#?secret=zDZupSC1Xy\" data-secret=\"zDZupSC1Xy\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"F6ajlQbBk2\"><p><a href=\"https://www.dodgersnation.com/dodgers-news-ross-stripling-reportedly-included-in-pederson-deal-to-angels/2020/02/05/\">Dodgers News: Ross Stripling Reportedly Included in Pederson Deal to Angels</a></p></blockquote>\n<p><iframe title=\"&#8220;Dodgers News: Ross Stripling Reportedly Included in Pederson Deal to Angels&#8221; &#8212; Dodgers Nation\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://www.dodgersnation.com/dodgers-news-ross-stripling-reportedly-included-in-pederson-deal-to-angels/2020/02/05/embed/#?secret=F6ajlQbBk2\" data-secret=\"F6ajlQbBk2\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-news-mookie-betts-trade-hits-a-snag-player-reactions-to-new-teammates-and-more/2020/02/06/feed/"
+            ],
+            "slash:comments": ["1"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2020/01/Mookie-Betts-CPP.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1200",
+                  "height": "800"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tMookie Betts CPP\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2020/01/Mookie-Betts-CPP-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Clint Pasillas"]
+              }
+            ]
+          },
+          {
+            "title": [
+              "Dodgers News: Betts, Price Trade Reportedly Held Up Over Medicals"
+            ],
+            "link": [
+              "https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/"
+            ],
+            "comments": [
+              "https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/#comments"
+            ],
+            "pubDate": ["Thu, 06 Feb 2020 06:59:24 +0000"],
+            "dc:creator": ["Clint Pasillas"],
+            "category": ["News"],
+            "guid": [
+              {
+                "_": "https://www.dodgersnation.com/?p=119434",
+                "$": { "isPermaLink": "false" }
+              }
+            ],
+            "description": [
+              "[Editor’s note: This story has been updated] It appears the three-trade between Boston, Los Angeles, and Minnesota hit a bit of snag on Wednesday. While the deal is still expected to be completed, rumors of an adjusted package have been reported. The below tweet is the trade in question. Kenta Maeda will go to Twins [&#8230;] <a class=\"g1-link g1-link-more\" href=\"https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/\">More</a>"
+            ],
+            "content:encoded": [
+              "<p><em>[<strong>Editor’s note</strong>: This story has been updated]</em></p>\n<p>It appears the three-trade between Boston, Los Angeles, and Minnesota hit a bit of snag on Wednesday. While the deal is still expected to be completed, rumors of an adjusted package have been reported. The below tweet is the trade in question.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Kenta Maeda will go to Twins in the three-way trade, while Brusdar Graterol will go to Red Sox in the three-way deal, per source. <a href=\"https://twitter.com/Ken_Rosenthal?ref_src=twsrc%5Etfw\">@Ken_Rosenthal</a> 1st</p>\n<p>&mdash; Mark Feinsand (@Feinsand) <a href=\"https://twitter.com/Feinsand/status/1224886718643474433?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Wednesday evening, <a href=\"https://theathletic.com/1587470/2020/02/06/rosenthal-three-team-mookie-betts-trade-held-up-may-be-adjusted-over-medical-review/\">Ken Rosenthal and The Athletic reported</a> that the Red Sox hit the pause button on completing the trade after reviewing the medical records of Twins prospect Brusdar Graterol. Rosenthal had this to say:</p>\n<blockquote><p>The Red Sox projected [Graterol] more as a reliever than as a starter, according to sources involved with the discussions. As a result of that valuation, the Sox might ask for an additional player and/or money to bridge the gap, though it is unclear whether the player would come from the Twins or Dodgers, sources said.</p></blockquote>\n<p>Graterol would have been moving from the Twins to Boston as Kenta Maeda would head from Los Angeles to Minnesota.</p>\n<div class=\"adace-slot-wrapper adace-shortcode-119376 adace-align-center\" style=\"text-align:center;\">\n\t<div class=\"adace-disclaimer\">\n\t\t</div>\n\t<div class=\"adace-slot\"><div class=\"adace_ad_5e3ec9cfa4da9\"><a class=\"e-widget no-button generic-loader\" href=\"https://gleam.io/OYxzW/cody-bellinger-dodgers-jersey-giveaway\" rel=\"nofollow\">Cody Bellinger Dodgers Jersey Giveaway</a>\r\n<script type=\"text/javascript\" src=\"https://widget.gleamjs.io/e.js\" async=\"true\"></script>\t\t</div>\n\t\t</div>\n</div>\n\n<p>As this trade is held up, so too is the Joc Pederson/Ross Stripling trade to Anaheim. On Tuesday Rosenthal reported that a Pederson deal is contingent on the Dodgers acquiring Mookie Betts. Officially.</p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Joc Pederson would go from <a href=\"https://twitter.com/hashtag/Dodgers?src=hash&amp;ref_src=twsrc%5Etfw\">#Dodgers</a> to <a href=\"https://twitter.com/hashtag/Angels?src=hash&amp;ref_src=twsrc%5Etfw\">#Angels</a> if blockbuster is completed, source tells The Athletic.</p>\n<p>&mdash; Ken Rosenthal (@Ken_Rosenthal) <a href=\"https://twitter.com/Ken_Rosenthal/status/1224882016925241344?ref_src=twsrc%5Etfw\">February 5, 2020</a></p></blockquote>\n<p><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\n<p>Once whispers of the snag started to emerge on Wednesday, questions about the health of Alex Verdugo and/or David Price soon followed. Price, of course, missed most of the second half of 2019 after undergoing a surgical procedure to remove a cyst in his left wrist (throwing side). And Verdugo&#8217;s season ended in August after lingering back and lower body issues shut him down.</p>\n<p>However, reports are that both are healthy and have been cleared medically for this transaction.</p>\n<p>So as it stands, this appears to be more of a hiccup over a full-blown stop to the deal. A new iteration of the trade may not change too many moving parts, but more so where they&#8217;re headed.</p>\n<p>Speculation has seen Maeda heading straight to Boston along with one more mid-level prospect from LA. Rosenthal also mentioned above that Minnesota may still be involved and send a different prospect to Boston.</p>\n<p>When you have this many bodies <em>and</em> cash moving around, there is an added level of caution for all sides.</p>\n<h3>UPDATE</h3>\n<p>An added twist to the hold up could be Joc Pederson&#8217;s arbitration hearing, at least in terms of the Dodgers/Angels deal. <a href=\"https://www.dodgersnation.com/dodgers-with-joc-pederson-salary-arbitration-looming-angels-trade-also-on-hold/2020/02/06/\">More on this here</a>.</p>\n<p>Dodgers Nation will continue to monitor the situation.</p>\n<p style=\"text-align: center;\"><a class=\"fasc-button fasc-size-xlarge fasc-type-flat fasc-rounded-medium fasc-style-bold\" style=\"background-color: #ff0000; color: #ffffff;\" href=\"https://www.dodgersnation.com/dodgers-walker-buehler-is-beyond-hyped-to-be-teammates-with-price-betts/2020/02/05/\">NEXT: Walker Buehler is Beyond Hyped to be Teammates With Price, Betts</a></p>\n"
+            ],
+            "wfw:commentRss": [
+              "https://www.dodgersnation.com/dodgers-news-betts-price-trade-reportedly-held-up-over-medicals/2020/02/05/feed/"
+            ],
+            "slash:comments": ["3"],
+            "media:content": [
+              {
+                "$": {
+                  "url": "https://www.dodgersnation.com/wp-content/uploads/2018/10/USATSI_11509961-e1540479276210.jpg",
+                  "type": "image/jpeg",
+                  "medium": "image",
+                  "width": "1000",
+                  "height": "667"
+                },
+                "media:title": [
+                  {
+                    "_": "\n\t\t\t\t\tMookie Betts, Kenta Maeda -MLB: World Series-Los Angeles Dodgers at Boston Red Sox\n\t\t\t\t",
+                    "$": { "type": "plain" }
+                  }
+                ],
+                "media:thumbnail": [
+                  {
+                    "$": {
+                      "url": "https://www.dodgersnation.com/wp-content/uploads/2018/10/USATSI_11509961-150x150.jpg",
+                      "width": "150",
+                      "height": "150"
+                    }
+                  }
+                ],
+                "media:copyright": ["Brook Smith"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
