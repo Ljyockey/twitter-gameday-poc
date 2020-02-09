@@ -43,7 +43,7 @@ const getData = async () => {
 const getGamePk = ({games=[]}) => {
   const liveAndComplete = games
     .filter(g => g.status.statusCode === 'I' || g.status.statusCode === 'F')
-    .sort((a, b) => a.status.statusCode !== 'S' && b.status.statusCode !== 'I' ? -1 : 0);
+    .sort((_a, b) => b.status.statusCode !== 'I' ? -1 : 0);
   return liveAndComplete.length ? liveAndComplete[0].gamePk : null;
 }
 
@@ -53,8 +53,11 @@ const convertPlayDataToTweets = async data => {
   
   if (!play || (play.about.hasOut && !lineScore.outs)) return;
 
+  const {away, home} = data.gameData.teams;
+
   const description = getDescription(play, lineScore, data.gameData.teams);
   const inningStatsText = getInningStatsText(lineScore);
+  const hashtags = getHashtags(away.id, home.id);
   const isLive = data.gameData.status.statusCode === 'I';
   const isComplete = data.gameData.status.statusCode === 'F';
 
@@ -62,23 +65,21 @@ const convertPlayDataToTweets = async data => {
   
   if (description && isLive) {
     const tweetStatus = description + inningStatsText;
-    await postTweet(tweetStatus);
+    await postTweet(tweetStatus + hashtags);
   }
 
   const awayTeamRuns = lineScore.teams.away.runs;
   const homeTeamRuns = lineScore.teams.home.runs;
 
   if (lineScore.outs === 3 && isLive) {
-    const {away, home} = data.gameData.teams;
     const inning = inningStatsText.split('.')[0];
     const tweetStatus = `Score Update:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}\n${inning}`;
-    await postTweet(tweetStatus);
+    await postTweet(tweetStatus + hashtags);
   }
 
   if (isComplete && !hasPostedFinal && postedTweets.length > 1) {
-    const {away, home} = data.gameData.teams;
     const tweetStatus = `FINAL SCORE:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}`;
-    await postTweet(tweetStatus);
+    await postTweet(tweetStatus + hashtags);
     hasPostedFinal = true;
     postedTweets.length = 0;
   }
@@ -94,6 +95,14 @@ const postArticles = async ({rss: {channel: [c]}}) => {
 
   latestArticleTimeStamp = pubDate;
   await postTweet(title + '\n' + link);
+}
+
+const getHashtags = (awayId, homeId) => {
+  const teamUrl = 'http://statsapi.mlb.com/api/v1/teams/';
+  const {teams: [awayData]} = await req(teamUrl + awayId);
+  const {teams: [homeData]} = await req(teamUrl + homeId);
+
+  return `\n#${awayData.abbreviation}vs${homeData.abbreviation}`;
 }
 
 const getDescription = (play, lineScore, teams) => {
@@ -141,4 +150,3 @@ const getInningStatsText = lineScore => {
   const outsString = outs === 1 ? 'out' : 'outs';
   return `\n${inningState} of the ${currentInningOrdinal}. ${outs} ${outsString}`;
 }
-
