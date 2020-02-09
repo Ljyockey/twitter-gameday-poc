@@ -28,7 +28,7 @@ const getTodaysGame = async () => {
   console.log('todaysGameUrl', todaysGameUrl)
 
   return req(todaysGameUrl).then(({dates}) => {
-    gamePk = getGamePk(dates[0]);
+    gamePk = getGamePk(dates[0] || {});
   });
 }
 
