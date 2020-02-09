@@ -4,8 +4,8 @@ const {Parser} = require('xml2js');
 
 let gamePk=null, hasPostedFinal=false, latestArticleTimeStamp;
 const postedTweets = [];
-const testTeamId = process.env.TEAM_ID || 671; // Leones del Escogido
-const sport = process.env.SPORT || 17; // winter leagues. MLB = 1
+const testTeamId = process.env.TEAM_ID || 5308; // Away Team - Test
+const sport = process.env.SPORT || 22; // college baseball. MLB = 1
 
 const oauth = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY || '',
@@ -28,7 +28,7 @@ const getTodaysGame = async () => {
   console.log('todaysGameUrl', todaysGameUrl)
 
   return req(todaysGameUrl).then(({dates}) => {
-    gamePk = dates.length ? dates[0].games[0].gamePk : null;
+    gamePk = getGamePk(dates[0]);
   });
 }
 
@@ -39,6 +39,13 @@ const getData = async () => {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
     return req(liveFeedUrl).then(convertPlayDataToTweets);
   }
+}
+
+const getGamePk = ({games=[]}) => {
+  const liveAndComplete = games
+    .filter(g => g.status.statusCode === 'I' || g.status.statusCode === 'F')
+    .sort((a, b) => a.status.statusCode !== 'S' && b.status.statusCode !== 'I' ? -1 : 0);
+  return liveAndComplete.length ? liveAndComplete[0].gamePk : null;
 }
 
 const convertPlayDataToTweets = async data => {
