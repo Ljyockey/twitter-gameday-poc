@@ -34,7 +34,6 @@ const getTodaysGame = async () => {
 
 const getData = async () => {
   await getRSSJson('https://www.dodgersnation.com/feed', postArticles);
-  console.log('gamePk', gamePk);
   if (gamePk) {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
     return req(liveFeedUrl).then(convertPlayDataToTweets);
@@ -49,9 +48,8 @@ const getGamePk = ({games=[]}) => {
 }
 
 const convertPlayDataToTweets = async data => {
-  const play = data.liveData.plays.allPlays.reverse().find(a => !!a.result.description);
-  const lineScoreUrl = `https://statsapi.mlb.com/api/v1/game/${gamePk}/linescore`;
-  const lineScore = await req(lineScoreUrl);
+  const {lineScore, plays} = data.liveData;
+  const play = plays.allPlays.reverse().find(a => !!a.result.description);
   
   if (!play || (play.about.hasOut && !lineScore.outs)) return;
 
@@ -67,23 +65,27 @@ const convertPlayDataToTweets = async data => {
     await postTweet(tweetStatus);
   }
 
+  const awayTeamRuns = lineScore.teams.away.runs;
+  const homeTeamRuns = lineScore.teams.home.runs;
+
   if (lineScore.outs === 3 && isLive) {
     const {away, home} = data.gameData.teams;
     const inning = inningStatsText.split('.')[0];
-    const tweetStatus = `Score Update:\n\n${away.teamName}: ${lineScore.teams.away.runs}\n${home.teamName}: ${lineScore.teams.home.runs}\n${inning}`;
+    const tweetStatus = `Score Update:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}\n${inning}`;
     await postTweet(tweetStatus);
   }
 
   if (isComplete && !hasPostedFinal && postedTweets.length > 1) {
     const {away, home} = data.gameData.teams;
-    const tweetStatus = `FINAL SCORE:\n\n${away.teamName}: ${lineScore.teams.away.runs}\n${home.teamName}: ${lineScore.teams.home.runs}`;
+    const tweetStatus = `FINAL SCORE:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}`;
     await postTweet(tweetStatus);
     hasPostedFinal = true;
     postedTweets.length = 0;
   }
 }
 
-const getRSSJson = async (url, callback) => request(url).then(feed => parser.parseStringPromise(feed).then(callback).catch(e => console.error('error parsing XML', e)));
+const getRSSJson = async (url, callback) => 
+  request(url).then(feed => parser.parseStringPromise(feed).then(callback).catch(e => console.error('error parsing XML', e)));
 
 const postArticles = async ({rss: {channel: [c]}}) => {
   const {item: [{link: [link], pubDate: [pubDate], title: [title]}]} = c;
@@ -98,13 +100,15 @@ const getDescription = (play, lineScore, teams) => {
   const { result: {description}, about: {halfInning, isScoringPlay} } = play;
   if (!isScoringPlay) return description;
 
+  const awayTeamRuns = lineScore.teams.away.runs;
+  const homeTeamRuns = lineScore.teams.home.runs;
   const scoringTeam = halfInning === 'top' ? teams.away : teams.home;
   const myTeamScored = scoringTeam.id.toString() === testTeamId.toString();
   const scoreText = myTeamScored 
     ? `${scoringTeam.teamName.toUpperCase()} SCORE!`
     : `${scoringTeam.teamName} score.`;
 
-  return `${scoreText}\n\n${teams.away.teamName}: ${lineScore.teams.away.runs}\n${teams.home.teamName}: ${lineScore.teams.home.runs}\n`;
+  return `${scoreText}\n\n${teams.away.teamName}: ${awayTeamRuns}\n${teams.home.teamName}: ${homeTeamRuns}\n`;
 }
 
 // encodes all characters encoded with encodeURIComponent, plus: ! ~ * ' ( )
@@ -119,7 +123,6 @@ const fullyEncodeURI = value => encodeURIComponent(value)
 const postTweet = async status => {
   if (postedTweets.includes(status)) return;
 
-  console.log('=====================status=====================', status);
   console.log('=====================ENCODED status=====================', fullyEncodeURI(status));
   const url = 'https://api.twitter.com/1.1/statuses/update.json?status=' + fullyEncodeURI(status);
 
@@ -128,7 +131,7 @@ const postTweet = async status => {
     method: 'POST',
     json: true,
     oauth
-  }).then(() => postedTweets.push(status)).catch(e => console.log('error with tweet', e.message));
+  }).then(() => postedTweets.push(status)).catch(e => console.error('error with tweet', e.message));
 }
 
 const getInningStatsText = lineScore => {
