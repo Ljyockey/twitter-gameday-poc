@@ -57,7 +57,7 @@ const convertPlayDataToTweets = async data => {
 
   const description = getDescription(play, lineScore, data.gameData.teams);
   const inningStatsText = getInningStatsText(lineScore);
-  const hashtags = getHashtags(away.id, home.id);
+  const hashtags = await getHashtags(away.id, home.id);
   const isLive = data.gameData.status.statusCode === 'I';
   const isComplete = data.gameData.status.statusCode === 'F';
 
@@ -97,7 +97,7 @@ const postArticles = async ({rss: {channel: [c]}}) => {
   await postTweet(title + '\n' + link);
 }
 
-const getHashtags = (awayId, homeId) => {
+const getHashtags = async (awayId, homeId) => {
   const teamUrl = 'http://statsapi.mlb.com/api/v1/teams/';
   const {teams: [awayData]} = await req(teamUrl + awayId);
   const {teams: [homeData]} = await req(teamUrl + homeId);
