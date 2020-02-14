@@ -48,15 +48,15 @@ const getGamePk = ({games=[]}) => {
 }
 
 const convertPlayDataToTweets = async data => {
-  const {lineScore, plays} = data.liveData;
+  const {linescore, plays} = data.liveData;
   const play = plays.allPlays.reverse().find(a => !!a.result.description);
   
-  if (!play || (play.about.hasOut && !lineScore.outs)) return;
+  if (!play || (play.about.hasOut && !linescore.outs)) return;
 
   const {away, home} = data.gameData.teams;
 
-  const description = getDescription(play, lineScore, data.gameData.teams);
-  const inningStatsText = getInningStatsText(lineScore);
+  const description = getDescription(play, linescore, data.gameData.teams);
+  const inningStatsText = getInningStatsText(linescore);
   const hashtags = await getHashtags(away.id, home.id);
   const isLive = data.gameData.status.statusCode === 'I';
   const isComplete = data.gameData.status.statusCode === 'F';
@@ -68,10 +68,10 @@ const convertPlayDataToTweets = async data => {
     await postTweet(tweetStatus + hashtags);
   }
 
-  const awayTeamRuns = lineScore.teams.away.runs;
-  const homeTeamRuns = lineScore.teams.home.runs;
+  const awayTeamRuns = linescore.teams.away.runs;
+  const homeTeamRuns = linescore.teams.home.runs;
 
-  if (lineScore.outs === 3 && isLive) {
+  if (linescore.outs === 3 && isLive) {
     const inning = inningStatsText.split('.')[0];
     const tweetStatus = `Score Update:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}\n${inning}`;
     await postTweet(tweetStatus + hashtags);
@@ -105,12 +105,12 @@ const getHashtags = async (awayId, homeId) => {
   return `\n#${awayData.abbreviation}vs${homeData.abbreviation}`;
 }
 
-const getDescription = (play, lineScore, teams) => {
+const getDescription = (play, linescore, teams) => {
   const { result: {description}, about: {halfInning, isScoringPlay} } = play;
   if (!isScoringPlay) return description;
 
-  const awayTeamRuns = lineScore.teams.away.runs;
-  const homeTeamRuns = lineScore.teams.home.runs;
+  const awayTeamRuns = linescore.teams.away.runs;
+  const homeTeamRuns = linescore.teams.home.runs;
   const scoringTeam = halfInning === 'top' ? teams.away : teams.home;
   const myTeamScored = scoringTeam.id.toString() === testTeamId.toString();
   const scoreText = myTeamScored 
@@ -143,8 +143,8 @@ const postTweet = async status => {
   }).then(() => postedTweets.push(status)).catch(e => console.error('error with tweet', e.message));
 }
 
-const getInningStatsText = lineScore => {
-  const { currentInning, currentInningOrdinal, inningState, outs=0 } = lineScore;
+const getInningStatsText = linescore => {
+  const { currentInning, currentInningOrdinal, inningState, outs=0 } = linescore;
   if (!currentInning) return '';
 
   const outsString = outs === 1 ? 'out' : 'outs';
