@@ -4,8 +4,8 @@ const {Parser} = require('xml2js');
 
 let gamePk=null, hasPostedFinal=false, latestArticleTimeStamp;
 const postedTweets = [];
-const testTeamId = process.env.TEAM_ID || 5308; // Away Team - Test
-const sport = process.env.SPORT || 22; // college baseball. MLB = 1
+const testTeamId = process.env.TEAM_ID || 119; // Dodgers
+const sport = process.env.SPORT || 1; // MLB
 
 const oauth = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY || '',
@@ -91,6 +91,9 @@ const getRSSJson = async (url, callback) =>
 const postArticles = async ({rss: {channel: [c]}}) => {
   const {item: [{link: [link], pubDate: [pubDate], title: [title]}]} = c;
   const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(pubDate);
+  // TODO: switch to this if I can verify first invocation of function
+  // if (isFirstInvocation) latestArticleTimeStamp = pubDate;
+  // const newArticle = moment(latestArticleTimeStamp).isBefore(pubDate);
   if (!newArticle) return;
 
   latestArticleTimeStamp = pubDate;
