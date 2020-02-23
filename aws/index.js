@@ -42,8 +42,8 @@ const getData = async () => {
 
 const getGamePk = ({games=[]}) => {
   const liveAndComplete = games
-    .filter(g => g.status.statusCode === 'I' || g.status.statusCode === 'F')
-    .sort((_a, b) => b.status.statusCode !== 'I' ? -1 : 0);
+    .filter(g => g.status.abstractGameCode === 'L' || g.status.abstractGameCode === 'F')
+    .sort((_a, b) => b.status.abstractGameCode !== 'L' ? -1 : 0);
   return liveAndComplete.length ? liveAndComplete[0].gamePk : null;
 }
 
@@ -58,8 +58,8 @@ const convertPlayDataToTweets = async data => {
   const description = getDescription(play, linescore, data.gameData.teams);
   const inningStatsText = getInningStatsText(linescore);
   const hashtags = await getHashtags(away.id, home.id);
-  const isLive = data.gameData.status.statusCode === 'I';
-  const isComplete = data.gameData.status.statusCode === 'F';
+  const isLive = data.gameData.status.abstractGameCode === 'L';
+  const isComplete = data.gameData.status.abstractGameCode === 'F';
 
   if (!isComplete) hasPostedFinal = false;
   
@@ -90,10 +90,8 @@ const getRSSJson = async (url, callback) =>
 
 const postArticles = async ({rss: {channel: [c]}}) => {
   const {item: [{link: [link], pubDate: [pubDate], title: [title]}]} = c;
-  const newArticle = !latestArticleTimeStamp || moment(latestArticleTimeStamp).isBefore(pubDate);
-  // TODO: switch to this if I can verify first invocation of function
-  // if (isFirstInvocation) latestArticleTimeStamp = pubDate;
-  // const newArticle = moment(latestArticleTimeStamp).isBefore(pubDate);
+  if (!latestArticleTimeStamp) latestArticleTimeStamp = pubDate;
+  const newArticle = moment(latestArticleTimeStamp).isBefore(pubDate);
   if (!newArticle) return;
 
   latestArticleTimeStamp = pubDate;
