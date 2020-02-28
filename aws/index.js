@@ -1,6 +1,7 @@
 const moment = require('moment-timezone');
 const request = require('request-promise-native');
 const {Parser} = require('xml2js');
+const staticPromos = require('./static-promos.json');
 
 let gamePk=null, hasPostedFinal=false, latestArticleTimeStamp;
 const postedTweets = [];
@@ -13,6 +14,9 @@ const oauth = {
   token: process.env.TWITTER_ACCESS_TOKEN_KEY || '',
   token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET || ''
 }
+
+const inningCodes = ['t1', 'b1', 't2', 'b2', 't3', 'b3', 't4', 'b4', 't5', 'b5', 't6', 'b6', 't7', 'b7', 't8', 'b8'];
+const customPromos = [];
 
 const parser = new Parser();
 
@@ -33,7 +37,7 @@ const getTodaysGame = async () => {
 }
 
 const getData = async () => {
-  await getRSSJson('https://www.dodgersnation.com/feed', postArticles);
+  // await getRSSJson('https://www.dodgersnation.com/feed', postArticles);
   if (gamePk) {
     const liveFeedUrl = `https://statsapi.mlb.com/api/v1.1/game/${gamePk}/feed/live`;
     return req(liveFeedUrl).then(convertPlayDataToTweets);
@@ -60,6 +64,7 @@ const convertPlayDataToTweets = async data => {
   const hashtags = await getHashtags(away.id, home.id);
   const isLive = data.gameData.status.abstractGameCode === 'L';
   const isComplete = data.gameData.status.abstractGameCode === 'F';
+  const isBetweenInnings = linescore.outs === 3 && isLive;
 
   if (!isComplete) hasPostedFinal = false;
   
@@ -71,10 +76,13 @@ const convertPlayDataToTweets = async data => {
   const awayTeamRuns = linescore.teams.away.runs;
   const homeTeamRuns = linescore.teams.home.runs;
 
-  if (linescore.outs === 3 && isLive) {
+  if (isBetweenInnings) {
     const inning = inningStatsText.split('.')[0];
     const tweetStatus = `Score Update:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}\n${inning}`;
     await postTweet(tweetStatus + hashtags);
+
+    const dateTimeData = {startTime: data.gameData.datetime.dateTime, tz: data.gameData.venue.timeZone.id};
+    await postCustomPromo(linescore, dateTimeData);
   }
 
   if (isComplete && !hasPostedFinal && postedTweets.length > 1) {
@@ -82,7 +90,61 @@ const convertPlayDataToTweets = async data => {
     await postTweet(tweetStatus + hashtags);
     hasPostedFinal = true;
     postedTweets.length = 0;
+    customPromos.length = 0;
   }
+}
+
+const setupCustomPromos = async dateTimeData => {
+  getRSSJson('https://www.dodgersnation.com/feed', async ({rss: {channel: [c]}}) => {
+    const {startTime, tz} = dateTimeData;
+    const sMoment = moment(startTime).tz(tz);
+    const icymi = 'In Case You Missed It - ';
+
+    const feedData = c.item
+      .filter(({pubDate: [d]}) => {
+        const dMoment = moment(d).tz(tz);
+        return dMoment.isSame(sMoment, 'day') && dMoment.isBefore(sMoment);
+      }).map(i => ({copy: icymi + i.title[0], link: i.link[0]}));
+
+    const promos = feedData
+      .concat(staticPromos)
+      .slice(0, 16);
+
+      console.log('promos', JSON.stringify(promos))
+
+    customPromos.unshift(...promos);
+  })
+}
+
+const postCustomPromo = async (linescore, dateTimeData) => {
+  if (customPromos.length === 0) {
+    await setupCustomPromos(dateTimeData);
+  }
+
+  let inningCode = '';
+  switch (linescore.inningState) {
+    case 'Bottom':
+    case 'End':
+      inningCode = 'b';
+      break;
+    case 'Top':
+    case 'Middle':
+      inningCode = 't';
+      break;
+  }
+
+  if (inningCode) {
+    inningCode += linescore.currentInning;
+    const promoIndex = inningCodes.indexOf(inningCode);
+    if (promoIndex >= 0) {
+      const promo = customPromos[promoIndex];
+      if (!promo) return;
+      const tweet = promo.copy + '\n' + promo.link;
+
+      await postTweet(tweet);
+    }
+  }
+
 }
 
 const getRSSJson = async (url, callback) => 
