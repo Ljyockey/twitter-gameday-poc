@@ -99,7 +99,7 @@ const setupCustomPromos = async dateTimeData => {
   await getRSSJson('https://www.dodgersnation.com/feed', async ({rss: {channel: [c]}}) => {
     const {startTime, tz} = dateTimeData;
     const sMoment = moment(startTime).tz(tz);
-    const icymi = 'In Case You Missed It - ';
+    const icymi = 'ICYMI: ';
 
     const feedData = c.item
       .filter(({pubDate: [d]}) => {
