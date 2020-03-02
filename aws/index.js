@@ -2,6 +2,7 @@ const moment = require('moment-timezone');
 const request = require('request-promise-native');
 const {Parser} = require('xml2js');
 const staticPromos = require('./static-promos.json');
+const failoverPromos = require('./failover-promos.json');
 
 let gamePk=null, hasPostedFinal=false, latestArticleTimeStamp;
 const postedTweets = [];
@@ -69,25 +70,25 @@ const convertPlayDataToTweets = async data => {
   if (!isComplete) hasPostedFinal = false;
   
   if (description && isLive) {
-    const tweetStatus = description + inningStatsText;
-    await postTweet(tweetStatus + hashtags);
+    const tweetStatus = description + '\n\n' + inningStatsText + '\n\n' + hashtags;
+    await postTweet(tweetStatus);
   }
 
   const awayTeamRuns = linescore.teams.away.runs;
   const homeTeamRuns = linescore.teams.home.runs;
 
   if (isBetweenInnings) {
-    const inning = inningStatsText.split('.')[0];
-    const tweetStatus = `Score Update:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}\n${inning}`;
-    await postTweet(tweetStatus + hashtags);
-
+    const inning = inningStatsText.split(' | ')[0];
+    const tweetStatus = `${hashtags} ${inning} Score Update:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}\n`;
     const dateTimeData = {startTime: data.gameData.datetime.dateTime, tz: data.gameData.venue.timeZone.id};
-    await postCustomPromo(linescore, dateTimeData);
+    const promo = await getCustomPromo(linescore, dateTimeData);
+
+    await postTweet(tweetStatus + promo);
   }
 
   if (isComplete && !hasPostedFinal && postedTweets.length > 1) {
-    const tweetStatus = `FINAL SCORE:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}`;
-    await postTweet(tweetStatus + hashtags);
+    const tweetStatus = `${hashtags} Final Score:\n\n${away.teamName}: ${awayTeamRuns}\n${home.teamName}: ${homeTeamRuns}`;
+    await postTweet(tweetStatus);
     hasPostedFinal = true;
     postedTweets.length = 0;
     customPromos.length = 0;
@@ -95,7 +96,7 @@ const convertPlayDataToTweets = async data => {
 }
 
 const setupCustomPromos = async dateTimeData => {
-  getRSSJson('https://www.dodgersnation.com/feed', async ({rss: {channel: [c]}}) => {
+  await getRSSJson('https://www.dodgersnation.com/feed', async ({rss: {channel: [c]}}) => {
     const {startTime, tz} = dateTimeData;
     const sMoment = moment(startTime).tz(tz);
     const icymi = 'In Case You Missed It - ';
@@ -107,19 +108,18 @@ const setupCustomPromos = async dateTimeData => {
       }).map(i => ({copy: icymi + i.title[0], link: i.link[0]}));
 
     const promos = feedData
-      .concat(staticPromos)
-      .slice(0, 16);
+      .concat(failoverPromos)
+      .slice(0, 8);
 
-      console.log('promos', JSON.stringify(promos))
-
-    customPromos.unshift(...promos);
+    for (let i=0; i<8; i++) customPromos.push(staticPromos[i], promos[i]);
   })
 }
 
-const postCustomPromo = async (linescore, dateTimeData) => {
+const getCustomPromo = async (linescore, dateTimeData) => {
   if (customPromos.length === 0) {
     await setupCustomPromos(dateTimeData);
   }
+  console.log('customPromos and length: ', customPromos.length, JSON.stringify(customPromos))
 
   let inningCode = '';
   switch (linescore.inningState) {
@@ -138,13 +138,14 @@ const postCustomPromo = async (linescore, dateTimeData) => {
     const promoIndex = inningCodes.indexOf(inningCode);
     if (promoIndex >= 0) {
       const promo = customPromos[promoIndex];
-      if (!promo) return;
-      const tweet = promo.copy + '\n' + promo.link;
+      if (!promo) return '';
+      const tweet = '\n\n' + promo.copy + '\n' + promo.link;
 
-      await postTweet(tweet);
+      return tweet;
     }
   }
 
+  return '';
 }
 
 const getRSSJson = async (url, callback) => 
@@ -165,7 +166,7 @@ const getHashtags = async (awayId, homeId) => {
   const {teams: [awayData]} = await req(teamUrl + awayId);
   const {teams: [homeData]} = await req(teamUrl + homeId);
 
-  return `\n#${awayData.abbreviation}vs${homeData.abbreviation}`;
+  return `#${awayData.abbreviation}vs${homeData.abbreviation}`;
 }
 
 const getDescription = (play, linescore, teams) => {
@@ -180,7 +181,7 @@ const getDescription = (play, linescore, teams) => {
     ? `${scoringTeam.teamName.toUpperCase()} SCORE!`
     : `${scoringTeam.teamName} score.`;
 
-  return `${scoreText}\n\n${teams.away.teamName}: ${awayTeamRuns}\n${teams.home.teamName}: ${homeTeamRuns}\n`;
+  return `${scoreText}\n\n${teams.away.teamName}: ${awayTeamRuns}\n${teams.home.teamName}: ${homeTeamRuns}`;
 }
 
 // encodes all characters encoded with encodeURIComponent, plus: ! ~ * ' ( )
@@ -211,5 +212,5 @@ const getInningStatsText = linescore => {
   if (!currentInning) return '';
 
   const outsString = outs === 1 ? 'out' : 'outs';
-  return `\n${inningState} of the ${currentInningOrdinal}. ${outs} ${outsString}`;
+  return `${inningState} of the ${currentInningOrdinal} | ${outs} ${outsString}`;
 }
