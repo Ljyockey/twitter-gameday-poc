@@ -105,7 +105,7 @@ const setupCustomPromos = async dateTimeData => {
       .filter(({pubDate: [d]}) => {
         const dMoment = moment(d).tz(tz);
         return dMoment.isSame(sMoment, 'day') && dMoment.isBefore(sMoment);
-      }).map(i => ({copy: icymi + i.title[0], link: i.link[0]}));
+      }).map(i => ({copy: icymi + i.title[0], link: i.link[0] + '?utm_source=DNTwittercast&utm_medium=Game&utm_campaign=Phase1'}));
 
     const promos = feedData
       .concat(failoverPromos)
