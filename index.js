@@ -3,8 +3,6 @@ const { convertPlayDataToTweets, getTodaysGamePk } = require('./mlb');
 
 let latestArticleTimeStamp;
 
-const twitterFunction = async () => getTodaysGamePk().then(getData);
-
 const getData = async (gamePk) => {
   await getRSSJson('https://www.dodgersnation.com/feed', postArticles);
   if (gamePk) {
@@ -22,5 +20,7 @@ const postArticles = async ({rss: {channel: [c]}}) => {
   latestArticleTimeStamp = pubDate;
   await postTweet(title + '\n' + link);
 }
+
+const twitterFunction = async () => getTodaysGamePk().then(getData);
 
 exports.handler = async () => await twitterFunction();
