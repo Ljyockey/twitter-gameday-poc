@@ -181,7 +181,7 @@ const getDescription = (play, linescore, teams) => {
     ? `${scoringTeam.teamName.toUpperCase()} SCORE!`
     : `${scoringTeam.teamName} score.`;
 
-  return `${scoreText}\n\n${teams.away.teamName}: ${awayTeamRuns}\n${teams.home.teamName}: ${homeTeamRuns}`;
+  return `${scoreText}\n${description}\n\n${teams.away.teamName}: ${awayTeamRuns}\n${teams.home.teamName}: ${homeTeamRuns}`;
 }
 
 // encodes all characters encoded with encodeURIComponent, plus: ! ~ * ' ( )
