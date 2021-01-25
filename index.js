@@ -23,8 +23,6 @@ const parser = new Parser();
 
 const req = async url => await request(url, {json: true});
 
-exports.handler = async () => await twitterFunction();
-
 const twitterFunction = async () => getTodaysGame().then(getData);
 
 const getTodaysGame = async () => {
@@ -211,3 +209,5 @@ const getInningStatsText = linescore => {
   const outsString = outs === 1 ? 'out' : 'outs';
   return `${inningState} of the ${currentInningOrdinal} | ${outs} ${outsString}`;
 }
+
+exports.handler = async () => await twitterFunction();

@@ -3,7 +3,5 @@ node_modules
 key.js
 _aws/
 _mock-data/
-aws/Archive.zip
-aws/node_modules
 aws.zip
 .DS_Store
